@@ -2,6 +2,18 @@
   "sections": {
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
+      "blocks": {
+        "2827a5cf-fed7-4b61-96e1-505a1537588d": {
+          "type": "collection",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
+            "title": "WINTER 2022"
+          }
+        }
+      },
+      "block_order": [
+        "2827a5cf-fed7-4b61-96e1-505a1537588d"
+      ],
       "settings": {
         "h2": "categories"
       }
