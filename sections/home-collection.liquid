@@ -1,0 +1,68 @@
+<section class="collection-wrapper">
+  <div class="container">
+    <div class="row">
+     <div class="col-12 text-center">
+      <h2>{{ section.settings.h2}}</h2>
+    </div>
+    </div>
+
+    <div class="row">
+{%  for block in section.blocks  %}
+  <div class="col-md-6">
+    <div class="singel-collection-content">
+     <img src="{{block.settings.img | img_url:''}}" alt=""> 
+     <h4>{{block.settings.title}}</h4>
+   </div>
+  </div>
+{% endfor %}
+
+
+    </div>
+
+
+  </div>
+</section>
+
+{% schema %}
+    {
+        "name": "Home Collection",
+        "class": "collection-home",
+        "settings": [
+          {
+            "type": "text",
+            "id": "h2",
+            "label": "Section title",
+            "default": "categories",
+            "info": "categories",
+            "placeholder": "categories"
+          }
+        ],
+        "blocks": [
+          {
+            "type": "collection",
+            "name": "collection",
+            "settings": [
+              {
+                "type": "image_picker",
+                "id": "img",
+                "label": "Collection Image"
+              },
+                  {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Collection title",
+                    "default": "WINTER 2022",
+              
+                    "placeholder":  "WINTER 2022"
+                  }
+            ]
+          }
+        ],
+        
+        "presets": [
+            {
+              "name": "Home Collection"
+            }
+            ]
+    }
+{% endschema %}

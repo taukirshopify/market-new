@@ -1,3 +1,21 @@
+<div class="extended-menu-wrapper">
+ <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+           <div class="extended-menu">
+            <ul class="d-flex  justify-content-center">
+               {% for item in section.settings.home-extended-menu.links %}
+                <li><a href="{{item.url}}">{{item.title}}</a></li>
+               {% endfor %}
+                
+
+            </ul>
+          </div>
+        </div>
+    </div>
+ </div>
+</div>
+
 {% schema %}
     {
         "name": "Extended Menu",
@@ -5,7 +23,7 @@
         "settings": [
   {
     "type": "link_list",
-    "id": "home-extended=menu",
+    "id": "home-extended-menu",
     "label": "Select your menu"
   }
     
