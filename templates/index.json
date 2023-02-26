@@ -1,5 +1,11 @@
 {
   "sections": {
+    "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
+      "type": "home-collection",
+      "settings": {
+        "h2": "categories"
+      }
+    },
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
       "settings": {
@@ -387,6 +393,7 @@
     }
   },
   "order": [
+    "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
