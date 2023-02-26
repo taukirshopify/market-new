@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="{{ 'gallery.css' | asset_url }}" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
+
+<noscript>{{ 'gallery.css' | asset_url | stylesheet_tag }}</noscript>
+<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
+<div class="section--galery">
+  {% if section.blocks.size > 0 %}
+    <div class="block-gallery__main">
+      <div class="page-width">
+        <ul id="gallery" class="gallery-inner" data-selector="{{ section.id }}">
+          {%- for block in section.blocks -%}
+            {%- case block.type -%}
+              {%- when 'image' -%}
+                  <a href="{{ block.settings.image | img_url: 'master' }}" 
+                    data-pswp-width="{{ block.settings.image.width }}" 
+                    data-pswp-height="{{ block.settings.image.height }}" 
+                    title="{{ block.settings.image.alt }}">
+                    <img
+                        class="multicolumn-card__image"
+                        src="{{ block.settings.image | img_url: '250x250', crop: 'center' }}"
+                        alt="{{ block.settings.image.alt }}"
+                        height="{{ block.settings.image.height }}"
+                        width="{{ block.settings.image.width }}"
+                        loading="lazy">
+                  </a>
+            {%- endcase -%}
+          {%- endfor -%}
+        </ul>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<link rel="stylesheet" href="{{ 'photoswipe.css' | asset_url }}">
+<script type="module" src="{{ 'photoswipe.js' | asset_url }}"></script>
+
+{% schema %}
+{
+   "name":"Gallery",
+   "settings":[
+      
+   ],
+   "blocks":[
+      {
+         "type":"image",
+         "name":"Image",
+         "settings":[
+            {
+               "type":"image_picker",
+               "id":"image",
+               "label":"Choose image"
+            }
+         ]
+      }
+   ],
+   "presets":[ 
+     {
+        "name": "Gallery",
+        "blocks":[
+           {
+              "type":"image"
+           },
+           {
+              "type":"image"
+           },
+           {
+              "type":"image"
+           }
+        ]
+     }
+   ]
+}
+{% endschema %}

@@ -1,0 +1,295 @@
+{{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
+
+<div class="multicolumn">
+  <div class="page-width section-{{ section.id }}-padding isolate">
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
+        <h2 class="title center">
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {%- endunless -%}
+    <slider-component class="slider-mobile-gutter">
+      <ul class="multicolumn-list contains-content-container grid grid--1-col-tablet-down grid--2-col-desktop"
+        id="Slider-{{ section.id }}"
+        role="list"
+      >
+        {%- for block in section.blocks -%}
+          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="multicolumn-list__item grid__item center" {{ block.shopify_attributes }}>
+            <div class="multicolumn-card content-container" id="block-slider-{{ block.id }}">
+              {% if block.settings.image1 != blank %}
+                <img src="{{ block.settings.image1 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image2 != blank %}
+                <img src="{{ block.settings.image2 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image3 != blank %}
+                <img src="{{ block.settings.image3 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image4 != blank %}
+                <img src="{{ block.settings.image4 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image5 != blank %}
+                <img src="{{ block.settings.image5 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image6 != blank %}
+                <img src="{{ block.settings.image6 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image7 != blank %}
+                <img src="{{ block.settings.image7 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image8 != blank %}
+                <img src="{{ block.settings.image8 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image9 != blank %}
+                <img src="{{ block.settings.image9 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image10 != blank %}
+                <img src="{{ block.settings.image10 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image11 != blank %}
+                <img src="{{ block.settings.image11 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image12 != blank %}
+                <img src="{{ block.settings.image12 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image13 != blank %}
+                <img src="{{ block.settings.image13 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image14 != blank %}
+                <img src="{{ block.settings.image14 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image15 != blank %}
+                <img src="{{ block.settings.image15 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image16 != blank %}
+                <img src="{{ block.settings.image16 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image17 != blank %}
+                <img src="{{ block.settings.image17 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image18 != blank %}
+                <img src="{{ block.settings.image18 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image19 != blank %}
+                <img src="{{ block.settings.image19 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image20 != blank %}
+                <img src="{{ block.settings.image20 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image21 != blank %}
+                <img src="{{ block.settings.image21 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image22 != blank %}
+                <img src="{{ block.settings.image22 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image23 != blank %}
+                <img src="{{ block.settings.image23 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image24 != blank %}
+                <img src="{{ block.settings.image24 | img_url: 'master' }}" class="">
+              {% endif %}
+              {% if block.settings.image25 != blank %}
+                <img src="{{ block.settings.image25 | img_url: 'master' }}" class="">
+              {% endif %}
+            </div>
+          </li>
+        {%- endfor -%}
+      </ul>
+    </slider-component>
+  </div>
+</div>
+{%- if section.blocks.size > 0 -%}
+  {%- for block in section.blocks -%}
+    <script>
+      $(document).ready(function($){
+         $('#block-slider-{{ block.id }}').each(function(){
+          $(this).slick({
+            infinite: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            swipeToSlide: true,
+            dots: false,
+            arrow: true,
+            autoplay: true,
+            autoplaySpeed: 2700,
+            responsive: [
+              {
+                breakpoint: 765,
+                settings: {
+                  slidesToShow: 1,
+                  swipeToSlide: true
+                }
+              }
+            ]
+          });
+         });
+      });
+    </script>
+  {%- endfor -%}
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Multicolumn Slider",
+  "class": "section multicolumn-slider",
+  "tag": "section",
+  "max_blocks": 2,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Add title here",
+      "label": "Title"
+    }    
+  ],
+  "blocks": [
+    {
+      "type": "slider",
+      "name": "Add slider",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image1",
+          "label": "Image1"
+        },
+        {
+          "type": "image_picker",
+          "id": "image2",
+          "label": "Image2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image3",
+          "label": "Image3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image4",
+          "label": "Image4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image5",
+          "label": "Image5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image6",
+          "label": "Image6"
+        },
+        {
+          "type": "image_picker",
+          "id": "image7",
+          "label": "Image7"
+        },
+        {
+          "type": "image_picker",
+          "id": "image8",
+          "label": "Image8"
+        },
+        {
+          "type": "image_picker",
+          "id": "image9",
+          "label": "Image9"
+        },
+        {
+          "type": "image_picker",
+          "id": "image10",
+          "label": "Image10"
+        },
+        {
+          "type": "image_picker",
+          "id": "image11",
+          "label": "Image11"
+        },
+        {
+          "type": "image_picker",
+          "id": "image12",
+          "label": "Image12"
+        },
+        {
+          "type": "image_picker",
+          "id": "image13",
+          "label": "Image13"
+        },
+        {
+          "type": "image_picker",
+          "id": "image14",
+          "label": "Image14"
+        },
+        {
+          "type": "image_picker",
+          "id": "image15",
+          "label": "Image15"
+        },
+        {
+          "type": "image_picker",
+          "id": "image16",
+          "label": "Image16"
+        },
+        {
+          "type": "image_picker",
+          "id": "image17",
+          "label": "Image17"
+        },
+        {
+          "type": "image_picker",
+          "id": "image18",
+          "label": "Image18"
+        },
+        {
+          "type": "image_picker",
+          "id": "image19",
+          "label": "Image19"
+        },
+        {
+          "type": "image_picker",
+          "id": "image20",
+          "label": "Image20"
+        },
+        {
+          "type": "image_picker",
+          "id": "image21",
+          "label": "Image21"
+        },
+        {
+          "type": "image_picker",
+          "id": "image22",
+          "label": "Image22"
+        },
+        {
+          "type": "image_picker",
+          "id": "image23",
+          "label": "Image23"
+        },
+        {
+          "type": "image_picker",
+          "id": "image24",
+          "label": "Image24"
+        },
+        {
+          "type": "image_picker",
+          "id": "image25",
+          "label": "Image25"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Multicolumn Slider",
+      "blocks": [
+        {
+          "type": "slider"
+        },
+        {
+          "type": "slider"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

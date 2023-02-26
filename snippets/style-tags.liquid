@@ -1,0 +1,24 @@
+{{ 'base.css' | asset_url | stylesheet_tag }}
+{{ 'custom.css' | asset_url | stylesheet_tag }}
+{{ 'faq.css' | asset_url | stylesheet_tag }}
+
+{%- if template contains 'collection.havianas' -%}
+  <style type="text/css">
+    .image-with-text .gradient, .rich-text.gradient{
+      background: transparent;
+    }
+    .collection--empty .title-wrapper{
+      margin-bottom: 10rem !important;
+    }
+    .image-with-text__heading, .rich-text .h1{
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 1;
+    }
+    @media only screen and (min-width: 750px){
+      .image-with-text .grid--3-col-tablet .grid__item{
+        width: calc(40.33% - var(--grid-desktop-horizontal-spacing) * 2 / 3);
+      }
+    }
+  </style>
+{%- endif -%}

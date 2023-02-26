@@ -1,0 +1,56 @@
+/* FAQ Section */
+
+.faq {
+  
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faq .tab-label::after {
+  content: '\276F';
+  transition: all .4s;
+}
+
+
+.faq .tab-toggle {
+  display: none;
+}
+
+.faq .tab-label {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: #1a1a1a;
+}
+
+.faq .tab-label:hover {
+   background-color: #a4a4a4;
+}
+
+.faq .tab-toggle:checked ~ .tab-label::after {
+    transform: rotate(90deg);
+}
+
+.faq .tab-toggle:checked ~ .tab-label {
+    background-color: #a4a4a4;
+}
+
+.faq .tab-content {
+    background-color: #fff;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.4s;
+    padding: 0 1em;
+    color: #1a1a1a;
+}
+
+.faq .tab-toggle:checked ~ .tab-content {
+    max-height: 100vh;
+    padding: 1em;
+}
+.faq .tab {
+              	  
+    margin-bottom: 10px;
+              
+}

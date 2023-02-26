@@ -1,0 +1,463 @@
+<style>
+    .all-badge{
+      position: absolute;
+      left:0;
+      right:0;
+      display:flex;
+      z-index: 10;
+      justify-content: center;
+    }
+
+    .all-badge  .badge__text {
+       background:#000;
+       color:#fff;
+       display: inline-block;
+    }
+    .ot-product {
+        margin: 0 5px;
+    }
+    .align-items-center {
+        align-items: center;
+    }
+    .splide__arrows {
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    button.splide__arro {
+        border: none;
+        background: transparent;
+    }  
+    
+    button.splide__arro svg{
+      width:25px;
+      height:25px;
+    }
+
+    .upcoming{
+       opacity: 0.6;
+    }
+    section.space-bottom.bootstrap-wrapper {
+        margin-bottom: 40px;
+    }
+</style>
+
+<section class="space-bottom bootstrap-wrapper">
+
+    <div class="container splide" id="image-carousel-{{section.id}}">
+        <div class="row align-items-center">
+            <div class="col-12">
+                <h2 class="sec-title">{{  section.settings.h1 }}</h2>
+            </div>
+            <div class="col-4">
+
+                {% comment %} 
+                <div class="splide__arrows splide__arrows--ltr d-flex justify-content-end position-relative slick-arrow-reset">
+                    <button
+                    class="splide__arro splide__arrow--prev"
+                    type="button"
+                    aria-label="Previous slide"
+                    aria-controls="splide01-track"
+                    >
+                    <div class="svg-arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" version="1.1"  viewBox="0 0 32 32">
+                            <title>gallery-next15x</title>
+                            <path fill="none" stroke="#000" stroke-width="1.8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M9.75 4.010l12.51 12.51-12.48 12.47"></path>
+                            </svg>
+                    </div>
+
+                    </button>
+                    <button
+                    class="splide__arro splide__arrow--next "
+                    type="button"
+                    aria-label="Next slide"
+                    aria-controls="splide01-track"
+                    >
+                        <div class="svg-arrow-right">
+                            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+                                <title>gallery-next15x</title>
+                                <path fill="none" stroke="#000" stroke-width="1.8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M9.75 4.010l12.51 12.51-12.48 12.47"></path>
+                                </svg>
+                    </div>
+                    </button>
+                </div>
+            {% endcomment %}
+
+            </div>
+        </div>
+      
+        {% comment %} {% if section.settings.check %}
+            id="productSlide1"
+        {% endif %} {% endcomment %}
+        <div class="row po-ab">
+         {% assign collection = collections[section.settings.image] %}
+        
+            <!-- single-product start -->
+            <div class="splide__track">
+                <ul class="splide__list">
+
+
+
+              
+
+
+
+
+
+               
+
+
+
+
+
+
+
+                {% for product in collection.products limit: section.settings.p_limit %}
+                    <div class="splide__slide">
+                        <div class="ot-product   ">
+                            <div class="product-img">
+
+                           
+
+
+                       
+                                    <div class="all-badge">
+                                        {% if product.metafields.custom.coming_soon_product == true %}
+                               
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">Coming  Soon</span>
+                                             
+                                        {% elsif  product.available == false  %}
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">Sold Out</span>
+                                            {% elsif  product.compare_at_price > product.price  %}
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
+                                        {% endif %}
+                                    </div>
+                   
+               
+
+
+                             <div class="proudct-images-weapper {% if product.available == false %} upcoming  {% endif %}">
+                        
+                                {% for image in product.images limit:2 %}
+                                    {% if forloop.index  == 1 %}
+                                        <a href="{{product.url }}">               {{ image | image_url: width: 750 | image_tag:
+                                            loading:"lazy",
+                                            height: height,
+                                            sizes: "10vw",
+                                            widths: '375, 550, 750'
+                                        }} </a>
+                                
+                                {% else %}
+                                    <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}">   
+                                    
+                                    {{ image | image_url: width: 750 | image_tag:
+                                        loading:"lazy",
+                                        height: height,
+                                        sizes: "10vw",
+                                        widths: '375, 550, 750'
+                                    }} 
+                                    </a>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product-title style2"><a href="{{product.url}}">{{product.title}}</a></h3>
+                                <div class="pricw-rapper d-flex justify-content-center">
+                    {% if  product.compare_at_price > product.price %}
+                                    <span class="price del">  {{ product.compare_at_price_min  | money_without_trailing_zeros }}</span>
+                        {% endif %}
+                                    <span class="price2 price ">{{ product.price  | money_without_trailing_zeros }}</span>
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                {% endfor %}
+                </ul>
+            </div>
+            <div class="splide__arrows splide__arrows--ltr">
+                <button
+                  class="splide__arrow splide__arrow--prev"
+                  type="button"
+                  aria-label="Previous slide"
+                  aria-controls="splide01-track"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+                        <title>gallery-next15x</title>
+                        <path fill="none" stroke="#000" stroke-width="1.8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M9.75 4.010l12.51 12.51-12.48 12.47"></path>
+                        </svg>
+                </button>
+                <button
+                  class="splide__arrow splide__arrow--next"
+                  type="button"
+                  aria-label="Next slide"
+                  aria-controls="splide01-track"
+                >
+                    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 32 32">
+                        <title>gallery-next15x</title>
+                        <path fill="none" stroke="#000" stroke-width="1.8" stroke-miterlimit="4" stroke-linecap="butt" stroke-linejoin="miter" d="M9.75 4.010l12.51 12.51-12.48 12.47"></path>
+                        </svg>
+                </button>
+              </div>
+        </div>
+
+
+
+    </div>
+</section>
+<script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+
+
+ let splide = new Splide( '#image-carousel-{{section.id}}', {
+            pagination : true,
+           
+            type   : 'loop',
+            drag   : 'free',
+            perPage: 4,
+            perMove: 3,
+            rewindSpeed: 100,
+            rewindByDrag:true,
+            breakpoints: {
+                1020: {
+                    perPage: 3,
+                    perMove: 2,
+                },
+                640: {
+                    perPage: 2,
+                    perMove: 1,
+                }
+              }
+          } );
+          
+          splide.mount(); 
+
+
+          
+      });
+    
+</script>
+<style>
+    .splide__track {
+        overflow: hidden;
+        position: relative;
+        z-index: 0;
+        padding: 20px 0;
+    }
+    .po-ab{
+      position:relative;
+    }
+    .ot-product .product-img {
+        margin-bottom: 26px;
+        position: relative;
+  
+    }
+    .img_swap {
+        position: absolute;
+        top: 0;
+        left: 0;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+    }
+
+    .ot-product .product-img   img {
+        width: 100%;
+    }
+    a.img_swap {
+        width: 100%;
+        height: 100%;
+    }
+    .product-img:hover .img_swap {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+    .product-img a {
+        text-decoration: none;
+    }
+    #image-carousel .splide__arrow {
+        background: transparent;
+    }
+    #image-carousel .splide__arrow {
+    width: 40px;
+    height:40px;
+    }
+
+    #image-carousel .splide__arrow  img {
+        border: none;
+        max-width: 100%;
+        width: 100%;
+        height: 100% !important;
+        object-fit: contain;
+    }
+
+    .image-carousel-{{section.id}} .splide__arrow {
+        position: unset;
+    }
+    .splide__arrow {
+
+        transform: translateY(0%);
+    
+    }
+    .splide__arrow svg {
+        fill: #000;
+        height: 25px;
+        width: 25px;
+    }
+    button.splide__arrow.splide__arrow--prev {
+        margin-right: 14px;
+    }
+   .product-title {font-size: 16px;
+    text-align: center;
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+   
+    margin-bottom: 0;}
+    .splide__arrows {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        z-index: 100;
+        top: 104%;
+        margin-top: -28px;
+    }
+    .splide__pagination {
+        top: 99%;
+    }
+    {% comment %} @media screen and (max-width: 1280px) {
+        .splide__arrows {
+
+            left: 0%;
+            z-index: 100;
+            top: 50%;
+            width: 100%;
+            margin-top: -28px;
+        }
+      }
+    @media screen and (max-width: 900px) {
+        .splide__arrows {
+
+            position: absolute;
+            width: 115%;
+            left: -7.5%;
+            z-index: 100;
+            top: 50%;
+            margin-top: -28px;
+        }
+      }
+    @media screen and (max-width: 600px) {
+        .po-ab {
+            position: relative;
+            margin: 0 5px !important;
+        }
+        .splide__arrow svg {
+            fill: #000;
+            height: 21px;
+            width: 13px;
+        }
+        .splide__arrows {
+            position: absolute;
+            width: 120%;
+            left: -10%;
+            z-index: 100;
+            top: 50%;
+            margin-top: -28px;
+        }
+      } {% endcomment %}
+
+      @media screen and (max-width: 600px) {
+        .splide__arrows {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            z-index: 100;
+            top: 107%;
+            margin-top: -28px;
+        }
+        .splide__arrow svg {
+            fill: #000;
+            height: 21px;
+            width: 13px;
+        }
+
+      }
+    .product-title a{
+        color: #000;
+        text-decoration:none;
+    }
+    h2.sec-title {
+        color: #000;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    .product-title:hover a{
+      text-decoration:underline;
+      color:
+    }
+    .price {
+        font-size: 1.6rem;
+        letter-spacing: .1rem;
+        line-height: calc(1 + .5 / var(--font-body-scale));
+        color: rgb(var(--color-foreground));
+        color: #212121;
+        font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+        text-align: center;
+        font-weight: bold;
+        display: block;
+        margin-top:11 px;
+    }
+</style>
+{% schema %}
+    {
+        "name": "NEW FETURED PRODUCT",
+        "class": "Featured",
+        "settings": [
+            {
+                "type": "text",
+                "id": "h1",
+                "label": "Section title",
+                "default": "Featured proudct"
+            },
+     {
+        "type": "collection",
+        "id": "image",
+        "label": "Please Select your Collection"
+
+     },
+     {
+        "type": "text",
+        "id": "p_limit",
+        "label": "How meany proudct you want to show",
+        "default": "12",
+
+        "placeholder": "12"
+     },
+     {
+        "type": "checkbox",
+        "id": "check",
+        "label": "Slider active",
+        "default": true
+     }
+        ],
+        "presets": [
+            {
+              "name": "New FETURED PRODUCT"
+            }
+            ]
+    }
+{% endschema %}
+
+

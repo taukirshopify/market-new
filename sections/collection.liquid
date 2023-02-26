@@ -1,0 +1,178 @@
+<style>
+.bootstrap-wrapper h2 {
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.collection-item-wrapper {
+   margin: 15px 0;
+}
+
+.collection-item-wrapper img{
+  width: 100%;
+}
+
+.collection-item-wrapper h3{
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    margin:5px 0;
+    font-size:16px;
+    text-transform: uppercase;
+}
+.collection-item-wrapper p{
+    margin:0;
+    padding: 0 0 10px 0;
+}
+.collection-item-wrapper a.btn {
+    text-decoration: none;
+    background: #0072CE;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    padding: 8px 13px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size:14px;
+}
+</style>
+
+<div class="bootstrap-wrapper">
+    <div class="container">
+        <div class="row">
+        <div class="col-12">
+        <h2>{{ section.settings.h1 }}</h2>
+        </div>
+        </div>
+        <div class="row">
+            {% for block in section.blocks %}
+                {% case block.type %}
+            
+                    {% when 'Other' %} 
+            
+            <div class="col-md-6">
+                <div class="collection-item-wrapper">
+                    <div class="collection-image">
+                        <img src="{{ block.settings.img | img_url:''  }}" alt="">
+                    </div>
+                    <h3>{{ block.settings.h1 }}</h3>
+                    <p>{{ block.settings.p }}</p>
+                    <a href="{{ block.settings.url }}" class="btn">{{block.settings.btn}}</a>
+                </div>
+            </div>
+            {% when 'Collection' %} 
+            <div class="col-md-6">
+                <div class="collection-item-wrapper">
+                    <div class="collection-image">
+                        <img src="{{ block.settings.collection.img | img_url:''  }}" alt="">
+                    </div>
+                    <h3>{{ block.settings.collection.title }}</h3>
+                    <p>{{ block.settings.p }}</p>
+                    <a href="{{ block.settings.collection.url }}" class="btn">{{block.settings.btn}}</a>
+                </div>
+            </div>
+        {% endcase %}
+        {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "NEW COLLECTION",
+    "class": "Featured",
+    "settings": [
+        {
+            "type": "text",
+            "id": "h1",
+            "label": "Section title",
+            "default": "Featured COLLECTION"
+        }
+    ],
+    "blocks": [
+        {
+            "type": "Other",
+            "name": "Other",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "select your image"
+                }, 
+                {
+                    "type": "text",
+                    "id": "h1",
+                    "label": "Title",
+               
+                  
+                    "placeholder": "News"
+                },
+                {
+                    "type": "text",
+                    "id": "p",
+                    "label": "Description",
+               
+                  
+                    "placeholder": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+                },
+                {
+                    "type": "text",
+                    "id": "btn",
+                    "label": "Button Name",
+               
+                    "default":"check it out",
+                    "placeholder": "News"
+                },
+                {
+                    "type": "url",
+                    "id": "ul",
+                    "label": "Connect to a link"
+                }
+                
+            ]
+        },
+        {
+            "type": "Collection",
+            "name": "Collection",
+            "settings": [
+              {
+                "type": "collection",
+                "id": "collection",
+                "label": "Select your collection name"
+              },
+                {
+                    "type": "text",
+                    "id": "p",
+                    "label": "Description",
+               
+                  
+                    "placeholder": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the"
+                },
+                {
+                    "type": "text",
+                    "id": "btn",
+                    "label": "Button Name",
+               
+                   "default":"check it out",
+                    "placeholder": "News"
+                },
+                {
+                    "type": "url",
+                    "id": "ul",
+                    "label": "Connect to a link"
+                }
+                
+            ]
+        }
+    ],
+    
+    "presets": [
+        {
+          "name": "New COLLECTION"
+        }
+        ]
+}
+{% endschema %}
+
+

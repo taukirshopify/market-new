@@ -1,0 +1,293 @@
+{% comment %}
+  Import JS code for the editor
+{% endcomment %}
+<script src="https://editor.gfx.tech/lib/embed/index.js" type="text/javascript"></script>
+
+{% comment %}
+  Import JQuery if your theme doesn't have it
+{% endcomment %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" type="text/javascript"></script>
+
+<script async>
+  // Unique Id generator function
+  function uuidv4() {
+    return([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, (c) => (c ^ (crypto.getRandomValues(new Uint8Array(1))[0] & (15 >> (c / 4)))).toString(16));
+  }
+
+/*
+    The editor retrieves the available inventory per Size and Color.
+    If a size is not available for a given color, this function will disable
+    the size, making unavailable from the shopify theme.
+    
+    In general, SHOPIFY handles 2 types of elements for picking the size SELECT
+    FIELDSET, if your theme use a custom way to pick the size this function will
+    need some tweaks.
+  */
+  var lastGarmentColor = '';
+  function disableSizes(sizes, color) {
+    lastGarmentColor = color;
+    const sizeSelector = document.querySelector('.custom-selector-variants');
+    console.log('disabling sizes:', color);
+
+/*
+      Disable options (dropdown) when size not available for the given garment color
+      THIS CODE MAY BE DIFFERENT IN YOUR THEME
+    */
+    if (sizeSelector.tagName == 'SELECT') {
+      const options = Array.from(sizeSelector.childNodes);
+
+      options.map(currentSize => {
+        let isDisable = true;
+        for (let i = 0; i < sizes.length; i++) {
+          if (currentSize.label === sizes[i]) {
+            isDisable = false;
+            break;
+          }
+        }
+        currentSize.disabled = isDisable;
+      })
+
+// Find the first available size if the current one is out of stock
+      if (options[sizeSelector.selectedIndex].disabled === true) {
+        for (let i = 0; i < options.length; i++) {
+          if (options[i].disabled === false) { // change the size in the element
+            sizeSelector.selectedIndex = i;
+
+// dispatch a change event to generate the inner template changes
+            sizeSelector.dispatchEvent(new Event('change', {bubbles: true}));
+            break;
+          }
+        }
+      }
+    }
+
+/*
+      Disable buttons (radio buttons) when size not available for the given garment color
+      THIS CODE MAY BE DIFFERENT IN YOUR THEME
+    */
+    if (sizeSelector.tagName == 'FIELDSET') {
+      const options = Array.from(sizeSelector.querySelectorAll('input'));
+
+      options.map(currentSize => {
+        let isDisable = true;
+        for (let i = 0; i < sizes.length; i++) {
+          if (currentSize.value === sizes[i]) {
+            isDisable = false;
+            break;
+          }
+        }
+
+// Find the first available size if the current one is out of stock
+        for (let i = 0; i < options.length; i++) {
+          if (options[i].disabled === false) {
+            options[i].checked = true;
+
+/*
+              Dispatch the event depending on your theme JS.
+            */
+            sizeSelector.dispatchEvent(new Event('change', {bubbles: true}));
+            break;
+          }
+        }
+
+        currentSize.disabled = isDisable;
+      })
+    }
+
+  }
+
+  document.addEventListener("DOMContentLoaded", async function() {
+
+// Variables
+    var savingDesign = false;
+    var currentUrl = new URL(window.location.href);
+    var designNumber = currentUrl.searchParams.get("_design_number") || uuidv4();
+    var isEdition = currentUrl.searchParams.get("_design_number") != null
+      ? true
+      : false;
+    var apiUrl = "https://valabxq1o3.execute-api.us-west-2.amazonaws.com/gfx-core-production/api/v1/public";
+
+/* 
+      Product page elements (product form & add to card button)
+      MAKE SURE THE SELECTORS MATCHES THE THEME'S ELEMENTS
+    */
+    var formElement = document.querySelector("form[action='/cart/add']");
+    var addToCartButtonElement = document.querySelector("form[action='/cart/add'] button[type='submit']");
+
+// Disable the elements while the editor is loading
+    formElement.disabled = true;
+    addToCartButtonElement.disabled = true;
+
+// GFX Instance
+    var gfx = window.embedGFX({
+      v1TemplateId: "{{ product.metafields.gfx.gfx_template_id }}",
+      interfaceType: "basic",
+      designNumber,
+      gfxConfig: {
+        designNumber,
+        apiUrl,
+        customOptions: {
+          css: `
+          .WalkthrougthInterface__bottomToolbar {
+              overflow-x: scroll !important;
+              overflow-y: hidden !important;
+              -webkit-box-pack: start !important;
+              justify-content: start !important;
+          }
+
+          .gfx--button-description {
+            color: #000 !important;
+          }
+
+          .TopToolbar__container {
+            display:none !important;
+          }
+
+          .WalkthrougthInterface__bottomToolbar button[id^="step"] {
+            margin-right: 0px !important;
+          }
+
+          .WalkthrougthInterface__topToolbar {
+            display: none !important;
+          }
+
+          .WalkthrougthInterface__bottomToolbar button > div {
+            color: #000 !important;
+          }
+
+          .WalkthrougthInterface__bottomToolbar button {
+            max-width: 3rem;
+          }
+
+          @media (max-width: 530px) {
+            .WalkthrougthInterface__flexBox .WalkthrougthInterface__bottomToolbar {
+                height: 5rem !important;
+                overflow-x: scroll !important;
+                overflow-y: hidden !important;
+                -webkit-box-pack: start !important;
+                justify-content: start !important;
+            }
+          }
+        `
+        },
+        browserSupport: {
+          isVisible: true
+        }
+      }
+    }, document.getElementById("gfx-product"));
+
+// Change the "Add to cart" text if editing the product
+    if (isEdition) {
+      addToCartButtonElement.textContent = 'Update';
+    }
+
+// Enable the elements when the editor is ready
+    gfx.addEventListener("onStateChange", (state) => {
+      var isAsyncLoading = state.isAsyncLoading;
+      if (! savingDesign) {
+        formElement.disabled = isAsyncLoading;
+        addToCartButtonElement.disabled = isAsyncLoading;
+
+// execute disableSizes() function only when the previous color is different to the current one
+// if (lastGarmentColor != state.design.color) {
+// disableSizes(state.variants[state.design.color], state.design.color);
+// }
+      }
+    });
+
+// Alter the add to cart button function to save the design.
+    addToCartButtonElement.addEventListener("click", async function(e) {
+      e.preventDefault();
+
+// Disable the add to cart button to prevent multiple clicks
+      savingDesign = true;
+      addToCartButtonElement.disabled = true;
+
+/* 
+          Get the current product variant. In this theme example 
+          the variant is stored in a hidden input (initial value), 
+          the changes of the variant can be retrieved from the url.
+          
+          In some themes the variant changes can be retrieved 
+          from js events.
+        */
+      const productUrl = new URL(window.location.href);
+      const currentVariant = productUrl.searchParams.get('variant') || document.querySelector('input[name="id"]').value;
+
+/*
+          For some themes the items quantity can be changed, for these
+          scenarios use the proper selector to retrieve the quantity value.
+          make sure to remove the "ItemQuantity" variable from the cart if
+          the quantity won't be used.
+        */
+      const ItemQuantity = document.querySelector('input[name="quantity"]').value;
+
+/* 
+          The saveDesign() function will store the design in GFX database
+          that will be used when processing the order. it will also generate
+          the proof images that will be used in the cart page.
+        */
+      var savedDesign = await gfx.actions.saveDesign();
+
+/*
+          Some templates has validations regarding to customizations, if a validation
+          is triggered an editor's message will pop up and the design won't be saved until 
+          all validations are passed, for these scenarios the item is not added to the cart.
+        */
+      if (! savedDesign) { // Enable the add to cart button
+        savingDesign = false;
+        addToCartButtonElement.disabled = false;
+        return;
+      }
+
+      var sides = 0;
+
+// Check if the design has assets in the back and the front
+      if (savedDesign.design.back ?. objects.length > 0) {
+        sides++;
+      }
+      if (savedDesign
+          .design
+          .front
+          .objects
+          .length > 0) {
+        sides++;
+      }
+
+// Update item logic
+      if (isEdition) { // Get the actual cart info
+        const cartInfo = await $.getJSON('/cart.js');
+
+// Identify the item to edit by _design_number
+        const itemToEdit = cartInfo.items.find((cartItem) => (cartItem.properties ?. _design_number === savedDesign.designNumber));
+
+        if (itemToEdit) { // Remove the old item from the cart
+          await $.post("/cart/change.js", {
+            id: itemToEdit.key,
+            quantity: 0
+          }, null, "json");
+        }
+      }
+
+// add item to the cart
+      var addCart = await $.post("/cart/add.js", {
+        id: parseInt(currentVariant),
+        quantity: parseInt(ItemQuantity),
+        attributes: {
+          app_flow: "embedded",
+          gfx_store: window.location.hostname
+        },
+        properties: {
+          _design_number: savedDesign.designNumber,
+          _gfx_sides: sides
+        }
+      }, null, "json");
+
+// redirect to cart page the item has been added to the cart
+      if (addCart.id) {
+        window.location.href = "/cart";
+      };
+
+    });
+  });
+</script>

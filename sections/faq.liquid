@@ -1,0 +1,49 @@
+<div class="faq page-width" data-section-id="{{ section.id }}">
+  {% for block in section.blocks %}
+   <div class="tab">
+            <input type="checkbox" id="tab-{{ section.id }}-{{forloop.index}}" class="tab-toggle">
+            <label for="tab-{{ section.id }}-{{forloop.index}}" class="tab-label">{{block.settings.faq-title}}</label>
+            <div class="tab-content">{{block.settings.faq-content}}</div>
+   </div>
+  {% endfor %}
+</div>
+
+
+{% schema %}
+  {
+    "name": "FAQ section - Shipping",
+    "settings": [],
+	"blocks": [
+		{
+			"type": "text",
+			"name": "FAQ content",
+			"settings": [
+				{
+					"id": "faq-title",
+					"type": "text",
+					"label": "FAQ Title"
+				},
+				{
+					"id": "faq-content",
+					"type": "richtext",
+					"label": "FAQ Content"
+				}	
+
+
+			] 
+ 
+
+		}
+
+
+   ],
+"presets": [
+
+				{
+					"category": "FAQ Section",
+					"name": "faq content"
+				}
+
+		   ]
+  }
+{% endschema %}
