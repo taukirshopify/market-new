@@ -80,13 +80,67 @@
 
                 {% for product in collection.products limit: section.settings.p_limit %}
                     <div class="splide__slide">
-                        {% render 'card-product',
-                            card_product: product,
-                            media_aspect_ratio: section.settings.image_ratio,
-                            show_secondary_image: section.settings.show_secondary_image,
-                            show_vendor: section.settings.show_vendor,
-                            show_rating: section.settings.show_rating
-                          %}
+                        <div class="ot-product   ">
+                            <div class="product-img">
+
+                           
+
+
+                       
+                                    <div class="all-badge">
+                                        {% if product.metafields.custom.coming_soon_product == true %}
+                               
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">Coming  Soon</span>
+                                             
+                                        {% elsif  product.available == false  %}
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">Sold Out</span>
+                                            {% elsif  product.compare_at_price > product.price  %}
+                                            <span class="badge__text tag ot-btn badge__text badge tagtwo">on Sale</span>
+                                        {% endif %}
+                                    </div>
+                   
+               
+
+
+                             <div class="proudct-images-weapper {% if product.available == false %} upcoming  {% endif %}">
+                        
+                                {% for image in product.images limit:2 %}
+                                    {% if forloop.index  == 1 %}
+                                        <a href="{{product.url }}">               {{ image | image_url: width: 750 | image_tag:
+                                            loading:"lazy",
+                                            height: height,
+                                            sizes: "10vw",
+                                            widths: '375, 550, 750'
+                                        }} </a>
+                                
+                                {% else %}
+                                    <a href="{{product.url }}" class="img_swap {% if product.metafields.custom.coming_soon_product == true %}d-none {% endif %}">   
+                                    
+                                    {{ image | image_url: width: 750 | image_tag:
+                                        loading:"lazy",
+                                        height: height,
+                                        sizes: "10vw",
+                                        widths: '375, 550, 750'
+                                    }} 
+                                    </a>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+
+                            </div>
+                            <div class="product-content">
+                                <h3 class="product-title style2"><a href="{{product.url}}">{{product.title}}</a></h3>
+                                <div class="pricw-rapper d-flex justify-content-center">
+                    {% if  product.compare_at_price > product.price %}
+                                    <span class="price del">  {{ product.compare_at_price_min  | money_without_trailing_zeros }}</span>
+                        {% endif %}
+                                    <span class="price2 price ">{{ product.price  | money_without_trailing_zeros }}</span>
+                                    
+                                
+                                </div>
+                                
+                            </div>
+                        </div>
                     </div>
                 {% endfor %}
                 </ul>
@@ -155,13 +209,6 @@
     
 </script>
 <style>
-    .card-wrapper {
-        color: inherit;
-        height: 100%;
-        position: relative;
-        text-decoration: none;
-        margin: 0 5px;
-    }
     .splide__track {
         overflow: hidden;
         position: relative;
@@ -331,12 +378,7 @@
         "label": "Slider active",
         "default": true
      }
-        ],
-        "presets": [
-            {
-              "name": "New FETURED PRODUCT"
-            }
-            ]
+        ]
     }
 {% endschema %}
 
