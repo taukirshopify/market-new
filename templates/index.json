@@ -1,5 +1,11 @@
 {
   "sections": {
+    "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
+      "type": "home-extendedmenu",
+      "settings": {
+        "home-extended-menu": "homepage-banner-menu"
+      }
+    },
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3": {
       "type": "collection",
       "disabled": true,
@@ -381,6 +387,7 @@
     }
   },
   "order": [
+    "e260e6c9-7277-4a3c-889f-6b980082bfd9",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
     "featured_collection",
