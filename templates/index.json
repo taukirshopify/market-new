@@ -88,6 +88,13 @@
             "img": "shopify:\/\/shop_images\/399001452_FUNKADELIC_GIVE_UP_THE_FUNK_TEE_GREEN_1.jpg",
             "title": "WINTER 2022"
           }
+        },
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/WEBBANNER_2MB.jpg",
+            "title": "WINTER 2022"
+          }
         }
       },
       "block_order": [
@@ -95,7 +102,8 @@
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
         "24421ae7-74bd-4263-b4c9-9e7d466d9987",
-        "50250968-3185-4c62-8e85-ea6a95fd3e21"
+        "50250968-3185-4c62-8e85-ea6a95fd3e21",
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874"
       ],
       "settings": {
         "h2": "categories"
