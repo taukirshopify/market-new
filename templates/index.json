@@ -2,6 +2,9 @@
   "sections": {
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
+      "custom_css": [
+        ".extended-menu {padding-bottom: 20px;}"
+      ],
       "settings": {
         "home-extended-menu": "homepage-banner-menu"
       }
@@ -50,26 +53,6 @@
     },
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
-      "blocks": {
-        "2827a5cf-fed7-4b61-96e1-505a1537588d": {
-          "type": "collection",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
-            "title": "WINTER 2022"
-          }
-        },
-        "38a65795-7321-46f4-a674-5e94190c5d62": {
-          "type": "collection",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
-            "title": "WINTER 2022"
-          }
-        }
-      },
-      "block_order": [
-        "2827a5cf-fed7-4b61-96e1-505a1537588d",
-        "38a65795-7321-46f4-a674-5e94190c5d62"
-      ],
       "settings": {
         "h2": "categories"
       }
