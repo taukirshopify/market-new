@@ -60,10 +60,18 @@
             "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
             "title": "WINTER 2022"
           }
+        },
+        "41b22099-3971-4c42-aaae-f70332a7acae": {
+          "type": "collectionfour",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
+            "title": "WINTER 2022"
+          }
         }
       },
       "block_order": [
-        "bdc9b1c7-f881-469a-b617-60616a790136"
+        "bdc9b1c7-f881-469a-b617-60616a790136",
+        "41b22099-3971-4c42-aaae-f70332a7acae"
       ],
       "settings": {
         "h2": "categories"
