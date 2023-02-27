@@ -15,7 +15,9 @@
             <div class="col-md-3 padding-extra">
               <div class="singel-collection-content">
                 <img src="{{block.settings.img | img_url:''}}" alt="">
-                <a href="{{block.settings.url}}"> <h4>{{ block.settings.title }}</h4></a>
+                <a href="{{block.settings.url}}">
+                  <h4>{{ block.settings.title }}</h4>
+                </a>
               </div>
             </div>
 
@@ -23,7 +25,9 @@
             <div class="col-md-6 padding-extra">
               <div class="singel-collection-content">
                 <img src="{{block.settings.img | img_url:''}}" alt="">
-                <a href="{{block.settings.url}}">  <h4>{{ block.settings.title }}</h4> </a>
+                <a href="{{block.settings.url}}">
+                  <h4>{{ block.settings.title }}</h4>
+                </a>
               </div>
             </div>
         {% endcase %}
@@ -96,7 +100,7 @@
           {
             "type": "link_list",
             "id": "url",
-            "label": "Collection title"
+            "label": "Collection url"
           },
               {
                 "type": "text",
@@ -119,7 +123,7 @@
           {
             "type": "link_list",
             "id": "url",
-            "label": "Collection title"
+            "label": "Collection url"
           },
               {
                 "type": "text",
