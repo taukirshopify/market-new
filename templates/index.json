@@ -1,31 +1,5 @@
 {
   "sections": {
-    "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
-      "type": "home-collection",
-      "blocks": {
-        "2827a5cf-fed7-4b61-96e1-505a1537588d": {
-          "type": "collection",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
-            "title": "WINTER 2022"
-          }
-        },
-        "38a65795-7321-46f4-a674-5e94190c5d62": {
-          "type": "collection",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
-            "title": "WINTER 2022"
-          }
-        }
-      },
-      "block_order": [
-        "2827a5cf-fed7-4b61-96e1-505a1537588d",
-        "38a65795-7321-46f4-a674-5e94190c5d62"
-      ],
-      "settings": {
-        "h2": "categories"
-      }
-    },
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
       "settings": {
@@ -72,6 +46,32 @@
         "image": "frontpage",
         "p_limit": "12",
         "check": true
+      }
+    },
+    "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
+      "type": "home-collection",
+      "blocks": {
+        "2827a5cf-fed7-4b61-96e1-505a1537588d": {
+          "type": "collection",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
+            "title": "WINTER 2022"
+          }
+        },
+        "38a65795-7321-46f4-a674-5e94190c5d62": {
+          "type": "collection",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
+            "title": "WINTER 2022"
+          }
+        }
+      },
+      "block_order": [
+        "2827a5cf-fed7-4b61-96e1-505a1537588d",
+        "38a65795-7321-46f4-a674-5e94190c5d62"
+      ],
+      "settings": {
+        "h2": "categories"
       }
     },
     "featured_collection": {
@@ -413,10 +413,10 @@
     }
   },
   "order": [
-    "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
+    "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "featured_collection",
     "d5bd887a-8b7f-4a55-8762-73757761e5d4",
     "54b9426a-f169-4cc6-a7e1-7d431786d001",
