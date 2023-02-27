@@ -1,9 +1,9 @@
-<div class="extended-menu-wrapper">
+<div class="extended-menu-wrapper ">
  <div class="container">
     <div class="row">
         <div class="col-md-12">
            <div class="extended-menu">
-            <ul class="d-flex  justify-content-center">
+            <ul class="d-flex justify-content-between flex-wrap m-0 p-0">
                {% for item in section.settings.home-extended-menu.links %}
                 <li><a href="{{item.url}}">{{item.title}}</a></li>
                {% endfor %}
@@ -16,6 +16,31 @@
  </div>
 </div>
 
+
+
+<style>
+ .extended-menu  ul.d-flex.justify-content-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .extended-menu ul li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 5px 10px;
+}
+
+.extended-menu ul li a{
+  text-decoration:none;
+  color:#000;
+  font-weight:bold;
+}
+.extended-menu ul li a:hover{
+  text-decoration:none;
+  color:#0172CF;
+}
+</style>
 {% schema %}
     {
         "name": "Extended Menu",
