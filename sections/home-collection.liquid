@@ -11,12 +11,32 @@
 
     <div class="row">
 {%  for block in section.blocks  %}
-  <div class="col-md-6 padding-extra">
+  
+  
+{℅ if  block.type ="collectiontwo" ℅}
+
+      <div class="col-md-6 padding-extra">
     <div class="singel-collection-content">
      <img src="{{block.settings.img | img_url:''}}" alt=""> 
      <h4>{{block.settings.title}}</h4>
    </div>
   </div>
+   
+      {℅ endif ℅}
+
+
+
+
+  
+{℅ if  block.type ="collectiontwo" ℅}
+   
+      {℅ endif ℅}
+
+
+
+      
+  
+      
 {% endfor %}
 
 
