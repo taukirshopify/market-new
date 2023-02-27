@@ -2,13 +2,16 @@
   <div class="container">
     <div class="row">
      <div class="col-12 text-center">
-      <h2>{{ section.settings.h2}}</h2>
+      <div class="collection-title">
+      
+        <h2>{{ section.settings.h2}}</h2>
+      </div>
     </div>
     </div>
 
     <div class="row">
 {%  for block in section.blocks  %}
-  <div class="col-md-6">
+  <div class="col-md-6 padding-extra">
     <div class="singel-collection-content">
      <img src="{{block.settings.img | img_url:''}}" alt=""> 
      <h4>{{block.settings.title}}</h4>
@@ -33,7 +36,35 @@
 .collection-wrapper{
 
 }
+.collection-title h2{
 
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+
+  margin:20px 0;
+ 
+
+
+
+
+    color: #000;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.padding-extra {
+  padding: 0 7px;
+}
+
+.singel-collection-content h4 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  font-weight: bold;
+  transform: translate(-50%, -50%);
+  font-size: 25px;
+}
 </style>
 {% schema %}
     {
