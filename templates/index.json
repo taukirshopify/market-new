@@ -48,6 +48,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/BANNERTEST1.png",
+        "image_link": "shopify:\/\/collections\/spring-2023",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
