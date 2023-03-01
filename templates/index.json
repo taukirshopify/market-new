@@ -9,6 +9,58 @@
         "home-extended-menu": "homepage-banner-menu"
       }
     },
+    "96d97b04-9842-4289-87e1-ed32434df9fd": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-0",
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-1",
+        "template--16046689648812__96d97b04-9842-4289-87e1-ed32434df9fd-1677712263281f273b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/TEST-CROOKEDBANNER.png",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false
+      }
+    },
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3": {
       "type": "collection",
       "disabled": true,
@@ -58,6 +110,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
+            "url": "",
             "title": "WINTER 2022"
           }
         },
@@ -65,6 +118,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/FUNKCOVER.png",
+            "url": "",
             "title": "WINTER 2022"
           }
         },
@@ -72,6 +126,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/360001160_SMILEY_HATERS_KEYCHAIN_BLACK_2.jpg",
+            "url": "",
             "title": "WINTER 2022"
           }
         },
@@ -79,6 +134,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/399001452_FUNKADELIC_GIVE_UP_THE_FUNK_TEE_GREEN_1.jpg",
+            "url": "",
             "title": "WINTER 2022"
           }
         },
@@ -86,6 +142,7 @@
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/399001452_FUNKADELIC_GIVE_UP_THE_FUNK_TEE_GREEN_1.jpg",
+            "url": "",
             "title": "WINTER 2022"
           }
         },
@@ -93,6 +150,7 @@
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/MKT-FUNK-PR-3.jpg",
+            "url": "",
             "title": "WINTER 2022"
           }
         }
@@ -449,6 +507,7 @@
   },
   "order": [
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
+    "96d97b04-9842-4289-87e1-ed32434df9fd",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
