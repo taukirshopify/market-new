@@ -2,7 +2,6 @@
   "sections": {
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
-      "disabled": true,
       "custom_css": [
         ".extended-menu {padding-bottom: 20px;}"
       ],
