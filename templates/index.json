@@ -27,7 +27,8 @@
         "stack_images_on_mobile": false,
         "show_text_below": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "image_max_width": 1200
       }
     },
     "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
@@ -82,7 +83,8 @@
         "stack_images_on_mobile": true,
         "show_text_below": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "image_max_width": 800
       }
     },
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3": {
