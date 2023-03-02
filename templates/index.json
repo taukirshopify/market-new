@@ -88,14 +88,6 @@
             "title": "BOTTOMS"
           }
         },
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987": {
-          "type": "collectionfour",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-WEB-P1AXS.png",
-            "url": "shopify:\/\/collections\/basketballs-1",
-            "title": "BASKETBALLS"
-          }
-        },
         "3f8b6d24-c95a-4c3d-a885-519128ea215d": {
           "type": "collectionfour",
           "settings": {
@@ -104,12 +96,12 @@
             "title": "ACCESSORIES"
           }
         },
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
-          "type": "collectiontwo",
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987": {
+          "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-WEB-P1HIGHLIGHT-1.png",
-            "url": "shopify:\/\/collections\/funkadelic",
-            "title": "FUNKADELIC"
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1AXS.png",
+            "url": "shopify:\/\/collections\/basketballs-1",
+            "title": "BASKETBALLS"
           }
         },
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
@@ -119,15 +111,23 @@
             "url": "shopify:\/\/collections\/spring-2023",
             "title": "SPRING '23"
           }
+        },
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1HIGHLIGHT-1.png",
+            "url": "shopify:\/\/collections\/funkadelic",
+            "title": "FUNKADELIC"
+          }
         }
       },
       "block_order": [
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
-        "50250968-3185-4c62-8e85-ea6a95fd3e21"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
+        "50250968-3185-4c62-8e85-ea6a95fd3e21",
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874"
       ],
       "settings": {
         "h2": "categories"
