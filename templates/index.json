@@ -33,6 +33,7 @@
       "blocks": {
         "9893d5f7-8f7f-42bd-bfc8-94e2fa35d252": {
           "type": "Other",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/wintr22-promoimage-stacked.png",
             "h1": "Winter 22",
@@ -43,6 +44,7 @@
         },
         "967a0d88-6c94-4ce6-a826-8eefe18f7d1b": {
           "type": "Other",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/rw-promoimage.jpg",
             "h1": "Random Workshop",

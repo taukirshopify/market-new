@@ -111,7 +111,7 @@
             "type": "announcement",
             "settings": {
               "text": "Free Shipping on U.S. orders over $100 USD",
-              "color_scheme": "background-1",
+              "color_scheme": "inverse",
               "link": ""
             }
           }
@@ -127,7 +127,7 @@
         "settings": {
           "color_scheme": "background-1",
           "logo": "shopify:\/\/shop_images\/MKT-WEB-HEADER-GIF-LOGOS2_4d10e3e6-21b0-4090-86e8-33d0c0674d4b.gif",
-          "logo_width": 140,
+          "logo_width": 180,
           "logo_position": "top-center",
           "menu": "main-2",
           "show_line_separator": false,
