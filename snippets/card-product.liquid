@@ -87,6 +87,41 @@
             </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }} {% if settings.sales_badge != blank %}sales_badge_img{% endif %}">
+            {% if card_product.first_available_variant.inventory_quantity < 15 %}
+            
+              <span
+                id="Badge-{{ section_id }}-{{ card_product.id }}"
+                class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}"
+              >
+                low in stock
+              </span>
+             
+            
+            {% endif %}
+
+                          {% comment %}Date calculate{% endcomment %}
+                          {% assign date_pub_y = card_product.published_at | date:'%Y' %}
+                          {% assign date_pub_d = card_product.published_at | date:'%j' %}
+                          {% assign date_now_y = 'now' | date:'%Y' %}
+                          {% assign date_now_d = 'now' | date:'%j' %}
+                          {% assign dates_diff_y = date_now_y | minus: date_pub_y | times: 365 %}
+                          {% assign dates_diff_d = date_now_d | minus: date_pub_d %}
+                          {% assign dates_diff = dates_diff_y | plus: dates_diff_d %}
+                          {% assign new_products_period = new_products_final | plus: 0 %} 
+          
+                          {% if dates_diff <= new_products_period %}
+          
+          
+                          <span
+                            id="NoMediaStandardBadge-{{ section_id }}-{{ card_product.id }}"
+                            class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}"
+                          >
+                          NEW
+                          </span>
+                          {% endif %}
+          
+           
+           
             {%- if card_product.available == false -%}
               <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.card_product.sold_out' | t }}</span>
             {%- elsif card_product.compare_at_price > card_product.price and card_product.available -%}
@@ -169,6 +204,7 @@
             <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.card_product.on_sale' | t }}</span>
           {%- endif -%}
         </div>
+        
         {%  assign product_form_id = 'quick-add-' | append: card_product.id %}
         <quick-add-form>
           {%- form 'product', card_product, id: product_form_id, class: 'product-card__form', novalidate: 'novalidate'-%}
@@ -251,6 +287,7 @@
             {% endif %}
           {%- endform -%}
         </quick-add-form>
+
       </div>
     </div>
   </div>
