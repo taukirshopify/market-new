@@ -3,7 +3,7 @@
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#000000",
     "gradient_accent_1": "",
-    "colors_accent_2": "#334fb4",
+    "colors_accent_2": "#0071ce",
     "gradient_accent_2": "",
     "colors_text": "#000000",
     "colors_outline_button_labels": "#121212",
@@ -111,7 +111,7 @@
             "type": "announcement",
             "settings": {
               "text": "Free Shipping on U.S. orders over $100 USD",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-2",
               "link": ""
             }
           }
