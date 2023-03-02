@@ -30,13 +30,13 @@
 {%- endstyle -%}
 
 {%- style -%}
-  #Banner-template--{{ section.id }} {
+  .banner-{{ section.id }}-padding {
     margin-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     margin-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    #Banner-template--{{ section.id }} {
+    .banner-{{ section.id }}-padding {
       margin-top: {{ section.settings.padding_top }}px;
       margin-bottom: {{ section.settings.padding_bottom }}px;
     }
