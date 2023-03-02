@@ -3,7 +3,7 @@
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
       "custom_css": [
-        ".extended-menu {padding-bottom: 20px;}"
+        ".extended-menu {padding-bottom: 10px;}"
       ],
       "settings": {
         "home-extended-menu": "homepage-banner-menu"
