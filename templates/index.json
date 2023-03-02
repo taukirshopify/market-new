@@ -104,20 +104,20 @@
             "title": "COLLABS"
           }
         },
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1HIGHLIGHT-1.png",
+            "url": "shopify:\/\/collections\/funkadelic",
+            "title": "FUNKADELIC"
+          }
+        },
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/MKT-WEB-P1HIGHLIGHT-2.png",
             "url": "shopify:\/\/collections\/spring-2023",
             "title": "SPRING '23"
-          }
-        },
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-FUNK-PR-3.jpg",
-            "url": "",
-            "title": "WINTER 2022"
           }
         }
       },
@@ -126,8 +126,8 @@
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "24421ae7-74bd-4263-b4c9-9e7d466d9987",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "50250968-3185-4c62-8e85-ea6a95fd3e21",
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874"
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
+        "50250968-3185-4c62-8e85-ea6a95fd3e21"
       ],
       "settings": {
         "h2": "categories"
