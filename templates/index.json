@@ -69,7 +69,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SPRING-23-BIGBANNER-TEST_1.png",
-        "image_link": "",
+        "image_link": "shopify:\/\/collections\/spring-2023",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
