@@ -2,6 +2,7 @@
   "sections": {
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
       "type": "home-extendedmenu",
+      "disabled": true,
       "custom_css": [
         ".extended-menu {padding-bottom: 20px;}"
       ],
@@ -12,7 +13,7 @@
     "96d97b04-9842-4289-87e1-ed32434df9fd": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNERTEST1.png",
+        "image": "shopify:\/\/shop_images\/MKT-WEB-P1TOP-_STICKER_-BAR_b1589ac8-0af3-41ac-b0a9-d975e4d13369.png",
         "image_link": "shopify:\/\/collections\/spring-2023",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -67,6 +68,17 @@
         "image": "frontpage",
         "p_limit": "12",
         "check": true
+      }
+    },
+    "54b9426a-f169-4cc6-a7e1-7d431786d001": {
+      "type": "marquee",
+      "disabled": true,
+      "settings": {
+        "marquee_text": "MY CHEMICAL ROMANCE PT.2 NOW LIVE - SHOP THE WHOLE COLLECTION",
+        "text_link": "shopify:\/\/collections\/my-chemical-romance",
+        "bg_color": "#0071ce",
+        "text_color": "#ffffff",
+        "padding_bottom": 84
       }
     },
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
@@ -130,7 +142,7 @@
         "9bad2a82-a414-45ac-8a95-09a5eb03f874"
       ],
       "settings": {
-        "h2": "categories"
+        "h2": ""
       }
     },
     "featured_collection": {
@@ -183,17 +195,6 @@
       ],
       "settings": {
         "h1": "Design Freestyle"
-      }
-    },
-    "54b9426a-f169-4cc6-a7e1-7d431786d001": {
-      "type": "marquee",
-      "disabled": true,
-      "settings": {
-        "marquee_text": "MY CHEMICAL ROMANCE PT.2 NOW LIVE - SHOP THE WHOLE COLLECTION",
-        "text_link": "shopify:\/\/collections\/my-chemical-romance",
-        "bg_color": "#e22120",
-        "text_color": "#ffffff",
-        "padding_bottom": 84
       }
     },
     "1661505372383197f3": {
@@ -476,10 +477,10 @@
     "96d97b04-9842-4289-87e1-ed32434df9fd",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
+    "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "featured_collection",
     "d5bd887a-8b7f-4a55-8762-73757761e5d4",
-    "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "1661505372383197f3",
     "1661505392d09210e1",
     "1661478194a8b0c263",
