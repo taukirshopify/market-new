@@ -111,7 +111,7 @@
             "type": "announcement",
             "settings": {
               "text": "Free Shipping on U.S. orders over $100 USD",
-              "color_scheme": "inverse",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
