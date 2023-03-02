@@ -13,7 +13,7 @@
     "96d97b04-9842-4289-87e1-ed32434df9fd": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/BANNERTEST1.png",
+        "image": "shopify:\/\/shop_images\/STICKERBANNER-UPTOP-_STICKER_-BAR.png",
         "image_link": "shopify:\/\/collections\/frontpage",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -28,7 +28,7 @@
         "show_text_below": false,
         "padding_top": 36,
         "padding_bottom": 36,
-        "image_max_width": 800
+        "image_max_width": 1200
       }
     },
     "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
@@ -70,7 +70,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/SPRING-23-BIGBANNER-TEST_1.png",
-        "image_link": "shopify:\/\/blogs\/news\/spring-22-preview",
+        "image_link": "shopify:\/\/collections\/spring-2023",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
