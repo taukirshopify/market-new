@@ -30,15 +30,15 @@
 {%- endstyle -%}
 
 {%- style -%}
-  #shopify-section-template--{{ section.id }} {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  #Banner-template--{{ section.id }} {
+    margin-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    margin-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
 
   @media screen and (min-width: 750px) {
-    #shopify-section-template--{{ section.id }} {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
+    #Banner-template--{{ section.id }} {
+      margin-top: {{ section.settings.padding_top }}px;
+      margin-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
 {%- endstyle -%}
