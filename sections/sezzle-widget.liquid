@@ -1,45 +1,8 @@
 {% if section.settings.show-sezzle-widget or request.design_mode %}
 <script type="text/javascript"> document.sezzleConfig = {
 				"configGroups": [{
-					"targetXPath": ".product__info-container/.price--on-sale/.price__sale/.price-item--sale",
-					"renderToPath": "../../../..",
-					"urlMatch": "product",
-					"relatedElementActions": [{
-					"relatedPath": "../..",
-					"initialAction": function(r,w){
-					if(getComputedStyle(r).display === "none"){
-					w.style.display = "none"
-					}
-					if(w.nextElementSibling && w.nextElementSibling.className.indexOf("sezzle-shopify-info-button") > -1){
-					w.nextElementSibling.style.display = "none"
-					}
-					}
-					}]
-				},{
-					"targetXPath": ".product__info-container/.price__regular/.price-item--regular",
-					"renderToPath": "../../../..",
-					"urlMatch": "product",
-					"relatedElementActions": [{
-					"relatedPath": "../../../../..",
-					"initialAction": function(r,w){
-					if(r.querySelector(".price--on-sale")){
-					w.style.display = "none"
-					}
-					var allwidgets = document.getElementsByClassName("sezzle-shopify-info-button");
-					for (let i = 0; i < allwidgets.length; i++){
-					widgetIndex = allwidgets[i].className.split("sezzlewidgetindex-")[1].split(" ")[0];
-					if(!document.querySelector('[data-sezzleindex="'+widgetIndex+'"]')) {
-					allwidgets[i].style.display = "none"
-					}
-					}
-					}
-					}]
-				},{
-					"targetXPath": ".totals__subtotal-value",
-					"urlMatch": "cart",
-					"alignment": "right",
-					"alignmentSwitchMinWidth": 768,
-					"alignmentSwitchType": "center"
+					"targetXPath": "#sezzle-widget-v2-render-reference",
+					"renderToPath": "."
 				}]
 				} </script>
 <script src="https://widget.sezzle.com/v1/javascript/price-widget?uuid=0744299f-b53b-4db5-b702-6c1aaf08453a"></script>
@@ -58,17 +21,6 @@
 }
 </style>
 
-{% if request.design_mode %}
-<script>
-function disableScroll(event){
-	setTimeout(function() {
-		window.scroll(0,0);
-	},400);
-}
-	this.addEventListener('shopify:section:select', disableScroll);
-	this.addEventListener('shopify:section:load', disableScroll);
-</script>
-{% endif %}
 {% schema %}
 {
 	"name": "Sezzle Widget",
