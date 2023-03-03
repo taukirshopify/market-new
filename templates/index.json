@@ -12,6 +12,7 @@
     },
     "96d97b04-9842-4289-87e1-ed32434df9fd": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/web-newTOP-_STICKER_-BAR.png",
         "image_link": "shopify:\/\/collections\/frontpage",
@@ -90,7 +91,7 @@
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241": {
       "type": "featurendproduct",
       "settings": {
-        "h1": "FUNKADELIC",
+        "h1": "MARKET X FUNKADELIC",
         "image": "funkadelic",
         "p_limit": "12",
         "check": true
