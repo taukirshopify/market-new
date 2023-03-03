@@ -87,7 +87,7 @@
             </h3>
           </div>
           <div class="card__badge {{ settings.badge_position }} {% if settings.sales_badge != blank %}sales_badge_img{% endif %}">
-            {% if card_product.first_available_variant.inventory_quantity < 15 %}
+            {% comment %}{% if card_product.first_available_variant.inventory_quantity < 15 %}
             
               <span
                 id="Badge-{{ section_id }}-{{ card_product.id }}"
@@ -97,7 +97,7 @@
               </span>
              
             
-            {% endif %}
+            {% endif %}{% endcomment %}
 
                           {% comment %}Date calculate{% endcomment %}
                           {% assign date_pub_y = card_product.published_at | date:'%Y' %}
