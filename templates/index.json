@@ -14,7 +14,7 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-newTOP-_STICKER_-BAR.png",
+        "image": "shopify:\/\/shop_images\/web-23-shippingTOP-_STICKER_-BAR.png",
         "image_link": "shopify:\/\/collections\/frontpage",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -28,14 +28,14 @@
         "stack_images_on_mobile": false,
         "show_text_below": false,
         "padding_top": 0,
-        "padding_bottom": 36,
+        "padding_bottom": 0,
         "image_max_width": 1200
       }
     },
     "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/web-bigbanner-2BIG-CROOKED-BANNER.png",
+        "image": "shopify:\/\/shop_images\/web-23-bigbanner-shippingBIG-CROOKED-BANNER.png",
         "image_link": "shopify:\/\/collections\/spring-2023",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -91,7 +91,7 @@
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241": {
       "type": "featurendproduct",
       "settings": {
-        "h1": "MARKET X FUNKADELIC",
+        "h1": "FUNKADELIC",
         "image": "funkadelic",
         "p_limit": "12",
         "check": true
