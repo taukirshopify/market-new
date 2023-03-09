@@ -93,6 +93,7 @@
       "settings": {
         "h1": "NEW ARRIVALS",
         "image": "spring-2023",
+        "show_secondary_image": true,
         "p_limit": "12",
         "check": true
       }
