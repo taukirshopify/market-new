@@ -170,7 +170,9 @@
 }
 
 .card__badge.top {
-  align-self: flex-start;
+  /* align-self: flex-start; */
+display: flex;
+align-items: flex-start;
   grid-row-start: 1;
 }
 
