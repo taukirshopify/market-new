@@ -50,8 +50,9 @@
     {%- endunless -%}
   
     <slider-component class="slider-mobile-gutter">
+      featured-collection
       <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %}{% if section.settings.columns_desktop == 1 %} grid--full-width{% else %} grid--{{ section.settings.columns_desktop }}-col-desktop{% endif %}{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ section.settings.columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider %} slider slider--tablet grid--peek{% endif %}" role="list">
-        {% paginate collections[featured].products by 600 %}
+        {% paginate collections[featured].products by 20 %}
         {% for product in collections[featured].products %}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider %} slider__slide{% endif %}">
             {% render 'card-product',
