@@ -1,1 +1,107 @@
-{"sections":{"main":{"type":"main-product","blocks":{"title":{"type":"title","settings":{}},"price":{"type":"price","settings":{}},"744f20f1-cabd-451f-a3fb-6e9cc5124bf7":{"type":"sticky_start","settings":{}},"variant_picker":{"type":"variant_picker","settings":{"picker_type":"button"}},"cc97cb3f-0b57-44df-a7be-522994d9155f":{"type":"buy_buttons","settings":{"show_dynamic_checkout":true}},"4fc33530-489b-470f-95f4-ab06951cd5db":{"type":"sticky_end","settings":{}},"description":{"type":"description","settings":{}}},"block_order":["title","price","744f20f1-cabd-451f-a3fb-6e9cc5124bf7","variant_picker","cc97cb3f-0b57-44df-a7be-522994d9155f","4fc33530-489b-470f-95f4-ab06951cd5db","description"],"settings":{"enable_sticky_info":true,"gallery_layout":"thumbnail","media_size":"medium","mobile_thumbnails":"hide","hide_variants":true,"enable_video_looping":false,"padding_top":36,"padding_bottom":12}},"product-recommendations":{"type":"product-recommendations","disabled":true,"settings":{"heading":"You Might Also Like","heading_size":"h2","columns_desktop":4,"color_scheme":"background-1","image_ratio":"square","show_secondary_image":true,"show_vendor":false,"show_rating":false,"columns_mobile":"2","padding_top":36,"padding_bottom":28}},"35d366a5-112f-4d43-ad3c-eefb4d0acd9c":{"type":"featured-collection","settings":{"title":"You May Also Like","heading_size":"h1","collection":"frontpage","products_to_show":100,"columns_desktop":4,"color_scheme":"background-1","show_view_all":true,"image_ratio":"adapt","show_secondary_image":false,"show_vendor":false,"show_rating":false,"columns_mobile":"2","swipe_on_mobile":false,"padding_top":36,"padding_bottom":36}}},"order":["main","product-recommendations","35d366a5-112f-4d43-ad3c-eefb4d0acd9c"]}
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "744f20f1-cabd-451f-a3fb-6e9cc5124bf7": {
+          "type": "sticky_start",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "cc97cb3f-0b57-44df-a7be-522994d9155f": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "4fc33530-489b-470f-95f4-ab06951cd5db": {
+          "type": "sticky_end",
+          "settings": {
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "price",
+        "744f20f1-cabd-451f-a3fb-6e9cc5124bf7",
+        "variant_picker",
+        "cc97cb3f-0b57-44df-a7be-522994d9155f",
+        "4fc33530-489b-470f-95f4-ab06951cd5db",
+        "description"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail",
+        "media_size": "medium",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You Might Also Like",
+        "heading_size": "h2",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "35d366a5-112f-4d43-ad3c-eefb4d0acd9c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "You May Also Like",
+        "heading_size": "h1",
+        "collection": "frontpage",
+        "products_to_show": 100,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-recommendations",
+    "35d366a5-112f-4d43-ad3c-eefb4d0acd9c"
+  ]
+}
