@@ -359,6 +359,7 @@
     },
     "985e34f3-ddaa-404c-b0dd-387da802be46": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"bootstrap-wrapper\"><div class=\"container\"><h2 style=\"\">Shop the Instagram<\/h2><\/div><\/div>",
         "color_scheme": "background-1",
@@ -368,6 +369,7 @@
     },
     "1674606194cbd0c08e": {
       "type": "apps",
+      "disabled": true,
       "blocks": {
         "7a18a7fe-2341-4536-93dc-97f4f1586bf3": {
           "type": "shopify:\/\/apps\/shoppable-instagram-ugc\/blocks\/custom_minifeed\/e2616dfe-fbb6-4e7d-874d-d250b973556d",
