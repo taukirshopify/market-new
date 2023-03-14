@@ -1,5 +1,26 @@
 {
   "sections": {
+    "16635799877c4431b2": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DesignFreestyle_WebBanner.png",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "transparent",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_max_width": 1200
+      }
+    },
     "7d948af0-7561-4b82-b054-ccbc348a2a75": {
       "type": "video",
       "disabled": true,
@@ -36,27 +57,6 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "16635799877c4431b2": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DesignFreestyle_WebBanner.png",
-        "image_link": "",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "transparent",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "image_max_width": 1200
       }
     },
     "4bc33d55-6213-440e-b81b-fc89a7ce2e19": {
@@ -250,9 +250,9 @@
     }
   },
   "order": [
+    "16635799877c4431b2",
     "7d948af0-7561-4b82-b054-ccbc348a2a75",
     "c3073bae-2200-4a4c-ad02-a95c3f4d40e5",
-    "16635799877c4431b2",
     "4bc33d55-6213-440e-b81b-fc89a7ce2e19",
     "a2c72ce1-c5d0-4d83-81b0-bde9fd767050",
     "2b2836c2-f6ee-4854-ac1b-37b7d52cbe05",
