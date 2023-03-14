@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/MRW_BANNER1.png",
+        "image": "shopify:\/\/shop_images\/MRW_BANNER1_3c2e1035-873d-47e5-93a2-74b204114068.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -53,7 +53,7 @@
         "show_text_below": true,
         "padding_top": 0,
         "padding_bottom": 0,
-        "image_max_width": 750
+        "image_max_width": 1200
       }
     },
     "main": {
