@@ -155,7 +155,7 @@
         "9f7b1fc7-2d9f-4df8-a587-eda75cc07b7b": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-HOMEGOODS-TILEHIGHLIGHT_2.jpg",
+            "img": "shopify:\/\/shop_images\/WEB-TILE-HOMEGOODSHIGHLIGHT_2_89142c9a-300a-4208-b16c-73ba55665856.jpg",
             "url": "shopify:\/\/collections\/home-goods",
             "title": "HOME GOODS"
           }
@@ -163,8 +163,9 @@
         "1f3c5b79-4224-4fff-bcc3-f48b110a98d9": {
           "type": "collectionfour",
           "settings": {
-            "url": "",
-            "title": "WINTER 2022"
+            "img": "shopify:\/\/shop_images\/MKT-HEADWEAR-TLEHIGHLIGHT_2.jpg",
+            "url": "shopify:\/\/collections\/headwear",
+            "title": "HEADWEAR"
           }
         },
         "85368ac4-5978-4af3-9ed9-3b4d67485cf9": {
@@ -180,6 +181,9 @@
         "9f7b1fc7-2d9f-4df8-a587-eda75cc07b7b",
         "1f3c5b79-4224-4fff-bcc3-f48b110a98d9",
         "85368ac4-5978-4af3-9ed9-3b4d67485cf9"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "h2": ""
