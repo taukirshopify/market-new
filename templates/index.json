@@ -10,28 +10,6 @@
         "home-extended-menu": "homepage-banner-menu"
       }
     },
-    "96d97b04-9842-4289-87e1-ed32434df9fd": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/web-23-shippingTOP-_STICKER_-BAR.png",
-        "image_link": "shopify:\/\/collections\/frontpage",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "image_max_width": 1200
-      }
-    },
     "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
       "type": "image-banner",
       "disabled": true,
@@ -166,33 +144,71 @@
     "6f05aad5-045c-41c5-90f5-cae6b37847b6": {
       "type": "home-collection",
       "blocks": {
-        "92f77ec7-630f-4539-9315-9b613a785f17": {
-          "type": "collectiontwo",
+        "98939ea5-b391-4b57-950a-8c8c6d2122d6": {
+          "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-HEADWEAR-TLEHIGHLIGHT_2.jpg",
-            "url": "shopify:\/\/collections\/headwear",
-            "title": "HEADWEAR"
+            "img": "shopify:\/\/shop_images\/MKT-OUTERWEAR-TILEHIGHLIGHT_2.jpg",
+            "url": "shopify:\/\/collections\/outerwear",
+            "title": "OUTERWEAR"
           }
         },
-        "eaa8aa60-18df-497f-8831-5c1eef6ee985": {
-          "type": "collectiontwo",
+        "9f7b1fc7-2d9f-4df8-a587-eda75cc07b7b": {
+          "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-HOMEGOODS-TILEHIGHLIGHT_2.jpg",
-            "url": "shopify:\/\/collections\/home-goods",
-            "title": "HOME GOODS"
+            "url": "",
+            "title": "WINTER 2022"
+          }
+        },
+        "1f3c5b79-4224-4fff-bcc3-f48b110a98d9": {
+          "type": "collectionfour",
+          "settings": {
+            "url": "",
+            "title": "WINTER 2022"
+          }
+        },
+        "85368ac4-5978-4af3-9ed9-3b4d67485cf9": {
+          "type": "collectionfour",
+          "settings": {
+            "url": "",
+            "title": "WINTER 2022"
           }
         }
       },
       "block_order": [
-        "92f77ec7-630f-4539-9315-9b613a785f17",
-        "eaa8aa60-18df-497f-8831-5c1eef6ee985"
+        "98939ea5-b391-4b57-950a-8c8c6d2122d6",
+        "9f7b1fc7-2d9f-4df8-a587-eda75cc07b7b",
+        "1f3c5b79-4224-4fff-bcc3-f48b110a98d9",
+        "85368ac4-5978-4af3-9ed9-3b4d67485cf9"
       ],
       "settings": {
         "h2": ""
       }
     },
+    "96d97b04-9842-4289-87e1-ed32434df9fd": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/web-23-shippingTOP-_STICKER_-BAR.png",
+        "image_link": "shopify:\/\/collections\/frontpage",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_max_width": 1200
+      }
+    },
     "0ff071f8-b4aa-405f-96a3-ec988e989a81": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "RUGS",
         "heading_size": "h1",
@@ -435,12 +451,12 @@
   },
   "order": [
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
-    "96d97b04-9842-4289-87e1-ed32434df9fd",
     "e49b6f60-1fe5-436e-ba5d-172f780943b8",
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
     "6f05aad5-045c-41c5-90f5-cae6b37847b6",
+    "96d97b04-9842-4289-87e1-ed32434df9fd",
     "0ff071f8-b4aa-405f-96a3-ec988e989a81",
     "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "featured_collection",
