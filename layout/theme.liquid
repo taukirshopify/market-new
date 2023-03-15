@@ -374,3 +374,54 @@
 {% section 'sezzle-widget' %}
 
 <script src='https://widget.sezzle.com/v1/javascript/price-widget?uuid=0744299f-b53b-4db5-b702-6c1aaf08453a'></script>
+
+
+
+
+
+ <script>
+
+
+  document.addEventListener("DOMContentLoaded", () => {
+
+
+
+
+
+
+
+
+
+
+
+  });
+
+
+
+  function my2Function(e) {
+
+
+
+    // Get all label elements on the page
+    const labels = document.getElementsByTagName('label');
+    console.log(labels);
+    // Loop through each label element and remove the checked attribute
+    for (let i = 0; i < labels.length; i++) {
+    labels[i].classList.remove("mystyle");
+
+    }
+
+
+
+console.log(e);
+e.classList.add("mystyle");
+
+
+
+
+}
+
+
+
+
+  </script> 
