@@ -60,7 +60,7 @@
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HIGHLIGHT_2.jpg",
+            "img": "shopify:\/\/shop_images\/SPRING23-BOXHIGHLIGHT_2.jpg",
             "url": "shopify:\/\/collections\/spring-2023",
             "title": "SPRING '23"
           }
@@ -161,6 +161,34 @@
         "show_secondary_image": true,
         "p_limit": "12",
         "check": true
+      }
+    },
+    "6f05aad5-045c-41c5-90f5-cae6b37847b6": {
+      "type": "home-collection",
+      "blocks": {
+        "92f77ec7-630f-4539-9315-9b613a785f17": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/WEB-HEADWEAR-TILEHIGHLIGHT_2.jpg",
+            "url": "shopify:\/\/collections\/headwear",
+            "title": "HEADWEAR"
+          }
+        },
+        "eaa8aa60-18df-497f-8831-5c1eef6ee985": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/WEB-TILE-HOMEGOODSHIGHLIGHT_2.jpg",
+            "url": "shopify:\/\/collections\/home-goods",
+            "title": "HOME GOODS"
+          }
+        }
+      },
+      "block_order": [
+        "92f77ec7-630f-4539-9315-9b613a785f17",
+        "eaa8aa60-18df-497f-8831-5c1eef6ee985"
+      ],
+      "settings": {
+        "h2": ""
       }
     },
     "54b9426a-f169-4cc6-a7e1-7d431786d001": {
@@ -392,6 +420,7 @@
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
+    "6f05aad5-045c-41c5-90f5-cae6b37847b6",
     "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "featured_collection",
     "d5bd887a-8b7f-4a55-8762-73757761e5d4",
