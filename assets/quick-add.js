@@ -10,27 +10,41 @@ class QuickAddForm extends HTMLElement {
 
     onSubmitHandler(evt) {
       evt.preventDefault();
+
+   
       const submitButton = this.querySelector('[type="submit"]');
       const legendLabel = this.querySelectorAll('legend');
-      if (submitButton.classList.contains('loading')) return;
+      const newtesting =  this.form.querySelector('[name=id]').value;
 
-      this.handleErrorMessage();
-      this.cartNotification.setActiveElement(document.activeElement);
+      if(newtesting == "" ){
+        console.log("Empty");
+        console.log(newtesting);
 
-      submitButton.setAttribute('aria-disabled', true);
-      submitButton.classList.add('loading');
-      this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
 
-      const config = fetchConfig('javascript');
-      config.headers['X-Requested-With'] = 'XMLHttpRequest';
-      delete config.headers['Content-Type'];
+      } 
+      
+      else{
 
-      const formData = new FormData(this.form);
-      formData.append('sections', this.cartNotification.getSectionsToRender().map((section) => section.id));
-      formData.append('sections_url', window.location.pathname);
-      config.body = formData;
+        if (submitButton.classList.contains('loading')) return;
 
-      fetch(`${routes.cart_add_url}`, config)
+        this.handleErrorMessage();
+        this.cartNotification.setActiveElement(document.activeElement);
+  
+        submitButton.setAttribute('aria-disabled', true);
+        submitButton.classList.add('loading');
+        this.querySelector('.loading-overlay__spinner').classList.remove('hidden');
+  
+        const config = fetchConfig('javascript');
+        config.headers['X-Requested-With'] = 'XMLHttpRequest';
+        delete config.headers['Content-Type'];
+  
+        const formData = new FormData(this.form);
+        formData.append('sections', this.cartNotification.getSectionsToRender().map((section) => section.id));
+        formData.append('sections_url', window.location.pathname);
+        config.body = formData;
+
+
+        fetch(`${routes.cart_add_url}`, config)
         .then((response) => response.json())
         .then((response) => {
           if (response.status) {
@@ -51,6 +65,20 @@ class QuickAddForm extends HTMLElement {
             element.innerText = window.variantStrings.addedToCart;
           });
         });
+
+
+
+
+      } 
+
+      // endif 
+     
+  
+      
+
+
+
+
     }
 
     handleErrorMessage(errorMessage = false) {

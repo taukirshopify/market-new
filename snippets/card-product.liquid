@@ -208,7 +208,7 @@
         {%  assign product_form_id = 'quick-add-' | append: card_product.id %}
         <quick-add-form>
           {%- form 'product', card_product, id: product_form_id, class: 'product-card__form', novalidate: 'novalidate'-%}
-            <input type="hidden" name="id" value="">
+            <input type="hidden" name="id" id="proudct-load" value="">
             {%- unless card_product.has_only_default_variant -%}
               <variant-radios class="no-js-hidden" data-section="{{ card_product.id }}" data-quickadd="true" data-url="{{ card_product.url }}" data-updateurl="false">
                 {%- for option in card_product.options_with_values -%}
