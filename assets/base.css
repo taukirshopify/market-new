@@ -4396,4 +4396,16 @@ details-disclosure > details {
   }
 }
 
+.product-form__input input[type='radio'] + label.mystyle {
+  background-color: rgb(var(--color-foreground));
+  color: rgb(var(--color-background));
+}
 
+
+.product-form__input input[type='radio']:disabled + label.mystyle {
+  border-color: rgba(var(--color-foreground), 0.1);
+  color: rgba(var(--color-foreground), 0.4);
+  text-decoration: line-through;
+  background-color: rgb(var(--color-background))
+  ;
+}
