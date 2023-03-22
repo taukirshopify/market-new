@@ -111,6 +111,14 @@
             "url": "shopify:\/\/collections\/basketballs-1",
             "title": "BASKETBALLS"
           }
+        },
+        "810c3b16-8aa3-49ec-ac67-f2208154aa96": {
+          "type": "collectionsix",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1.jpg",
+            "url": "#",
+            "title": "WINTER 2022"
+          }
         }
       },
       "block_order": [
@@ -120,7 +128,8 @@
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
+        "810c3b16-8aa3-49ec-ac67-f2208154aa96"
       ],
       "settings": {
         "h2": "",
