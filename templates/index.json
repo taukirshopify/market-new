@@ -80,6 +80,22 @@
             "title": "WINTER 2022"
           }
         },
+        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9": {
+          "type": "collectionsix",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/WEB-23-SMILEY-TILEHIGHLIGHT_2_0d1edee5-fa78-4e00-a2b6-3ea4c2357f02.jpg",
+            "url": "",
+            "title": "WINTER 2022"
+          }
+        },
+        "b05aeafd-249b-4ced-aacd-0c4441a6f1b2": {
+          "type": "collectionsix",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/TOPS_1.jpg",
+            "url": "",
+            "title": "WINTER 2022"
+          }
+        },
         "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
           "type": "collectiontwo",
           "settings": {
@@ -127,27 +143,20 @@
             "url": "shopify:\/\/collections\/basketballs-1",
             "title": "BASKETBALLS"
           }
-        },
-        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9": {
-          "type": "collectionsix",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/DF-ANWAR_Thumb-wide_SMALLER.jpg",
-            "url": "",
-            "title": "WINTER 2022"
-          }
         }
       },
       "block_order": [
         "1b3d69df-202e-44af-a3ae-0effd45fafd1",
         "810c3b16-8aa3-49ec-ac67-f2208154aa96",
         "f613dd35-23d0-4b03-8e58-28e952d8740f",
+        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9",
+        "b05aeafd-249b-4ced-aacd-0c4441a6f1b2",
         "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "50250968-3185-4c62-8e85-ea6a95fd3e21",
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
-        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987"
       ],
       "settings": {
         "h2": "",
