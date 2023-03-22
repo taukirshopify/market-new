@@ -20,7 +20,20 @@
                 </a>
               </div>
             </div>
-
+            {% when 'collectionsix' %}
+              <div class="col-md-2 padding-extra    {% if section.settings.logo_aligment == "two" %}
+                col-6
+              {% elsif section.settings.logo_aligment == "three" %}
+             
+              col-4
+              {% endif %}">
+                <div class="singel-collection-content round-collection">
+                  <a href="{{block.settings.url}}">
+                  <img src="{{block.settings.img | img_url:''}}" alt="">
+                    <h4>{{ block.settings.title }}</h4>
+                  </a>
+                </div>
+              </div>
           {% when 'collectiontwo' %}
             <div class="col-md-6 padding-extra">
               <div class="singel-collection-content">
@@ -74,6 +87,15 @@
     width: 100%;
     text-align: center;
 }
+.round-collection {
+  border: 1px solid transparent;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.round-collection h4{
+  font-size: 17px;
+}
 </style>
 {% schema %}
 {
@@ -87,12 +109,52 @@
         "default": "categories",
         "info": "categories",
         "placeholder": "categories"
+      },
+      {
+        "type": "radio",
+        "id": "logo_aligment",
+        "label": "Logo alignment",
+        "options": [
+          {
+            "value": "two",
+            "label": "two on Mobile"
+          },
+          {
+            "value": "three",
+            "label": "three on Mobile"
+          }
+        ],
+        "default": "three"
       }
     ],
     "blocks": [
       {
         "type": "collectiontwo",
         "name": "collection 2",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "img",
+            "label": "Collection Image"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Select Collection url"
+          },
+              {
+                "type": "text",
+                "id": "title",
+                "label": "Collection title",
+                "default": "WINTER 2022",
+
+                "placeholder":  "WINTER 2022"
+              }
+        ]
+      },
+      {
+        "type": "collectionsix",
+        "name": "collection 6",
         "settings": [
           {
             "type": "image_picker",
