@@ -56,6 +56,14 @@
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
       "blocks": {
+        "1b3d69df-202e-44af-a3ae-0effd45fafd1": {
+          "type": "collectionsix",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MRW-PAGE-1_3f68d106-8153-4b20-90ba-1ed542c77deb.jpg",
+            "url": "",
+            "title": "WINTER 2022"
+          }
+        },
         "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
           "type": "collectiontwo",
           "settings": {
@@ -103,24 +111,16 @@
             "url": "shopify:\/\/collections\/basketballs-1",
             "title": "BASKETBALLS"
           }
-        },
-        "1b3d69df-202e-44af-a3ae-0effd45fafd1": {
-          "type": "collectionsix",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MRW-PAGE-1_3f68d106-8153-4b20-90ba-1ed542c77deb.jpg",
-            "url": "",
-            "title": "WINTER 2022"
-          }
         }
       },
       "block_order": [
+        "1b3d69df-202e-44af-a3ae-0effd45fafd1",
         "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "50250968-3185-4c62-8e85-ea6a95fd3e21",
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
-        "1b3d69df-202e-44af-a3ae-0effd45fafd1"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987"
       ],
       "settings": {
         "h2": "",
