@@ -208,7 +208,7 @@
         {%  assign product_form_id = 'quick-add-' | append: card_product.id %}
         <quick-add-form>
           {%- form 'product', card_product, id: product_form_id, class: 'product-card__form', novalidate: 'novalidate'-%}
-            <input type="hidden" name="id" id="proudct-load" value="{{ card_product.selected_or_first_available_variant.id }}">
+            <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}">
             {%- unless card_product.has_only_default_variant -%}
               <variant-radios class="no-js-hidden" data-section="{{ card_product.id }}" data-quickadd="true" data-url="{{ card_product.url }}" data-updateurl="false">
                 {%- for option in card_product.options_with_values -%}
@@ -224,13 +224,11 @@
                       {%- endif -%}
                       <input type="radio" id="{{ section.id }}-{{ product_form_id }}-{{ option.position }}-{{ forloop.index0 }}"
                               name="{{ option.name }}"
-                             option-id="{{ option.id }}"
-                              value="{{ value | escape }}" onclick="myFunctioninput(this)"
-                              {% if variant_label_state == false %}class="option-disable"{% endif %}  name="{{ product_form_id }}"
-                              {% unless option.name == 'Color'%} {% if variant_label_state == false %}disabled {% endif %}{% endunless %}   {% if option.selected_value == value %}checked{% endif %}
+                              value="{{ value | escape }}"
+                              {% if variant_label_state == false %}class="option-disable"{% endif %}
+                              {% unless option.name == 'Color'%} {% if variant_label_state == false %}disabled {% endif %}{% endunless %} {% if option.selected_value == value %}checked{% endif %}
                               >
-                                
-                      <label for="{{ section.id }}-{{ product_form_id }}-{{ option.position }}-{{ forloop.index0 }}"    onclick="my2Function(this)"> 
+                      <label for="{{ section.id }}-{{ product_form_id }}-{{ option.position }}-{{ forloop.index0 }}">
                         {{ value }}
                       </label>
                       {%- endfor -%}
@@ -333,11 +331,3 @@
     </div>
   </div>
 {%- endif -%}
-
-
-
-
-<style>
-
-
-</style>

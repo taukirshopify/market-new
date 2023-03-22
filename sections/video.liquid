@@ -16,7 +16,7 @@
 {%- endstyle -%}
 
 <div class="{%  if section.settings.color_scheme != 'transparent' %}color-{{ section.settings.color_scheme }} gradient{%  endif %}">
-  <div class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+  <div {% if section.settings.section_id != blank %}id="{{ section.settings.section_id }}"{% endif %} class="video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     <div{% if section.settings.full_width %} class="page-width"{% endif %}>
       {%- unless section.settings.heading == blank -%}
         <div class="title-wrapper title-wrapper--no-top-margin">
@@ -152,6 +152,12 @@
       "label": "t:sections.video.settings.video_url.label",
       "placeholder": "t:sections.video.settings.video_url.placeholder",
       "info": "t:sections.video.settings.video_url.info"
+    },
+    {
+      "type": "text",
+      "id": "section_id",
+      "label": "Section ID",
+      "info": "To link directly to this section from elsewhere"
     },
     {
       "type": "text",
