@@ -143,6 +143,14 @@
             "url": "shopify:\/\/collections\/basketballs-1",
             "title": "BASKETBALLS"
           }
+        },
+        "ead5b521-979e-4d05-926b-73f7eff45dc4": {
+          "type": "collectionsix",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/TEST-CROOKEDBANNER2-TALL_1.png",
+            "url": "",
+            "title": "WINTER 2022"
+          }
         }
       },
       "block_order": [
@@ -156,7 +164,8 @@
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
+        "ead5b521-979e-4d05-926b-73f7eff45dc4"
       ],
       "settings": {
         "h2": "",
