@@ -16,14 +16,7 @@ class QuickAddForm extends HTMLElement {
       const legendLabel = this.querySelectorAll('legend');
       const newtesting =  this.form.querySelector('[name=id]').value;
 
-      if(newtesting == "" ){
-        console.log("Empty");
-        console.log(newtesting);
 
-
-      } 
-      
-      else{
 
         if (submitButton.classList.contains('loading')) return;
 
@@ -67,7 +60,14 @@ class QuickAddForm extends HTMLElement {
         });
 
 
-
+        if(newtesting == "" ){
+          console.log("Empty");
+          console.log(newtesting);
+  
+  
+        } 
+        
+        else{
 
       } 
 
