@@ -172,8 +172,9 @@
         "logo_aligment": "two",
         "textshadow_enabled": true,
         "textshadow_color": "#0071ce",
-        "h_shadow": 3,
-        "v_shadow": 2
+        "h_shadow": 2,
+        "v_shadow": 2,
+        "blur_radius": 5
       }
     },
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3": {
@@ -218,7 +219,9 @@
         "image": "spring-2023",
         "show_secondary_image": true,
         "p_limit": "12",
-        "check": true
+        "check": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "54b9426a-f169-4cc6-a7e1-7d431786d001": {
@@ -301,7 +304,8 @@
         "textshadow_enabled": false,
         "textshadow_color": "#ffffff",
         "h_shadow": 3,
-        "v_shadow": 3
+        "v_shadow": 3,
+        "blur_radius": 0
       }
     },
     "featured_collection": {
