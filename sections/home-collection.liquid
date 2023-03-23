@@ -105,7 +105,7 @@
 
 {% if section.settings.textshadow_enabled %}
   .singel-collection-content h4 {
-    text-shadow: {{ section.settings.h_shadow }}px {{ section.settings.h_shadow }}px {{ section.settings.textshadow_color }};
+    text-shadow: {{ section.settings.h_shadow }}px {{ section.settings.h_shadow }}px {{ section.settings.blur_radius }}px {{ section.settings.textshadow_color }};
   }
 {% endif %}
 </style>
