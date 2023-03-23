@@ -172,8 +172,8 @@
         "logo_aligment": "two",
         "textshadow_enabled": true,
         "textshadow_color": "#0071ce",
-        "h_shadow": 3,
-        "v_shadow": 3
+        "h_shadow": 8,
+        "v_shadow": 6
       }
     },
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3": {
@@ -299,7 +299,7 @@
         "h2": "",
         "logo_aligment": "two",
         "textshadow_enabled": false,
-        "textshadow_color": "#FFFFFF",
+        "textshadow_color": "#ffffff",
         "h_shadow": 3,
         "v_shadow": 3
       }
