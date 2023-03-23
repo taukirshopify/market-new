@@ -102,6 +102,10 @@
     font-size: 14px;
   }
 }
+
+{% if textshadow_enabled %}
+  text-shadow: {{ h_shadow }} {{ h_shadow }} {{ textshadow_color }};
+{% endif %}}
 </style>
 {% schema %}
 {
@@ -138,7 +142,7 @@
     },
     {
       "type": "checkbox",
-      "id": "texthadow_enabled",
+      "id": "textshadow_enabled",
       "label": "Enable Text Shadow?",
       "default": false
     },
