@@ -103,11 +103,11 @@
   }
 }
 
-
+{% if block.settings.textshadow_enabled %}
   .singel-collection-content h4 {
-    text-shadow: {{ h_shadow }} {{ v_shadow }} {{ textshadow_color }};
+    text-shadow: {{ block.settings.h_shadow }} {{ block.settings.h_shadow }} {{ block.settings.textshadow_color }};
   }
-
+{% endif %}
 </style>
 {% schema %}
 {
