@@ -103,9 +103,9 @@
   }
 }
 
-{% if block.settings.textshadow_enabled %}
+{% if section.settings.textshadow_enabled %}
   .singel-collection-content h4 {
-    text-shadow: {{ block.settings.h_shadow }} {{ block.settings.h_shadow }} {{ block.settings.textshadow_color }};
+    text-shadow: {{ section.settings.h_shadow }} {{ section.settings.h_shadow }} {{ section.settings.textshadow_color }};
   }
 {% endif %}
 </style>
