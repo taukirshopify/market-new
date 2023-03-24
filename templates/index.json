@@ -56,6 +56,54 @@
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
       "blocks": {
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1_f096ef73-cdab-468a-84b1-0e45cf699480.jpg",
+            "url": "shopify:\/\/collections\/hasbulla",
+            "title": "HASBULLA"
+          }
+        },
+        "50250968-3185-4c62-8e85-ea6a95fd3e21": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
+            "url": "shopify:\/\/collections\/spring-2023",
+            "title": "SPRING '23"
+          }
+        },
+        "bdc9b1c7-f881-469a-b617-60616a790136": {
+          "type": "collectionfour",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1TOPS_3a7f0b70-9923-4940-90ca-4746d33b818c.png",
+            "url": "shopify:\/\/collections\/tops",
+            "title": "TOPS"
+          }
+        },
+        "41b22099-3971-4c42-aaae-f70332a7acae": {
+          "type": "collectionfour",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/BOTTOMS_1.jpg",
+            "url": "shopify:\/\/collections\/pants",
+            "title": "BOTTOMS"
+          }
+        },
+        "3f8b6d24-c95a-4c3d-a885-519128ea215d": {
+          "type": "collectionfour",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1COLLABS.png",
+            "url": "shopify:\/\/collections\/accessories",
+            "title": "ACCESSORIES"
+          }
+        },
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987": {
+          "type": "collectionfour",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/MKT-WEB-P1AXS.png",
+            "url": "shopify:\/\/collections\/basketballs-1",
+            "title": "BASKETBALLS"
+          }
+        },
         "1b3d69df-202e-44af-a3ae-0effd45fafd1": {
           "type": "collectionsix",
           "disabled": true,
@@ -109,69 +157,21 @@
             "url": "",
             "title": "WINTER 2022"
           }
-        },
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1_f096ef73-cdab-468a-84b1-0e45cf699480.jpg",
-            "url": "shopify:\/\/collections\/hasbulla",
-            "title": "HASBULLA"
-          }
-        },
-        "50250968-3185-4c62-8e85-ea6a95fd3e21": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
-            "url": "shopify:\/\/collections\/spring-2023",
-            "title": "SPRING '23"
-          }
-        },
-        "bdc9b1c7-f881-469a-b617-60616a790136": {
-          "type": "collectionfour",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-WEB-P1TOPS_3a7f0b70-9923-4940-90ca-4746d33b818c.png",
-            "url": "shopify:\/\/collections\/tops",
-            "title": "TOPS"
-          }
-        },
-        "41b22099-3971-4c42-aaae-f70332a7acae": {
-          "type": "collectionfour",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/BOTTOMS_1.jpg",
-            "url": "shopify:\/\/collections\/pants",
-            "title": "BOTTOMS"
-          }
-        },
-        "3f8b6d24-c95a-4c3d-a885-519128ea215d": {
-          "type": "collectionfour",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-WEB-P1COLLABS.png",
-            "url": "shopify:\/\/collections\/accessories",
-            "title": "ACCESSORIES"
-          }
-        },
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987": {
-          "type": "collectionfour",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-WEB-P1AXS.png",
-            "url": "shopify:\/\/collections\/basketballs-1",
-            "title": "BASKETBALLS"
-          }
         }
       },
       "block_order": [
-        "1b3d69df-202e-44af-a3ae-0effd45fafd1",
-        "810c3b16-8aa3-49ec-ac67-f2208154aa96",
-        "f613dd35-23d0-4b03-8e58-28e952d8740f",
-        "ead5b521-979e-4d05-926b-73f7eff45dc4",
-        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9",
-        "b05aeafd-249b-4ced-aacd-0c4441a6f1b2",
         "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "50250968-3185-4c62-8e85-ea6a95fd3e21",
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
-        "24421ae7-74bd-4263-b4c9-9e7d466d9987"
+        "24421ae7-74bd-4263-b4c9-9e7d466d9987",
+        "1b3d69df-202e-44af-a3ae-0effd45fafd1",
+        "810c3b16-8aa3-49ec-ac67-f2208154aa96",
+        "f613dd35-23d0-4b03-8e58-28e952d8740f",
+        "ead5b521-979e-4d05-926b-73f7eff45dc4",
+        "d83f14a6-fa68-431e-bb0f-3d994f80f2e9",
+        "b05aeafd-249b-4ced-aacd-0c4441a6f1b2"
       ],
       "settings": {
         "h2": "",
