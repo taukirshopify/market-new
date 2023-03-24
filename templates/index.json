@@ -56,20 +56,20 @@
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
       "blocks": {
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1_f096ef73-cdab-468a-84b1-0e45cf699480.jpg",
-            "url": "shopify:\/\/collections\/hasbulla",
-            "title": "HASBULLA"
-          }
-        },
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
             "url": "shopify:\/\/collections\/spring-2023",
             "title": "SPRING '23"
+          }
+        },
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1_f096ef73-cdab-468a-84b1-0e45cf699480.jpg",
+            "url": "shopify:\/\/collections\/hasbulla",
+            "title": "HASBULLA"
           }
         },
         "bdc9b1c7-f881-469a-b617-60616a790136": {
@@ -160,8 +160,8 @@
         }
       },
       "block_order": [
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "50250968-3185-4c62-8e85-ea6a95fd3e21",
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
