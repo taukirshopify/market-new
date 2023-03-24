@@ -58,6 +58,7 @@
       "blocks": {
         "1b3d69df-202e-44af-a3ae-0effd45fafd1": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/MRW-PAGE-1_3f68d106-8153-4b20-90ba-1ed542c77deb.jpg",
             "url": "",
@@ -66,6 +67,7 @@
         },
         "810c3b16-8aa3-49ec-ac67-f2208154aa96": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1.jpg",
             "url": "#",
@@ -74,6 +76,7 @@
         },
         "f613dd35-23d0-4b03-8e58-28e952d8740f": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
             "url": "",
@@ -82,6 +85,7 @@
         },
         "ead5b521-979e-4d05-926b-73f7eff45dc4": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1.jpg",
             "url": "",
@@ -90,6 +94,7 @@
         },
         "d83f14a6-fa68-431e-bb0f-3d994f80f2e9": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/WEB-23-SMILEY-TILEHIGHLIGHT_2_0d1edee5-fa78-4e00-a2b6-3ea4c2357f02.jpg",
             "url": "",
@@ -98,6 +103,7 @@
         },
         "b05aeafd-249b-4ced-aacd-0c4441a6f1b2": {
           "type": "collectionsix",
+          "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/TOPS_1.jpg",
             "url": "",
@@ -107,9 +113,9 @@
         "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-23-TEES-TILE_49013cd2-0ddc-4b6d-8bea-63f068da787f.gif",
-            "url": "shopify:\/\/collections\/tees",
-            "title": "TEES"
+            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1_f096ef73-cdab-468a-84b1-0e45cf699480.jpg",
+            "url": "shopify:\/\/collections\/hasbulla",
+            "title": "HASBULLA"
           }
         },
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
