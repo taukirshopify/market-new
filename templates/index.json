@@ -34,6 +34,7 @@
     },
     "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/SPRINGCLEANING-BANNER2_97e70bb8-364b-42c9-aa62-242be501383b.jpg",
         "image_link": "shopify:\/\/collections\/spring-cleaning",
