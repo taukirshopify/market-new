@@ -185,60 +185,6 @@
         "title": ""
       }
     },
-    "e3cfc88f-dd25-44d6-bc10-6d8da1c0c917": {
-      "type": "slideshow",
-      "blocks": {
-        "template--16073070641324__e3cfc88f-dd25-44d6-bc10-6d8da1c0c917-16805563993625bb40-0": {
-          "type": "slide",
-          "settings": {
-            "main_image_link": "",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16073070641324__e3cfc88f-dd25-44d6-bc10-6d8da1c0c917-16805563993625bb40-1": {
-          "type": "slide",
-          "settings": {
-            "main_image_link": "",
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__e3cfc88f-dd25-44d6-bc10-6d8da1c0c917-16805563993625bb40-0",
-        "template--16073070641324__e3cfc88f-dd25-44d6-bc10-6d8da1c0c917-16805563993625bb40-1"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "dots",
-        "auto_rotate": true,
-        "change_slides_speed": 5,
-        "show_text_below": false,
-        "accessibility_info": ""
-      }
-    },
     "975be733-bb75-4c06-98d7-c3e95617e00c": {
       "type": "image-banner",
       "blocks": {
@@ -303,7 +249,6 @@
     "d5123ea3-861f-4990-992c-368b438a2769",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "13291e0d-d373-451a-b025-75375041f857",
-    "e3cfc88f-dd25-44d6-bc10-6d8da1c0c917",
     "975be733-bb75-4c06-98d7-c3e95617e00c"
   ]
 }
