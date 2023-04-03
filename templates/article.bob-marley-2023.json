@@ -155,6 +155,36 @@
         "padding_bottom": 36
       }
     },
+    "13291e0d-d373-451a-b025-75375041f857": {
+      "type": "multicolumn-slider",
+      "blocks": {
+        "1fa999af-474b-4793-b7ef-94ba07b28c36": {
+          "type": "slider",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-2-COMP.jpg",
+            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-2-COMP.jpg",
+            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-2-COMP.jpg",
+            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-2-COMP.jpg"
+          }
+        },
+        "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
+          "type": "slider",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-COMP.jpg",
+            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-COMP.jpg",
+            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-COMP.jpg",
+            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-COMP.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1fa999af-474b-4793-b7ef-94ba07b28c36",
+        "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
     "975be733-bb75-4c06-98d7-c3e95617e00c": {
       "type": "image-banner",
       "blocks": {
@@ -218,6 +248,7 @@
     "1661985063c7a9c7bc",
     "d5123ea3-861f-4990-992c-368b438a2769",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
+    "13291e0d-d373-451a-b025-75375041f857",
     "975be733-bb75-4c06-98d7-c3e95617e00c"
   ]
 }
