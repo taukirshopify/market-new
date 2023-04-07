@@ -131,8 +131,81 @@
         "title": ""
       }
     },
+    "b68fc620-c2e4-47be-8042-060dece6bdd3": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-0",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-1",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-2",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-3",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-4",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-5",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-6",
+        "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-7"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -157,10 +230,8 @@
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-2-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-2-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-2-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/1662-2.jpg",
+            "image2": "shopify:\/\/shop_images\/1671-2.jpg"
           }
         },
         "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
@@ -243,6 +314,7 @@
     "main",
     "1661985063c7a9c7bc",
     "d5123ea3-861f-4990-992c-368b438a2769",
+    "b68fc620-c2e4-47be-8042-060dece6bdd3",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "13291e0d-d373-451a-b025-75375041f857",
     "975be733-bb75-4c06-98d7-c3e95617e00c"
