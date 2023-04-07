@@ -163,6 +163,7 @@
       "blocks": {
         "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
