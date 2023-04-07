@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/GD_WIPE-GIF.gif",
+        "image": "shopify:\/\/shop_images\/GD_WIPE-GIF_692c6199-c85b-480e-99bc-938c5c7bb8b8.gif",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -53,7 +53,7 @@
         "show_text_below": false,
         "padding_top": 20,
         "padding_bottom": 20,
-        "image_max_width": 450
+        "image_max_width": 1600
       }
     },
     "main": {
