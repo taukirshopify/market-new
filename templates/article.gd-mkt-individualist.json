@@ -95,6 +95,59 @@
       "settings": {
       }
     },
+    "cfcc8812-12e6-44e8-8501-298bb1eeca0d": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-0",
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-1",
+        "template--16075574837420__cfcc8812-12e6-44e8-8501-298bb1eeca0d-168088307050ac035d-2"
+      ],
+      "settings": {
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_max_width": 1200
+      }
+    },
     "1661985063c7a9c7bc": {
       "type": "custom-liquid",
       "disabled": true,
@@ -194,7 +247,7 @@
         "template--16075574837420__b68fc620-c2e4-47be-8042-060dece6bdd3-1680829690557f3927-7"
       ],
       "settings": {
-        "product": "",
+        "product": "indvlst-gd-screenprinting-kit",
         "color_scheme": "background-1",
         "secondary_background": false,
         "hide_variants": false,
@@ -305,16 +358,31 @@
         "padding_bottom": 0,
         "image_max_width": 1200
       }
+    },
+    "3c56b865-c649-4e6c-ab7f-80776d09d158": {
+      "type": "featurendproduct",
+      "disabled": true,
+      "settings": {
+        "h1": "",
+        "image": "",
+        "show_secondary_image": false,
+        "p_limit": "12",
+        "check": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
     "main",
+    "cfcc8812-12e6-44e8-8501-298bb1eeca0d",
     "1661985063c7a9c7bc",
     "d5123ea3-861f-4990-992c-368b438a2769",
     "b68fc620-c2e4-47be-8042-060dece6bdd3",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "13291e0d-d373-451a-b025-75375041f857",
-    "975be733-bb75-4c06-98d7-c3e95617e00c"
+    "975be733-bb75-4c06-98d7-c3e95617e00c",
+    "3c56b865-c649-4e6c-ab7f-80776d09d158"
   ]
 }
