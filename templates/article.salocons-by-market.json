@@ -233,6 +233,7 @@
     },
     "13291e0d-d373-451a-b025-75375041f857": {
       "type": "multicolumn-slider",
+      "disabled": true,
       "blocks": {
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
