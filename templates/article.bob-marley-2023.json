@@ -147,6 +147,62 @@
         "padding_bottom": 36
       }
     },
+    "975be733-bb75-4c06-98d7-c3e95617e00c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/DETAILSHOT-MARLEY_712103bf-72dd-4f28-82db-5ec4a433d598.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "image_max_width": 1200
+      }
+    },
     "13291e0d-d373-451a-b025-75375041f857": {
       "type": "multicolumn-slider",
       "blocks": {
@@ -185,63 +241,6 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
-    },
-    "975be733-bb75-4c06-98d7-c3e95617e00c": {
-      "type": "image-banner",
-      "disabled": true,
-      "blocks": {
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/BOB-MKT-GALLERY_3614041b-1e44-4450-ba76-9f218c72e1e1.jpg",
-        "image_link": "",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 40,
-        "padding_bottom": 0,
-        "image_max_width": 1200
-      }
     }
   },
   "order": [
@@ -249,8 +248,8 @@
     "main",
     "d5123ea3-861f-4990-992c-368b438a2769",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
+    "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
-    "1661985063c7a9c7bc",
-    "975be733-bb75-4c06-98d7-c3e95617e00c"
+    "1661985063c7a9c7bc"
   ]
 }
