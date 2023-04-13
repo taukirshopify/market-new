@@ -58,7 +58,6 @@
     },
     "main": {
       "type": "main-article-fall22",
-      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
