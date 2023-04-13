@@ -131,10 +131,9 @@
         "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/MKT-GORPCORE-LookbookCarousel-Tweaked_02.jpg",
+            "image2": "shopify:\/\/shop_images\/MKT-GORP-ELEVATED-FLATS-CAROUSEL_01.jpg",
+            "image3": "shopify:\/\/shop_images\/MKT-GORP-ELEVATED-FLATS-CAROUSEL_02.jpg"
           }
         }
       },
