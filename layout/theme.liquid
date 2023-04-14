@@ -1,6 +1,7 @@
 {% capture bsscommerce_login_require_template %}{% include 'bsscommerce_login_require' %}{% endcapture %}{% unless bsscommerce_login_require_template contains "Liquid error" %}{{ bsscommerce_login_require_template }}{% endunless %}<!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <meta name="facebook-domain-verification" content="bq19bg3qfj12ze7yas2dbnfm6d8vyi" />
     {% include 'kiwiSizing' %}
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
