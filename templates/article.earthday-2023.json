@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/marley-mkt-logo_228b07ee-f3b4-48a0-b4a8-a8993ae9cb88.png",
+        "image": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-BANNER.jpg",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -74,11 +74,6 @@
             "blog_show_author": false
           }
         },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "disabled": true,
@@ -90,7 +85,6 @@
       "block_order": [
         "featured_image",
         "title",
-        "content",
         "share"
       ],
       "settings": {
@@ -98,30 +92,6 @@
     },
     "d5123ea3-861f-4990-992c-368b438a2769": {
       "type": "multicolumn-slider",
-      "blocks": {
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
-          "type": "slider",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-COMP.jpg"
-          }
-        },
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
-          "type": "slider",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-COMP.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0",
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1"
-      ],
       "settings": {
         "title": ""
       }
@@ -131,8 +101,8 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "collection": "bob-marley",
-        "products_to_show": 8,
+        "collection": "earth-day",
+        "products_to_show": 14,
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": true,
@@ -146,81 +116,23 @@
         "padding_bottom": 36
       }
     },
-    "975be733-bb75-4c06-98d7-c3e95617e00c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/DETAILSHOT-MARLEY_712103bf-72dd-4f28-82db-5ec4a433d598.jpg",
-        "image_link": "",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 40,
-        "padding_bottom": 40,
-        "image_max_width": 1200
-      }
-    },
     "13291e0d-d373-451a-b025-75375041f857": {
       "type": "multicolumn-slider",
       "blocks": {
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-2-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-2-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-2-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-9.jpg",
+            "image2": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-8.jpg",
+            "image3": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-1.jpg"
           }
         },
         "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-2-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-2-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-2-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-6.jpg",
+            "image2": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-5.jpg",
+            "image3": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_EDITORIALEDIT-3.jpg"
           }
         }
       },
@@ -247,7 +159,6 @@
     "main",
     "d5123ea3-861f-4990-992c-368b438a2769",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
-    "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
     "1661985063c7a9c7bc"
   ]
