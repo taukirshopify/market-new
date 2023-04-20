@@ -164,7 +164,7 @@
           "disabled": true,
           "settings": {
             "img": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-TILE.jpg",
-            "url": "",
+            "url": "shopify:\/\/blogs\/news\/earth-day",
             "title": "EARTH DAY"
           }
         }
