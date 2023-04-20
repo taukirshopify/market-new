@@ -191,12 +191,12 @@
         "template--16083797442732__ecfd716d-9817-4ba5-a691-9665c1688cce-168202479576659cc6-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-TILE_BOTTOM.jpg",
+        "image": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-BANNER_BOTTOM.jpg",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
