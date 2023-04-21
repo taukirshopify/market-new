@@ -212,7 +212,7 @@
     "blocks": {
       "12608439564960700138": {
         "type": "shopify:\/\/apps\/sezzle-widget\/blocks\/widget-embed\/f3a53793-e118-4764-a86b-a79bfedb0d5f",
-        "disabled": false,
+        "disabled": true,
         "settings": {
           "heading": "Sezzle Widget",
           "font_size": 14,
