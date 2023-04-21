@@ -126,8 +126,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "shopify:\/\/shop_images\/MKT-WEB-HEADER-GIF-LOGOS-23_d2d38a56-7e15-4f0a-9df8-d4b83ef52875.gif",
-          "logo_width": 180,
+          "logo": "shopify:\/\/shop_images\/unnamed.gif",
+          "logo_width": 100,
           "logo_position": "top-center",
           "menu": "main-2",
           "show_line_separator": false,
