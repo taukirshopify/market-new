@@ -1,10 +1,46 @@
 {
   "sections": {
-    "d5123ea3-861f-4990-992c-368b438a2769": {
-      "type": "multicolumn-slider",
-      "disabled": true,
+    "main": {
+      "type": "main-article-fall22",
+      "blocks": {
+        "4be5fd19-ac22-4388-8a77-2b78574ca94c": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "c0a01e25-e4ce-4a8b-9793-6d668b81b4dc": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "4be5fd19-ac22-4388-8a77-2b78574ca94c",
+        "c0a01e25-e4ce-4a8b-9793-6d668b81b4dc"
+      ],
       "settings": {
-        "title": ""
+      }
+    },
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "collection": "hasbulla",
+        "products_to_show": 14,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "13291e0d-d373-451a-b025-75375041f857": {
@@ -33,66 +69,6 @@
         "title": ""
       }
     },
-    "main": {
-      "type": "main-article-fall22",
-      "blocks": {
-        "featured_image": {
-          "type": "featured_image",
-          "disabled": true,
-          "settings": {
-            "image_height": "small"
-          }
-        },
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-            "blog_show_date": false,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "c0a01e25-e4ce-4a8b-9793-6d668b81b4dc": {
-          "type": "content",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "featured_image",
-        "title",
-        "share",
-        "c0a01e25-e4ce-4a8b-9793-6d668b81b4dc"
-      ],
-      "settings": {
-      }
-    },
-    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "collection": "hasbulla",
-        "products_to_show": 14,
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1661985063c7a9c7bc": {
       "type": "custom-liquid",
       "settings": {
@@ -104,10 +80,9 @@
     }
   },
   "order": [
-    "d5123ea3-861f-4990-992c-368b438a2769",
-    "13291e0d-d373-451a-b025-75375041f857",
     "main",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
+    "13291e0d-d373-451a-b025-75375041f857",
     "1661985063c7a9c7bc"
   ]
 }
