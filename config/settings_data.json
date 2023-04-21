@@ -197,7 +197,7 @@
       "sezzle-widget": {
         "type": "sezzle-widget",
         "settings": {
-          "show-sezzle-widget": true,
+          "show-sezzle-widget": false,
           "color": "inherit",
           "font-size": 14,
           "font-family": "inherit",
