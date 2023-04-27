@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-article-fall22",
+      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -41,6 +42,7 @@
     },
     "1661833041b53ea891": {
       "type": "multicolumn-slider",
+      "disabled": true,
       "blocks": {
         "1661833041891a2762-0": {
           "type": "slider",
@@ -433,10 +435,11 @@
     },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "collection": "spring-2023",
+        "collection": "summer-2024",
         "products_to_show": 4,
         "columns_desktop": 4,
         "color_scheme": "background-1",
@@ -453,275 +456,231 @@
     },
     "16619576076f620987": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "1661957607a74c4aa4-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369000094_HARDWARE_SUPPLY_LONG_SLEEVE_BUTTON_SHIRT_BLACK_1.jpg"
           }
         },
         "1661957607a74c4aa4-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001091_ROSE_PARADE_DENIM_PANTS_LASER_ETCHED_DENIM_1.jpg"
           }
         },
         "1661957607a74c4aa4-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001355_PRINTING_MONEY_T-SHIRT_VINTAGE_BLACK_1.jpg"
           }
         },
         "f100bdbb-af84-45f8-88f1-1f365bb686ef": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/406123002_RW-MARKET-RELFECTIVE-ROPE-JACKET_BLACK_1.jpg"
           }
         },
         "bb53b1f9-cf47-4f1e-8b89-c42ca4331471": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/411123002_RW_MARKET_REFLECTIVE_ROPE_PANT_BLACK_1.jpg"
           }
         },
         "acb3e443-9f8e-4dbc-b41c-b7e3055df3e8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/389000113_OPEN_REVERSIBLE_SOURCE_DESIGN_TRACK_JACKET_MULTI_3.jpg"
           }
         },
         "fe1b7f43-0b41-4f7e-a487-4c168912dac4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001090_OPEN_REVERSIBLE_SOURCE_DESIGN_TRACK_PANTS_MULTI_3.jpg"
           }
         },
         "cbacb84c-3aee-4052-ade7-79a2a35b7b62": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001325_OPEN_SOURCE_DESIGN_CUTTING_BOARD_GREEN_1.jpg"
           }
         },
         "eadda377-59e3-4190-a84f-8f07f233f5a6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001375_TOOLS_OF_THE_TRADE_T-SHIRT_WHITE_1.jpg"
           }
         },
         "10569ba2-01d3-4559-8344-6e7e0c25e0c1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/390000281_DARK_WEB_5_PANEL_HAT_BLACK_1.jpg"
           }
         },
         "ef4cf168-761b-452b-8bff-9a88fce6ce8b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/406123001_RW_MARKET_PATCHWORK_LINER_JACKET_GREEN_1.jpg"
           }
         },
         "81067dbf-7e12-4f4b-9b7e-69e8ec3c848d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/411123001_RW_MARKET_PATCH_CARGO_PANT_GREEN_1.jpg"
           }
         },
         "18d5eef6-4837-416c-9c42-0397cad920ca": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/412123001_RW_MARKET_PATCH_FLANNEL_SHIRT_GREEN_1.jpg"
           }
         },
         "9773313e-e3ac-4a8e-a898-940d680c82d3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/390000276_CREATIVE_CHEMISTRY_5_PANEL_HAT_KHAKI_1.jpg"
           }
         },
         "61b1cf0f-47ad-44e8-88bd-76ceddac6056": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001351_ALWAYS_WE_T-SHIRT_ECRU_1.jpg"
           }
         },
         "a78410a8-58f6-415b-bc5a-f8db8f1d7bd0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/389000114_GORP_PATCHWORK_JACKET_ACORN_1.jpg"
           }
         },
         "3d23f121-a145-4fda-ab1c-bc05afcf25fb": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001093_GORP_PATCHWORK_TECH_SHORTS_ACORN_1.jpg"
           }
         },
         "4fcf3497-5ace-437d-9d37-e25f2ca35ad7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/390000270_GORP_PATCHWORK_6_PANEL_TECH_HAT_ACORN_1.jpg"
           }
         },
         "66f7a396-e696-44a5-8f83-c5118c74d54d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/397000479_BOTANICAL_BEAR_HOODIE_EDEN_1.jpg"
           }
         },
         "e91e11b3-205b-4ab2-8357-739c6cd89366": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001376_CACTUS_LOVERS_T-SHIRT_WHITE_1.jpg"
           }
         },
         "953d3323-d073-4076-9a51-f7c67d56d70e": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369000093_ALMOST_THERE_SS_BUTTON_UP_SHIRT_KHAKI_1.jpg"
           }
         },
         "9851270d-d7de-4409-add6-5b38c6213fe2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001092_ALMOST_THERE_ALLOVER_PRINT_PANTS_KHAKI_1.jpg"
           }
         },
         "294816b6-1b2a-437b-8402-16f19011fc87": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369000097ROSE_PARADE_369000097_SWEATER_VEST_RED_1.jpg"
           }
         },
         "23c98d6b-d2a2-4d79-9bad-b254bca52ef7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369000091_VISION_QUEST_SS_BUTTON_UP_SHIRT_1.jpg"
           }
         },
         "98fed674-97ca-4ff8-a5f4-9d334f307dc8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001094_VISION_QUEST_SHORTS_BLACK_1.jpg"
           }
         },
         "aacd0e47-e029-4c89-b7d8-e96bb23bf6c6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/397000468_MKT_ARC_HOODIE_WASHED_BLACK_1.jpg"
           }
         },
         "feb55117-60f6-4943-ac1b-c9a5bd4c3e1d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001099_BLISS_MESH_SHORTS_BLUE_1.jpg"
           }
         },
         "a9a66b07-a14b-47c1-bca5-a6f539f88f36": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001369_SMILEY_HATERS_T-SHIRT_PARCHMENT_1.jpg"
           }
         },
         "f5f258c9-1532-42e0-806c-27f25a0169aa": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001097_SMILEY_TECH_SHORTS_DIVER_1.jpg"
           }
         },
         "5dfb16e0-9821-4485-8a86-184dbe1973c0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/390000282_SMILEY_HATERS_5-PANEL_HAT_VINTAGE_BLACK_1.jpg"
           }
         },
         "31cd87f8-9627-45d2-9916-8350061f77a6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/396000917_LIFE_CYCLE_CREWNECK_SAGE_1.jpg"
           }
         },
         "f791d914-d59c-4d0d-85ef-361a348e65f7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/395000589_LIFE_CYCLE_SWEATPANTS_ACORN_1.jpg"
           }
         },
         "f641fa8a-d8f3-412b-9620-7b6e23896e50": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399001344_NATURE_IS_HOME_T-SHIRT_ECRU_1.jpg"
           }
         },
         "37b24cf2-40cc-43ee-bca0-1918a2dc31d3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/369000092_BUILDING_BLOCKS_MESH_BUTTON_UP_SHIRT_PARCHMENT_1.jpg"
           }
         },
         "3030e5ca-2c9d-4590-933e-87b8934358d7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001095_BUILDING_BLOCKS_MESH_SHORTS_CREAM_1.jpg"
           }
         },
         "4cd20738-584b-4157-afdf-df983a096cbf": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/390000278_MKT_ARC_5_PANEL_HAT_ACORN_1.jpg"
           }
         },
         "13a6e7ed-4d06-4d3c-985e-c13201ebfce7": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/389000083_DESTINATION-UNKNOWN-CHORE-COAT_CREAM_1.jpg"
           }
         },
         "d4bbb2f6-a8d9-4ca5-9d69-bb24fcd5eace": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/388001047_DESTINATION_UNKNOWN_WORK_PANTS_CREAM_1.jpg"
           }
         },
         "168e41a7-c522-4c12-8669-e07c15c6f103": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/397000473_LIL_DEVIL_HOODIE_SAND_1.jpg"
           }
         },
         "fce64ec7-1552-4a2a-a11c-077c5a3672ea": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/399000590_QUANTUM_MESH_SHORTS_1.jpg"
           }
         },
         "611c0bdf-ae07-44cc-8092-e67f761ca7e3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001154_SMILEY_WORLDWIDE_BASKETBALL_MULTI_3.jpg"
           }
         },
         "e19770fa-a3b6-4abc-8472-a85e8577b07d": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001151_SMILEY_BLISS_BASKETBALL_MULTI_3.jpg"
           }
         },
         "01ae9211-559f-40fa-ba96-50e4fe51fd60": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001174-SMILEY-DENIM-PILLOW-MULTI-FRONT.jpg"
           }
         },
         "198ad824-3d68-4ec0-ab5e-78a0e2df146a": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001176-SMILEY-SHERPA-BASKETBALL-PILLOW-BLUSH-FRONT.jpg"
           }
         },
         "953a6b91-1a08-4d7d-8b4a-8e3a35560130": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/360001176-SMILEY-SHERPA-BASKETBALL-PILLOW-SAGE-FRONT.jpg"
           }
         }
       },
