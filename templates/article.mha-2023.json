@@ -171,20 +171,15 @@
     },
     "13291e0d-d373-451a-b025-75375041f857": {
       "type": "multicolumn-slider",
-      "disabled": true,
       "blocks": {
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/1662-2.jpg",
-            "image2": "shopify:\/\/shop_images\/1671-2.jpg"
           }
         },
         "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/1673-2.jpg",
-            "image2": "shopify:\/\/shop_images\/1689-2.jpg"
           }
         }
       },
