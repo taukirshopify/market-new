@@ -207,6 +207,7 @@
         
         {%  assign product_form_id = 'quick-add-' | append: card_product.id %}
 
+        {% comment %}
         <quick-add-form>
           {%- form 'product', card_product, id: product_form_id, class: 'product-card__form', novalidate: 'novalidate'-%}
             <input type="hidden" name="id" value="{{ card_product.selected_or_first_available_variant.id }}">
@@ -288,7 +289,7 @@
             {% endif %}
           {%- endform -%}
         </quick-add-form>
-      
+        {% endcomment %}
       </div>
     </div>
   </div>
