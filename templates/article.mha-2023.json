@@ -176,11 +176,17 @@
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
           "settings": {
+            "image1": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_013.jpg",
+            "image2": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_009.jpg",
+            "image3": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_003.jpg"
           }
         },
         "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
           "type": "slider",
           "settings": {
+            "image1": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_027.jpg",
+            "image2": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_024.jpg",
+            "image3": "shopify:\/\/shop_images\/Q1-23-Call-My-Therapist_003.jpg"
           }
         }
       },
