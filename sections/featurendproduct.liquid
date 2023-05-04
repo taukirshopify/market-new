@@ -126,8 +126,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     let splide = new Splide('#image-carousel-{{section.id}}', {
       pagination: true,
-
-      type: 'loop',
+      {% comment %} type: 'loop', {% endcomment %}
       drag: 'free',
       perPage: 4,
       perMove: 3,

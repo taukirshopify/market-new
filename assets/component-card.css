@@ -112,16 +112,17 @@
   text-transform: uppercase;
 }
 
-.product-card .product-card__form variant-radios{
+.product-card .product-card__form quickvariant-radios{
   visibility: hidden;
   position: absolute;
-  bottom: 46px;
+  bottom: 45px;
   width: 100%;
   background: rgba(255,255,255,0.5);
   border: 1px solid;
+  left: 0px;
 }
 
-.product-card .product-card__form:hover variant-radios{
+.product-card .product-card__form:hover quickvariant-radios{
   visibility: visible;
 }
 

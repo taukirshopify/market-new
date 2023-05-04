@@ -796,7 +796,6 @@ class VariantSelects extends HTMLElement {
   }
 
   updateVariantInput() {
-    console.log(this.dataset.section);
     const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment, #quick-add-${this.dataset.section}`);
     productForms.forEach((productForm) => {
       const input = productForm.querySelector('input[name="id"]');
@@ -898,3 +897,93 @@ class VariantRadios extends VariantSelects {
   }
 }
 customElements.define('variant-radios', VariantRadios);
+
+class QuickVariantRadios extends HTMLElement {
+  constructor() {
+    super();
+
+    this.addEventListener('change', this.onVariantChange);
+  }
+
+  onVariantChange() {
+    this.updateOptions();
+    this.updateMasterId();
+
+    this.toggleAddButton(true, '', false);
+    if (!this.currentVariant) {
+      this.toggleAddButton(true, '', true);
+      this.setUnavailable();
+    } else {
+      this.toggleAddButton(false, '', true);
+      this.updateVariantInput();
+    }
+  }
+
+  updateOptions() {
+    const fieldsets = Array.from(this.querySelectorAll('fieldset'));
+    this.options = fieldsets.map((fieldset) => {
+      return Array.from(fieldset.querySelectorAll('input')).find((radio) => radio.checked).value;
+    });
+  }
+
+  updateMasterId() {
+    this.currentVariant = this.getVariantData().find((variant) => {
+      return !variant.options.map((option, index) => {
+        return this.options[index] === option;
+      }).includes(false);
+    });
+  }
+
+  updateVariantInput() {
+    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment, #quick-add-${this.dataset.section}`);
+    productForms.forEach((productForm) => {
+      const input = productForm.querySelector('input[name="id"]');
+      input.value = this.currentVariant.id;
+      input.dispatchEvent(new Event('change', { bubbles: true }));
+    });
+  }
+
+  toggleAddButton(disable = true, text, modifyClass = true) {
+    const productForm = document.getElementById(`quick-add-${this.dataset.section}`);
+    if (!productForm) return;
+
+    const addButton = productForm.querySelector('[name="add"]');
+    const addButtonText = productForm.querySelector('[name="add"] > span');
+
+    if (!addButton) return;
+
+    if (disable) {
+      addButton.classList.add('disable')
+      addButton.setAttribute('disabled', 'disabled');
+      if (text) {
+        addButtonText.textContent = text;
+      }
+    } else {
+      addButton.classList.remove('disable')
+      addButton.removeAttribute('disabled');
+      addButtonText.textContent = window.variantStrings.addToCart;
+    }
+
+    if (!modifyClass) return;
+  }
+
+  setUnavailable() {
+    const button = document.getElementById(`product-form-${this.dataset.section}`);
+
+    const addButton = button.querySelector('[name="add"]');
+    const addButtonText = button.querySelector('[name="add"] > span');
+
+    const price = document.getElementById(`price-${this.dataset.section}`);
+    if (!addButton) return;
+    addButtonText.textContent = window.variantStrings.unavailable;
+    if (price) price.classList.add('visibility-hidden');
+  }
+
+  getVariantData() {
+    this.variantData = this.variantData || JSON.parse(this.querySelector('[type="application/json"]').textContent);
+    return this.variantData;
+  }
+
+  
+}
+customElements.define('quickvariant-radios', QuickVariantRadios);
