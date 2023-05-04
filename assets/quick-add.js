@@ -12,7 +12,10 @@ class QuickAddForm extends HTMLElement {
       evt.preventDefault();
       const submitButton = this.querySelector('[type="submit"]');
       const legendLabel = this.querySelectorAll('legend');
-      if (submitButton.classList.contains('loading')) return;
+      if( submitButton.classList.contains('disable') ){
+        submitButton.previousElementSibling.style.borderColor = '#f00';
+      }
+      if (submitButton.classList.contains('loading') || submitButton.classList.contains('disable') ) return;
 
       this.handleErrorMessage();
       this.cartNotification.setActiveElement(document.activeElement);
