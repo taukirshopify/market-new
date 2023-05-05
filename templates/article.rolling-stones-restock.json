@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/marley-mkt-logo_228b07ee-f3b4-48a0-b4a8-a8993ae9cb88.png",
+        "image": "shopify:\/\/shop_images\/RS-BLOG-HEADER-1.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -96,36 +96,6 @@
       "settings": {
       }
     },
-    "d5123ea3-861f-4990-992c-368b438a2769": {
-      "type": "multicolumn-slider",
-      "blocks": {
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
-          "type": "slider",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-COMP.jpg"
-          }
-        },
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
-          "type": "slider",
-          "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-COMP.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0",
-        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
       "settings": {
@@ -146,8 +116,32 @@
         "padding_bottom": 36
       }
     },
+    "d5123ea3-861f-4990-992c-368b438a2769": {
+      "type": "multicolumn-slider",
+      "disabled": true,
+      "blocks": {
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
+          "type": "slider",
+          "settings": {
+          }
+        },
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
+          "type": "slider",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0",
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
     "975be733-bb75-4c06-98d7-c3e95617e00c": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
           "type": "heading",
@@ -202,8 +196,49 @@
         "image_max_width": 1200
       }
     },
+    "725cccb7-6d1f-4c1e-889e-fa3f0afbecc5": {
+      "type": "collage",
+      "disabled": true,
+      "blocks": {
+        "7068af3e-af0b-4f95-8664-4de32447bd7d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rs-varsity-b1a.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16094313414828__725cccb7-6d1f-4c1e-889e-fa3f0afbecc5-1683329041ede8af48-1": {
+          "type": "product",
+          "settings": {
+            "product": "",
+            "second_image": false
+          }
+        },
+        "template--16094313414828__725cccb7-6d1f-4c1e-889e-fa3f0afbecc5-1683329041ede8af48-2": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "7068af3e-af0b-4f95-8664-4de32447bd7d",
+        "template--16094313414828__725cccb7-6d1f-4c1e-889e-fa3f0afbecc5-1683329041ede8af48-1",
+        "template--16094313414828__725cccb7-6d1f-4c1e-889e-fa3f0afbecc5-1683329041ede8af48-2"
+      ],
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "13291e0d-d373-451a-b025-75375041f857": {
       "type": "multicolumn-slider",
+      "disabled": true,
       "blocks": {
         "1fa999af-474b-4793-b7ef-94ba07b28c36": {
           "type": "slider",
@@ -245,9 +280,10 @@
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
     "main",
-    "d5123ea3-861f-4990-992c-368b438a2769",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
+    "d5123ea3-861f-4990-992c-368b438a2769",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
+    "725cccb7-6d1f-4c1e-889e-fa3f0afbecc5",
     "13291e0d-d373-451a-b025-75375041f857",
     "1661985063c7a9c7bc"
   ]
