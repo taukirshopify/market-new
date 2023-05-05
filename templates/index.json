@@ -32,28 +32,6 @@
         "image_max_width": 1200
       }
     },
-    "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/SPRINGCLEANING-BANNER2_97e70bb8-364b-42c9-aa62-242be501383b.jpg",
-        "image_link": "shopify:\/\/collections\/spring-cleaning",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 36,
-        "image_max_width": 1200
-      }
-    },
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
       "blocks": {
@@ -325,6 +303,28 @@
         "blur_radius": 0
       }
     },
+    "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
+      "type": "image-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-BANNER.jpg",
+        "image_link": "shopify:\/\/collections\/spring-cleaning",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_max_width": 1200
+      }
+    },
     "fa2c6dd8-af75-425b-b410-f055ebdb222e": {
       "type": "collage",
       "blocks": {
@@ -579,12 +579,12 @@
   "order": [
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
     "96d97b04-9842-4289-87e1-ed32434df9fd",
-    "e49b6f60-1fe5-436e-ba5d-172f780943b8",
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
     "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "7fd4cdca-538a-40ea-80c7-1eefdf6b0589",
+    "e49b6f60-1fe5-436e-ba5d-172f780943b8",
     "fa2c6dd8-af75-425b-b410-f055ebdb222e",
     "featured_collection",
     "d5bd887a-8b7f-4a55-8762-73757761e5d4",
