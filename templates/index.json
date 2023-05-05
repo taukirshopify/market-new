@@ -335,24 +335,24 @@
             "image_padding": false
           }
         },
+        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "earth-day"
+          }
+        },
         "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-1": {
           "type": "product",
           "settings": {
             "product": "keep-going-t-shirt-1",
             "second_image": false
           }
-        },
-        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "earth-day"
-          }
         }
       },
       "block_order": [
         "7e122f9c-0926-4e4b-923e-553cbefca5f0",
-        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-1",
-        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-2"
+        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-2",
+        "template--16046689648812__fa2c6dd8-af75-425b-b410-f055ebdb222e-1683329041ede8af48-1"
       ],
       "settings": {
         "heading": "",
