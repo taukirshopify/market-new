@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AKILA-HEADER.jpg",
+        "image": "shopify:\/\/shop_images\/AKILA-HEADER1.jpg",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -51,9 +51,9 @@
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": false,
-        "padding_top": 20,
-        "padding_bottom": 20,
-        "image_max_width": 1000
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "image_max_width": 1200
       }
     },
     "main": {
@@ -94,6 +94,26 @@
         "share"
       ],
       "settings": {
+      }
+    },
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "collection": "akila",
+        "products_to_show": 2,
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
       }
     },
     "d5123ea3-861f-4990-992c-368b438a2769": {
@@ -195,26 +215,6 @@
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "collection": "akila",
-        "products_to_show": 2,
-        "columns_desktop": 2,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 0,
-        "padding_bottom": 36
       }
     },
     "975be733-bb75-4c06-98d7-c3e95617e00c": {
@@ -358,9 +358,9 @@
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
     "main",
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "d5123ea3-861f-4990-992c-368b438a2769",
     "c3afc970-925b-4c83-8601-fdd277def775",
-    "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
     "3c961a55-e2aa-4724-876d-5e661ea2f181",
