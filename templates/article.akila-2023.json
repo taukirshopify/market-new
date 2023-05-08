@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/AKILA-HEADER1.jpg",
+        "image": "shopify:\/\/shop_images\/AKILA-HEADER3_d3c077bb-4127-4dbf-8f00-dde0e14f5fbb.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -142,6 +142,62 @@
         "title": ""
       }
     },
+    "975be733-bb75-4c06-98d7-c3e95617e00c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/AKILA-HEADER.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 36,
+        "padding_bottom": 40,
+        "image_max_width": 800
+      }
+    },
     "c3afc970-925b-4c83-8601-fdd277def775": {
       "type": "featured-product",
       "disabled": true,
@@ -215,62 +271,6 @@
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 0
-      }
-    },
-    "975be733-bb75-4c06-98d7-c3e95617e00c": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
-        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/AKILA-HEADER2.jpg",
-        "image_link": "",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 40,
-        "image_max_width": 1200
       }
     },
     "13291e0d-d373-451a-b025-75375041f857": {
@@ -360,8 +360,8 @@
     "main",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "d5123ea3-861f-4990-992c-368b438a2769",
-    "c3afc970-925b-4c83-8601-fdd277def775",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
+    "c3afc970-925b-4c83-8601-fdd277def775",
     "13291e0d-d373-451a-b025-75375041f857",
     "3c961a55-e2aa-4724-876d-5e661ea2f181",
     "1661985063c7a9c7bc"
