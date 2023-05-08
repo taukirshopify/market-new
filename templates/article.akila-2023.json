@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/marley-mkt-logo_228b07ee-f3b4-48a0-b4a8-a8993ae9cb88.png",
+        "image": "shopify:\/\/shop_images\/AKILA-HEADER.jpg",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -102,19 +102,15 @@
         "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-LEFT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/AKILAHERO-1-RE.jpg",
+            "image2": "shopify:\/\/shop_images\/AKILAHERO-A-RE.jpg"
           }
         },
         "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
           "type": "slider",
           "settings": {
-            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-COMP.jpg",
-            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-COMP.jpg",
-            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-COMP.jpg",
-            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-COMP.jpg"
+            "image1": "shopify:\/\/shop_images\/AKILAHERO-B-RE.jpg",
+            "image2": "shopify:\/\/shop_images\/AKILAHERO-2-RE.jpg"
           }
         }
       },
