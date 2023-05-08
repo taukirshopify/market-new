@@ -122,13 +122,89 @@
         "title": ""
       }
     },
+    "c3afc970-925b-4c83-8601-fdd277def775": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-7": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-0",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-1",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-2",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-3",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-4",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-5",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-6",
+        "template--16095330500780__c3afc970-925b-4c83-8601-fdd277def775-16835715701ca8553d-7"
+      ],
+      "settings": {
+        "product": "smiley-x-market-x-akila-sunglasses-1",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "collection": "bob-marley",
-        "products_to_show": 8,
+        "collection": "akila",
+        "products_to_show": 2,
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "show_view_all": true,
@@ -236,15 +312,57 @@
         "padding_top": 40,
         "padding_bottom": 0
       }
+    },
+    "3c961a55-e2aa-4724-876d-5e661ea2f181": {
+      "type": "collage",
+      "blocks": {
+        "beae4790-460c-40b7-b9f9-2e67ccc8a685": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/AKILAHERO-4-RE.jpg",
+            "image_padding": false
+          }
+        },
+        "template--16095330500780__3c961a55-e2aa-4724-876d-5e661ea2f181-168357165038f8eec9-1": {
+          "type": "product",
+          "settings": {
+            "product": "smiley-x-market-x-akila-sunglasses-1",
+            "second_image": false
+          }
+        },
+        "00eddead-1ea8-4093-a98e-3abef7b1e495": {
+          "type": "product",
+          "settings": {
+            "product": "copy-of-smiley-x-market-x-akila-sunglasses",
+            "second_image": false
+          }
+        }
+      },
+      "block_order": [
+        "beae4790-460c-40b7-b9f9-2e67ccc8a685",
+        "template--16095330500780__3c961a55-e2aa-4724-876d-5e661ea2f181-168357165038f8eec9-1",
+        "00eddead-1ea8-4093-a98e-3abef7b1e495"
+      ],
+      "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "collage",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
     "main",
     "d5123ea3-861f-4990-992c-368b438a2769",
+    "c3afc970-925b-4c83-8601-fdd277def775",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
-    "1661985063c7a9c7bc"
+    "1661985063c7a9c7bc",
+    "3c961a55-e2aa-4724-876d-5e661ea2f181"
   ]
 }
