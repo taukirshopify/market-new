@@ -104,7 +104,8 @@
           "settings": {
             "image1": "shopify:\/\/shop_images\/JIMI-MARKET-Hero1jpg.jpg",
             "image2": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3.jpg",
-            "image3": "shopify:\/\/shop_images\/000000410011.jpg"
+            "image3": "shopify:\/\/shop_images\/JIMI-MARKET-Hero6.jpg",
+            "image4": "shopify:\/\/shop_images\/HEND-FLAT-2.jpg"
           }
         },
         "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
@@ -112,7 +113,8 @@
           "settings": {
             "image1": "shopify:\/\/shop_images\/JIMI-MARKET-Hero2.jpg",
             "image2": "shopify:\/\/shop_images\/JIMI-MARKET-Hero4.jpg",
-            "image3": "shopify:\/\/shop_images\/JIMI-MARKET-Hero5.jpg"
+            "image3": "shopify:\/\/shop_images\/JIMI-MARKET-Hero5.jpg",
+            "image4": "shopify:\/\/shop_images\/HEND-FLAT-1.jpg"
           }
         }
       },
