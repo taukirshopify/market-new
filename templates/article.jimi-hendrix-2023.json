@@ -56,6 +56,26 @@
         "image_max_width": 1200
       }
     },
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "collection": "jimi-hendrix",
+        "products_to_show": 6,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-article-fall22",
       "blocks": {
@@ -124,26 +144,6 @@
       ],
       "settings": {
         "title": ""
-      }
-    },
-    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "",
-        "heading_size": "h2",
-        "collection": "jimi-hendrix",
-        "products_to_show": 6,
-        "columns_desktop": 5,
-        "color_scheme": "background-1",
-        "show_view_all": true,
-        "image_ratio": "adapt",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "975be733-bb75-4c06-98d7-c3e95617e00c": {
@@ -245,9 +245,9 @@
   },
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "main",
     "d5123ea3-861f-4990-992c-368b438a2769",
-    "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
     "1661985063c7a9c7bc"
