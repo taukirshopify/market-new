@@ -10,14 +10,14 @@
         "home-extended-menu": "homepage-banner-menu"
       }
     },
-    "96d97b04-9842-4289-87e1-ed32434df9fd": {
+    "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/CALLMY-BANNER_abde5ac7-7b6e-4275-9583-00bca625525d.jpg",
-        "image_link": "shopify:\/\/collections\/call-my-lawyer",
+        "image": "shopify:\/\/shop_images\/VQ-BANNER.jpg",
+        "image_link": "shopify:\/\/collections\/new-arrivals",
         "gs3_class": "",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -25,9 +25,9 @@
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false,
+        "show_text_below": true,
         "padding_top": 0,
-        "padding_bottom": 4,
+        "padding_bottom": 0,
         "image_max_width": 1200
       }
     },
@@ -218,6 +218,27 @@
         "padding_bottom": 36
       }
     },
+    "96d97b04-9842-4289-87e1-ed32434df9fd": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/CALLMY-BANNER_abde5ac7-7b6e-4275-9583-00bca625525d.jpg",
+        "image_link": "shopify:\/\/collections\/call-my-lawyer",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 0,
+        "padding_bottom": 4,
+        "image_max_width": 1200
+      }
+    },
     "54b9426a-f169-4cc6-a7e1-7d431786d001": {
       "type": "marquee",
       "disabled": true,
@@ -300,28 +321,6 @@
         "h_shadow": 3,
         "v_shadow": 3,
         "blur_radius": 0
-      }
-    },
-    "e49b6f60-1fe5-436e-ba5d-172f780943b8": {
-      "type": "image-banner",
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-BANNER.jpg",
-        "image_link": "shopify:\/\/collections\/spring-cleaning",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "small",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": false,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "image_max_width": 1200
       }
     },
     "fa2c6dd8-af75-425b-b410-f055ebdb222e": {
@@ -630,13 +629,13 @@
   },
   "order": [
     "e260e6c9-7277-4a3c-889f-6b980082bfd9",
-    "96d97b04-9842-4289-87e1-ed32434df9fd",
+    "e49b6f60-1fe5-436e-ba5d-172f780943b8",
     "5bc829b8-2d8b-481f-81de-698bd80c67f8",
     "4f56f7fc-29f2-46ba-b05b-dac348e2b7e3",
     "ba8d9c0f-71de-4f7f-ba07-4e83526f7241",
+    "96d97b04-9842-4289-87e1-ed32434df9fd",
     "54b9426a-f169-4cc6-a7e1-7d431786d001",
     "7fd4cdca-538a-40ea-80c7-1eefdf6b0589",
-    "e49b6f60-1fe5-436e-ba5d-172f780943b8",
     "fa2c6dd8-af75-425b-b410-f055ebdb222e",
     "featured_collection",
     "d5bd887a-8b7f-4a55-8762-73757761e5d4",
