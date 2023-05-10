@@ -14,7 +14,7 @@
       "type": "image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/VQ-BANNER.jpg",
-        "image_link": "shopify:\/\/collections\/new-arrivals",
+        "image_link": "shopify:\/\/collections",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
