@@ -317,6 +317,61 @@
         "padding_top": 24,
         "padding_bottom": 0
       }
+    },
+    "d0a43006-d87f-43ba-bb64-01dc459ef6e0": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-0",
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-1",
+        "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/mkt-astroboy-PREVIEW2.png",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "image_max_width": 1200
+      }
     }
   },
   "order": [
@@ -327,6 +382,7 @@
     "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
     "523e17f2-ffd7-4742-9608-4ebcd29840c0",
-    "1661985063c7a9c7bc"
+    "1661985063c7a9c7bc",
+    "d0a43006-d87f-43ba-bb64-01dc459ef6e0"
   ]
 }
