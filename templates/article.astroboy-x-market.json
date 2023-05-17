@@ -359,7 +359,7 @@
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -370,7 +370,7 @@
         "show_text_below": false,
         "padding_top": 0,
         "padding_bottom": 0,
-        "image_max_width": 1200
+        "image_max_width": 750
       }
     }
   },
