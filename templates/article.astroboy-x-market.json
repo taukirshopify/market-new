@@ -38,7 +38,7 @@
         "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/JIMI-MARKET-HEADER2.jpg",
+        "image": "shopify:\/\/shop_images\/mkt-astroboy-header.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -58,6 +58,7 @@
     },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -78,6 +79,7 @@
     },
     "main": {
       "type": "main-article-fall22",
+      "disabled": true,
       "blocks": {
         "featured_image": {
           "type": "featured_image",
@@ -118,6 +120,7 @@
     },
     "d5123ea3-861f-4990-992c-368b438a2769": {
       "type": "multicolumn-slider",
+      "disabled": true,
       "blocks": {
         "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
           "type": "slider",
@@ -184,7 +187,7 @@
         "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER.jpg",
+        "image": "shopify:\/\/shop_images\/mkt-astroboy-PREVIEW.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
@@ -199,7 +202,7 @@
         "show_text_below": false,
         "padding_top": 40,
         "padding_bottom": 40,
-        "image_max_width": 1200
+        "image_max_width": 1600
       }
     },
     "13291e0d-d373-451a-b025-75375041f857": {
@@ -233,12 +236,85 @@
         "title": ""
       }
     },
+    "523e17f2-ffd7-4742-9608-4ebcd29840c0": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-0",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-1",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-2",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-3",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-4",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-5",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-6",
+        "template--16101178671276__523e17f2-ffd7-4742-9608-4ebcd29840c0-168434320188c48ef3-7"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "1661985063c7a9c7bc": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"\/\/cdn-images.mailchimp.com\/embedcode\/classic-071822.css\" rel=\"stylesheet\" type=\"text\/css\">\n<style type=\"text\/css\">\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  max-width:500px;\nwidth: 95%;\nmargin-left: auto;\nmargin-right: auto;\nborder-radius: 25px;\n}\n#mc_embed_signup h2 {\n    text-align: center;\nfont-family: Helvetica Neue,Helvetica,Arial,sans-serif;\ntext-transform: uppercase;\n}\n.gs3-submit {\ntext-align: center;\n}\n#mc_embed_signup .button {\nbackground-color: #0071CE;\ncolor: #fff;\nfont-weight: bold;\n}\n#mc_embed_signup .mc-field-group input {\nborder: 1px solid #000;\n}\n\t\/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. *\/\n<\/style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https:\/\/marketmarketmarket.us14.list-manage.com\/subscribe\/post?u=7641b08f28511416c16beebae&amp;id=041dcb6452&amp;f_id=00b9e3e1f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        <h2>Get Notified When We Drop<\/h2>\n        <!-- <div class=\"indicates-required\"><span class=\"asterisk\">*<\/span> indicates required<\/div> -->\n<div class=\"mc-field-group\">\n\t<!-- <label for=\"mce-EMAIL\">email address  <span class=\"asterisk\">*<\/span>\n<\/label> -->\n\t<input type=\"email\" value=\"\" placeholder=\"E-MAIL\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"><\/span>\n<\/div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"><\/div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"><\/div>\n\t<\/div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_7641b08f28511416c16beebae_041dcb6452\" tabindex=\"-1\" value=\"\"><\/div>\n    <div class=\"clear\">\n<div class=\"gs3-submit\"><input type=\"submit\" value=\"subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"><\/div><\/div>\n    <\/div>\n<\/form>\n<\/div>\n<script type='text\/javascript' src='\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js'><\/script><script type='text\/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[4]='PHONE';ftypes[4]='phone';fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);<\/script>\n<!--End mc_embed_signup-->",
+        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"\/\/cdn-images.mailchimp.com\/embedcode\/classic-071822.css\" rel=\"stylesheet\" type=\"text\/css\">\n<style type=\"text\/css\">\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  max-width:500px;\nwidth: 95%;\nmargin-left: auto;\nmargin-right: auto;\nborder-radius: 25px;\n}\n#mc_embed_signup h2 {\n    text-align: center;\nfont-family: Helvetica Neue,Helvetica,Arial,sans-serif;\ntext-transform: uppercase;\n}\n.gs3-submit {\ntext-align: center;\n}\n#mc_embed_signup .button {\nbackground-color: #0071CE;\ncolor: #fff;\nfont-weight: bold;\n}\n#mc_embed_signup .mc-field-group input {\nborder: 1px solid #000;\n}\n\t\/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. *\/\n<\/style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https:\/\/marketmarketmarket.us14.list-manage.com\/subscribe\/post?u=7641b08f28511416c16beebae&amp;id=041dcb6452&amp;f_id=00b9e3e1f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        <h2>Get Notified When We Drop<\/h2>\n        <!-- <div class=\"indicates-required\"><span class=\"asterisk\">*<\/span> indicates required<\/div> -->\n<div class=\"mc-field-group\">\n\t<!-- <label for=\"mce-EMAIL\">email address  <span class=\"asterisk\">*<\/span>\n<\/label> -->\n\t<input type=\"email\" value=\"\" placeholder=\"E-MAIL\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"><\/span>\n<\/div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"><\/div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"><\/div>\n\t<\/div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_7641b08f28511416c16beebae_041dcb6452\" tabindex=\"-1\" value=\"\"><\/div>\n    <div class=\"clear\">\n<div class=\"gs3-submit\"><input type=\"submit\" value=\"subscribe\" name=\"se\" id=\"mc-embedded-subscribe\" class=\"button\"><\/div><\/div>\n    <\/div>\n<\/form>\n<\/div>\n<script type='text\/javascript' src='\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js'><\/script><script type='text\/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[4]='PHONE';ftypes[4]='phone';fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);<\/script>\n<!--End mc_embed_signup-->",
         "color_scheme": "background-1",
-        "padding_top": 40,
+        "padding_top": 24,
         "padding_bottom": 0
       }
     }
@@ -250,6 +326,7 @@
     "d5123ea3-861f-4990-992c-368b438a2769",
     "975be733-bb75-4c06-98d7-c3e95617e00c",
     "13291e0d-d373-451a-b025-75375041f857",
+    "523e17f2-ffd7-4742-9608-4ebcd29840c0",
     "1661985063c7a9c7bc"
   ]
 }
