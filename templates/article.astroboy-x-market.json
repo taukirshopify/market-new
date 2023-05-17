@@ -1,0 +1,255 @@
+{
+  "sections": {
+    "298958fa-8b95-4c47-a3bc-8427ca65f149": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-0",
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-1",
+        "template--16034666971308__298958fa-8b95-4c47-a3bc-8427ca65f149-16760540130c21c3ea-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JIMI-MARKET-HEADER2.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 20,
+        "padding_bottom": 0,
+        "image_max_width": 1200
+      }
+    },
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "collection": "jimi-hendrix",
+        "products_to_show": 6,
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": true,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-article-fall22",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "image_height": "small"
+          }
+        },
+        "title": {
+          "type": "title",
+          "disabled": true,
+          "settings": {
+            "blog_show_date": false,
+            "blog_show_author": false
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "title",
+        "content",
+        "share"
+      ],
+      "settings": {
+      }
+    },
+    "d5123ea3-861f-4990-992c-368b438a2769": {
+      "type": "multicolumn-slider",
+      "blocks": {
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0": {
+          "type": "slider",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/JIMI-MARKET-Hero1jpg.jpg",
+            "image2": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3_b7aa2a50-5cf7-49ee-8499-3aaa3c61b9df.jpg",
+            "image3": "shopify:\/\/shop_images\/JIMI-MARKET-Hero6.jpg",
+            "image4": "shopify:\/\/shop_images\/HEND-FLAT-2.jpg"
+          }
+        },
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1": {
+          "type": "slider",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/JIMI-MARKET-Hero2.jpg",
+            "image2": "shopify:\/\/shop_images\/JIMI-MARKET-Hero4.jpg",
+            "image3": "shopify:\/\/shop_images\/JIMI-MARKET-Hero5.jpg",
+            "image4": "shopify:\/\/shop_images\/HEND-FLAT-1.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-0",
+        "template--16073070641324__d5123ea3-861f-4990-992c-368b438a2769-16805513953c174e15-1"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "975be733-bb75-4c06-98d7-c3e95617e00c": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-0",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-1",
+        "template--16073070641324__975be733-bb75-4c06-98d7-c3e95617e00c-16805489651d22a214-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": false,
+        "padding_top": 40,
+        "padding_bottom": 40,
+        "image_max_width": 1200
+      }
+    },
+    "13291e0d-d373-451a-b025-75375041f857": {
+      "type": "multicolumn-slider",
+      "disabled": true,
+      "blocks": {
+        "1fa999af-474b-4793-b7ef-94ba07b28c36": {
+          "type": "slider",
+          "disabled": true,
+          "settings": {
+            "image2": "shopify:\/\/shop_images\/MKT-BOB-LEFT4-2-COMP.jpg",
+            "image3": "shopify:\/\/shop_images\/MKT-BOB-LEFT2-2-COMP.jpg",
+            "image4": "shopify:\/\/shop_images\/MKT-BOB-LEFT3-2-COMP.jpg"
+          }
+        },
+        "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd": {
+          "type": "slider",
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/MKT-BOB-RIGHT1-2-COMP.jpg",
+            "image2": "shopify:\/\/shop_images\/MKT-BOB-RIGHT2-2-COMP.jpg",
+            "image3": "shopify:\/\/shop_images\/MKT-BOB-RIGHT3-2-COMP.jpg",
+            "image4": "shopify:\/\/shop_images\/MKT-BOB-RIGHT4-2-COMP.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "1fa999af-474b-4793-b7ef-94ba07b28c36",
+        "a03c148b-f8a4-4d8e-8671-33fe0bd3e5dd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "1661985063c7a9c7bc": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Begin Mailchimp Signup Form -->\n<link href=\"\/\/cdn-images.mailchimp.com\/embedcode\/classic-071822.css\" rel=\"stylesheet\" type=\"text\/css\">\n<style type=\"text\/css\">\n\t#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;  max-width:500px;\nwidth: 95%;\nmargin-left: auto;\nmargin-right: auto;\nborder-radius: 25px;\n}\n#mc_embed_signup h2 {\n    text-align: center;\nfont-family: Helvetica Neue,Helvetica,Arial,sans-serif;\ntext-transform: uppercase;\n}\n.gs3-submit {\ntext-align: center;\n}\n#mc_embed_signup .button {\nbackground-color: #0071CE;\ncolor: #fff;\nfont-weight: bold;\n}\n#mc_embed_signup .mc-field-group input {\nborder: 1px solid #000;\n}\n\t\/* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.\n\t   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. *\/\n<\/style>\n<div id=\"mc_embed_signup\">\n    <form action=\"https:\/\/marketmarketmarket.us14.list-manage.com\/subscribe\/post?u=7641b08f28511416c16beebae&amp;id=041dcb6452&amp;f_id=00b9e3e1f0\" method=\"post\" id=\"mc-embedded-subscribe-form\" name=\"mc-embedded-subscribe-form\" class=\"validate\" target=\"_blank\" novalidate>\n        <div id=\"mc_embed_signup_scroll\">\n        <h2>Get Notified When We Drop<\/h2>\n        <!-- <div class=\"indicates-required\"><span class=\"asterisk\">*<\/span> indicates required<\/div> -->\n<div class=\"mc-field-group\">\n\t<!-- <label for=\"mce-EMAIL\">email address  <span class=\"asterisk\">*<\/span>\n<\/label> -->\n\t<input type=\"email\" value=\"\" placeholder=\"E-MAIL\" name=\"EMAIL\" class=\"required email\" id=\"mce-EMAIL\" required>\n\t<span id=\"mce-EMAIL-HELPERTEXT\" class=\"helper_text\"><\/span>\n<\/div>\n\t<div id=\"mce-responses\" class=\"clear\">\n\t\t<div class=\"response\" id=\"mce-error-response\" style=\"display:none\"><\/div>\n\t\t<div class=\"response\" id=\"mce-success-response\" style=\"display:none\"><\/div>\n\t<\/div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->\n    <div style=\"position: absolute; left: -5000px;\" aria-hidden=\"true\"><input type=\"text\" name=\"b_7641b08f28511416c16beebae_041dcb6452\" tabindex=\"-1\" value=\"\"><\/div>\n    <div class=\"clear\">\n<div class=\"gs3-submit\"><input type=\"submit\" value=\"subscribe\" name=\"subscribe\" id=\"mc-embedded-subscribe\" class=\"button\"><\/div><\/div>\n    <\/div>\n<\/form>\n<\/div>\n<script type='text\/javascript' src='\/\/s3.amazonaws.com\/downloads.mailchimp.com\/js\/mc-validate.js'><\/script><script type='text\/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[4]='PHONE';ftypes[4]='phone';fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);<\/script>\n<!--End mc_embed_signup-->",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "298958fa-8b95-4c47-a3bc-8427ca65f149",
+    "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
+    "main",
+    "d5123ea3-861f-4990-992c-368b438a2769",
+    "975be733-bb75-4c06-98d7-c3e95617e00c",
+    "13291e0d-d373-451a-b025-75375041f857",
+    "1661985063c7a9c7bc"
+  ]
+}
