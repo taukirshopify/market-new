@@ -320,7 +320,6 @@
     },
     "d0a43006-d87f-43ba-bb64-01dc459ef6e0": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-0": {
           "type": "heading",
@@ -356,12 +355,12 @@
         "template--16101178671276__d0a43006-d87f-43ba-bb64-01dc459ef6e0-16843442118c51c378-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mkt-astroboy-PREVIEW2_e9f4134d-e23e-473a-b78a-8a3432657d1b.png",
+        "image": "shopify:\/\/shop_images\/ASTRO-FOOTER_e11855c3-0215-400d-aafa-5bcc141caf00.png",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
@@ -371,7 +370,7 @@
         "show_text_below": false,
         "padding_top": 0,
         "padding_bottom": 0,
-        "image_max_width": 750
+        "image_max_width": 1200
       }
     }
   },
