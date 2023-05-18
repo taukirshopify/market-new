@@ -57,20 +57,20 @@
     "5bc829b8-2d8b-481f-81de-698bd80c67f8": {
       "type": "home-collection",
       "blocks": {
+        "50250968-3185-4c62-8e85-ea6a95fd3e21": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/02_Q1-23-PRODUCTOFTHEINTERNET-831A5158_4de41d6d-3db9-49f1-8fde-0b63e9c1dcbf.jpg",
+            "url": "shopify:\/\/collections\/new-arrivals",
+            "title": "NEW ARRIVALS"
+          }
+        },
         "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/MKT-23-WEB-SHIRT-TILE_2.gif",
             "url": "shopify:\/\/collections\/tees",
             "title": "GRAPHIC TEES"
-          }
-        },
-        "50250968-3185-4c62-8e85-ea6a95fd3e21": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/AKILA-GIFTILE1.gif",
-            "url": "shopify:\/\/blogs\/news\/market-x-akila",
-            "title": "MARKET X AKILA X SMILEY"
           }
         },
         "bdc9b1c7-f881-469a-b617-60616a790136": {
@@ -170,8 +170,8 @@
         }
       },
       "block_order": [
-        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "50250968-3185-4c62-8e85-ea6a95fd3e21",
+        "9bad2a82-a414-45ac-8a95-09a5eb03f874",
         "bdc9b1c7-f881-469a-b617-60616a790136",
         "41b22099-3971-4c42-aaae-f70332a7acae",
         "3f8b6d24-c95a-4c3d-a885-519128ea215d",
