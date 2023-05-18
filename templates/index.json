@@ -12,6 +12,7 @@
     },
     "96d97b04-9842-4289-87e1-ed32434df9fd": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/CALLMY-BANNER_abde5ac7-7b6e-4275-9583-00bca625525d.jpg",
         "image_link": "shopify:\/\/collections\/call-my-lawyer",
