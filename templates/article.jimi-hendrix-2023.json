@@ -76,18 +76,18 @@
             "url_tab": true
           }
         },
-        "141bf03a-1b78-4f15-a1e2-9c599670894b": {
+        "b18d1335-bd47-4f93-82ea-b7eed32974f0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER2.jpg",
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-BTS3.jpg",
             "url": "",
             "url_tab": true
           }
         },
-        "1ec91c81-0c31-4880-aec5-c5722506c564": {
+        "141bf03a-1b78-4f15-a1e2-9c599670894b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/03-MKT-JIMI-STUDIO-VISIT-00004.jpg",
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER2.jpg",
             "url": "",
             "url_tab": true
           }
@@ -108,14 +108,6 @@
             "url_tab": true
           }
         },
-        "47084100-81f0-42fc-a8b8-17d5c2a16014": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/MKT-JIMI-STUDIO-VISIT-00005.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
         "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c": {
           "type": "image",
           "settings": {
@@ -132,26 +124,26 @@
             "url_tab": true
           }
         },
-        "8badf609-c139-4ede-a44f-d0691c04254f": {
+        "ded55cf1-326b-482b-bd36-0b2f8eeb1291": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MKT-JIMI-000000390030-45-CROP.jpg",
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-BTS1.jpg",
             "url": "",
             "url_tab": true
           }
         },
-        "019f6bfa-9efa-477d-82e9-b0cf7d3c3cb5": {
+        "637419c9-8dee-4529-89f0-de570f6c9051": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MKT-JIMI-000000400010-45-CROP.jpg",
+            "image": "shopify:\/\/shop_images\/R-MKT-JIMI-000000400010-45-CROP.jpg",
             "url": "",
             "url_tab": true
           }
         },
-        "b8b2ff8f-72bb-4340-9c10-286d7580ca70": {
+        "abcdd900-29b3-4db2-9403-6b8f0df96be8": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MKT-JIMI-STUDIO-VISIT-00002.jpg",
+            "image": "shopify:\/\/shop_images\/R-MKT-JIMI-000000400009-45-CROP.jpg",
             "url": "",
             "url_tab": true
           }
@@ -160,16 +152,15 @@
       "block_order": [
         "8e75909a-9d1c-418f-b727-bb5f815ac6d0",
         "79043114-6eea-4185-8e16-f55f5f565295",
+        "b18d1335-bd47-4f93-82ea-b7eed32974f0",
         "141bf03a-1b78-4f15-a1e2-9c599670894b",
-        "1ec91c81-0c31-4880-aec5-c5722506c564",
         "49aa1091-d2dc-4154-9467-88eeb8506630",
         "c95103ef-539e-4d99-b006-dc4d3399cdbb",
-        "47084100-81f0-42fc-a8b8-17d5c2a16014",
         "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c",
         "f541cc9a-e568-446f-91d7-3d8b1d14efe5",
-        "8badf609-c139-4ede-a44f-d0691c04254f",
-        "019f6bfa-9efa-477d-82e9-b0cf7d3c3cb5",
-        "b8b2ff8f-72bb-4340-9c10-286d7580ca70"
+        "ded55cf1-326b-482b-bd36-0b2f8eeb1291",
+        "637419c9-8dee-4529-89f0-de570f6c9051",
+        "abcdd900-29b3-4db2-9403-6b8f0df96be8"
       ],
       "settings": {
         "section_class": "",
