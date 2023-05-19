@@ -186,12 +186,12 @@
         "content_max_width": 1280,
         "section_margin_top": 20,
         "section_margin_bottom": 20,
-        "section_padding_top": 20,
-        "section_padding_bottom": 20,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
         "section_margin_top_mobile": 20,
         "section_margin_bottom_mobile": 20,
-        "section_padding_top_mobile": 20,
-        "section_padding_bottom_mobile": 20,
+        "section_padding_top_mobile": 0,
+        "section_padding_bottom_mobile": 0,
         "section_title_position": "inside",
         "section_title_text_alignment": "center",
         "section_title_color": "",
@@ -215,34 +215,15 @@
     "e4a9a94b-5893-46ca-8ef1-ef069148ccd1": {
       "type": "rich-text",
       "blocks": {
-        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h2"
-          }
-        },
         "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-1": {
           "type": "text",
           "settings": {
             "text": "<h6><em>Lookbook Featuring <\/em><a href=\"https:\/\/www.instagram.com\/kingbraxtonson\/\" target=\"_blank\" title=\"King Braxtonson on Instagram\"><em>@kingbraxtonson<\/em><\/a><\/h6>"
           }
-        },
-        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
-        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-0",
-        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-1",
-        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-2"
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-1"
       ],
       "settings": {
         "color_scheme": "background-1",
