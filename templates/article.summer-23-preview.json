@@ -1,7 +1,75 @@
 {
   "sections": {
+    "e3b767c3-2012-4333-acec-5be48832ea49": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-0",
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-1",
+        "template--16089200296108__e3b767c3-2012-4333-acec-5be48832ea49-168453256795cf7d5f-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/MarketSummer23.gif",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "large",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 0,
+        "image_max_width": 650
+      }
+    },
     "a16ec26c-c310-43b4-9f18-da984a2a1a3a": {
       "type": "QQ-ImagesMarquee",
+      "blocks": {
+        "270793a8-1372-48ec-8bc1-c50530cf93c4": {
+          "type": "image",
+          "settings": {
+            "url": "",
+            "url_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "270793a8-1372-48ec-8bc1-c50530cf93c4"
+      ],
       "settings": {
         "section_class": "",
         "section_title": "",
@@ -125,7 +193,6 @@
     },
     "16619576076f620987": {
       "type": "gallery",
-      "disabled": true,
       "blocks": {
         "1661957607a74c4aa4-0": {
           "type": "image",
@@ -149,12 +216,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/399001477_CONNECTING_T-SHIRT_WHITE_01.png"
-          }
-        },
-        "bb53b1f9-cf47-4f1e-8b89-c42ca4331471": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/360001280_MEANING_OF_LIFE_BASKETBALL_ORANGE_01_1.png"
           }
         },
         "acb3e443-9f8e-4dbc-b41c-b7e3055df3e8": {
@@ -217,12 +278,6 @@
             "image": "shopify:\/\/shop_images\/399001370_PERSISTENT_LOGO_T-SHIRT_VINTAGE_BLACK_01.png"
           }
         },
-        "a78410a8-58f6-415b-bc5a-f8db8f1d7bd0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/360001314_SMILEY_BREAKFAST_BASKETBALL_BLUE_1.png"
-          }
-        },
         "3d23f121-a145-4fda-ab1c-bc05afcf25fb": {
           "type": "image",
           "settings": {
@@ -233,12 +288,6 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/399001465_SMILEY_WHAT_A_DAY_T-SHIRT_ECRU_01.png"
-          }
-        },
-        "66f7a396-e696-44a5-8f83-c5118c74d54d": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/360001281_SMILEY_BITMAP_BASKETBALL_01.png"
           }
         },
         "e91e11b3-205b-4ab2-8357-739c6cd89366": {
@@ -263,6 +312,24 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/399001464_GAME_OF_LIFE_T-SHIRT_BLACK_04_1.png"
+          }
+        },
+        "66f7a396-e696-44a5-8f83-c5118c74d54d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/360001281_SMILEY_BITMAP_BASKETBALL_01.png"
+          }
+        },
+        "bb53b1f9-cf47-4f1e-8b89-c42ca4331471": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/360001280_MEANING_OF_LIFE_BASKETBALL_ORANGE_01_1.png"
+          }
+        },
+        "a78410a8-58f6-415b-bc5a-f8db8f1d7bd0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/360001314_SMILEY_BREAKFAST_BASKETBALL_BLUE_1.png"
           }
         },
         "23c98d6b-d2a2-4d79-9bad-b254bca52ef7": {
@@ -381,7 +448,6 @@
         "1661957607a74c4aa4-1",
         "1661957607a74c4aa4-2",
         "f100bdbb-af84-45f8-88f1-1f365bb686ef",
-        "bb53b1f9-cf47-4f1e-8b89-c42ca4331471",
         "acb3e443-9f8e-4dbc-b41c-b7e3055df3e8",
         "fe1b7f43-0b41-4f7e-a487-4c168912dac4",
         "cbacb84c-3aee-4052-ade7-79a2a35b7b62",
@@ -392,14 +458,15 @@
         "18d5eef6-4837-416c-9c42-0397cad920ca",
         "9773313e-e3ac-4a8e-a898-940d680c82d3",
         "61b1cf0f-47ad-44e8-88bd-76ceddac6056",
-        "a78410a8-58f6-415b-bc5a-f8db8f1d7bd0",
         "3d23f121-a145-4fda-ab1c-bc05afcf25fb",
         "4fcf3497-5ace-437d-9d37-e25f2ca35ad7",
-        "66f7a396-e696-44a5-8f83-c5118c74d54d",
         "e91e11b3-205b-4ab2-8357-739c6cd89366",
         "953d3323-d073-4076-9a51-f7c67d56d70e",
         "9851270d-d7de-4409-add6-5b38c6213fe2",
         "294816b6-1b2a-437b-8402-16f19011fc87",
+        "66f7a396-e696-44a5-8f83-c5118c74d54d",
+        "bb53b1f9-cf47-4f1e-8b89-c42ca4331471",
+        "a78410a8-58f6-415b-bc5a-f8db8f1d7bd0",
         "23c98d6b-d2a2-4d79-9bad-b254bca52ef7",
         "98fed674-97ca-4ff8-a5f4-9d334f307dc8",
         "aacd0e47-e029-4c89-b7d8-e96bb23bf6c6",
@@ -428,6 +495,7 @@
     }
   },
   "order": [
+    "e3b767c3-2012-4333-acec-5be48832ea49",
     "a16ec26c-c310-43b4-9f18-da984a2a1a3a",
     "main",
     "1661985063c7a9c7bc",
