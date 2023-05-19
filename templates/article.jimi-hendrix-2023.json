@@ -212,9 +212,48 @@
         "section_title_letter_spacing_mobile": 0
       }
     },
+    "e4a9a94b-5893-46ca-8ef1-ef069148ccd1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h2"
+          }
+        },
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-1": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><em>Lookbook Featuring <\/em><a href=\"https:\/\/www.instagram.com\/kingbraxtonson\/\" target=\"_blank\" title=\"King Braxtonson on Instagram\"><em>@kingbraxtonson<\/em><\/a><\/h6>"
+          }
+        },
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-0",
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-1",
+        "template--16096135643308__e4a9a94b-5893-46ca-8ef1-ef069148ccd1-1684531287e48ca3ae-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "gs3_css_class": "",
+        "full_width": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
@@ -404,6 +443,7 @@
   "order": [
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
     "d806296f-9c72-4687-bf86-7313eef4c75b",
+    "e4a9a94b-5893-46ca-8ef1-ef069148ccd1",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "1661985063c7a9c7bc",
     "main",
