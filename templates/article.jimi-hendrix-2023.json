@@ -1,124 +1,5 @@
 {
   "sections": {
-    "d806296f-9c72-4687-bf86-7313eef4c75b": {
-      "type": "QQ-ImagesMarquee",
-      "blocks": {
-        "8e75909a-9d1c-418f-b727-bb5f815ac6d0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "79043114-6eea-4185-8e16-f55f5f565295": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero2.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "141bf03a-1b78-4f15-a1e2-9c599670894b": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER2.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "49aa1091-d2dc-4154-9467-88eeb8506630": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3_b7aa2a50-5cf7-49ee-8499-3aaa3c61b9df.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "c95103ef-539e-4d99-b006-dc4d3399cdbb": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero1jpg.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero4.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        },
-        "f541cc9a-e568-446f-91d7-3d8b1d14efe5": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero5.jpg",
-            "url": "",
-            "url_tab": true
-          }
-        }
-      },
-      "block_order": [
-        "8e75909a-9d1c-418f-b727-bb5f815ac6d0",
-        "79043114-6eea-4185-8e16-f55f5f565295",
-        "141bf03a-1b78-4f15-a1e2-9c599670894b",
-        "49aa1091-d2dc-4154-9467-88eeb8506630",
-        "c95103ef-539e-4d99-b006-dc4d3399cdbb",
-        "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c",
-        "f541cc9a-e568-446f-91d7-3d8b1d14efe5"
-      ],
-      "settings": {
-        "section_class": "",
-        "section_title": "",
-        "section_title_type": "h1",
-        "image_size": "original",
-        "image_height": 680,
-        "image_height_mobile": 410,
-        "pause_on_hover": false,
-        "image_hover": false,
-        "image_multiply": false,
-        "image_gap": 0,
-        "image_gap_mobile": 0,
-        "image_radius": 0,
-        "image_radius_mobile": 0,
-        "image_border_color": "",
-        "image_border_width": 0,
-        "image_border_width_mobile": 0,
-        "marquee_speed": 65,
-        "marquee_direction": "left",
-        "section_background_color": "",
-        "section_width": "fullwidth",
-        "content_max_width": 1280,
-        "section_margin_top": 20,
-        "section_margin_bottom": 20,
-        "section_padding_top": 20,
-        "section_padding_bottom": 20,
-        "section_margin_top_mobile": 20,
-        "section_margin_bottom_mobile": 20,
-        "section_padding_top_mobile": 20,
-        "section_padding_bottom_mobile": 20,
-        "section_title_position": "inside",
-        "section_title_text_alignment": "center",
-        "section_title_color": "",
-        "section_title_custom_font": false,
-        "section_title_font": "mono",
-        "section_title_font_name": "",
-        "section_title_font_weight": "default",
-        "section_title_margin_top": 10,
-        "section_title_margin_bottom": 10,
-        "section_title_font_size": 0,
-        "section_title_line_height": 0,
-        "section_title_letter_spacing": 0,
-        "section_title_text_alignment_mobile": "center",
-        "section_title_margin_top_mobile": 10,
-        "section_title_margin_bottom_mobile": 10,
-        "section_title_font_size_mobile": 0,
-        "section_title_line_height_mobile": 0,
-        "section_title_letter_spacing_mobile": 0
-      }
-    },
     "298958fa-8b95-4c47-a3bc-8427ca65f149": {
       "type": "image-banner",
       "disabled": true,
@@ -174,6 +55,170 @@
         "padding_top": 20,
         "padding_bottom": 0,
         "image_max_width": 1200
+      }
+    },
+    "d806296f-9c72-4687-bf86-7313eef4c75b": {
+      "type": "QQ-ImagesMarquee",
+      "blocks": {
+        "8e75909a-9d1c-418f-b727-bb5f815ac6d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "79043114-6eea-4185-8e16-f55f5f565295": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero2.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "141bf03a-1b78-4f15-a1e2-9c599670894b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-FOOTER2.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "1ec91c81-0c31-4880-aec5-c5722506c564": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/03-MKT-JIMI-STUDIO-VISIT-00004.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "49aa1091-d2dc-4154-9467-88eeb8506630": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero3_b7aa2a50-5cf7-49ee-8499-3aaa3c61b9df.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "c95103ef-539e-4d99-b006-dc4d3399cdbb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero1jpg.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "47084100-81f0-42fc-a8b8-17d5c2a16014": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-STUDIO-VISIT-00005.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero4.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "f541cc9a-e568-446f-91d7-3d8b1d14efe5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/JIMI-MARKET-Hero5.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "8badf609-c139-4ede-a44f-d0691c04254f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-000000390030-45-CROP.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "019f6bfa-9efa-477d-82e9-b0cf7d3c3cb5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-000000400010-45-CROP.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "b8b2ff8f-72bb-4340-9c10-286d7580ca70": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MKT-JIMI-STUDIO-VISIT-00002.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        }
+      },
+      "block_order": [
+        "8e75909a-9d1c-418f-b727-bb5f815ac6d0",
+        "79043114-6eea-4185-8e16-f55f5f565295",
+        "141bf03a-1b78-4f15-a1e2-9c599670894b",
+        "1ec91c81-0c31-4880-aec5-c5722506c564",
+        "49aa1091-d2dc-4154-9467-88eeb8506630",
+        "c95103ef-539e-4d99-b006-dc4d3399cdbb",
+        "47084100-81f0-42fc-a8b8-17d5c2a16014",
+        "3d5a389b-9e7a-400a-b3ad-a781c3b0b62c",
+        "f541cc9a-e568-446f-91d7-3d8b1d14efe5",
+        "8badf609-c139-4ede-a44f-d0691c04254f",
+        "019f6bfa-9efa-477d-82e9-b0cf7d3c3cb5",
+        "b8b2ff8f-72bb-4340-9c10-286d7580ca70"
+      ],
+      "settings": {
+        "section_class": "",
+        "section_title": "",
+        "section_title_type": "h1",
+        "image_size": "original",
+        "image_height": 680,
+        "image_height_mobile": 410,
+        "pause_on_hover": false,
+        "image_hover": false,
+        "image_multiply": false,
+        "image_gap": 0,
+        "image_gap_mobile": 0,
+        "image_radius": 0,
+        "image_radius_mobile": 0,
+        "image_border_color": "",
+        "image_border_width": 0,
+        "image_border_width_mobile": 0,
+        "marquee_speed": 65,
+        "marquee_direction": "left",
+        "section_background_color": "",
+        "section_width": "fullwidth",
+        "content_max_width": 1280,
+        "section_margin_top": 20,
+        "section_margin_bottom": 20,
+        "section_padding_top": 20,
+        "section_padding_bottom": 20,
+        "section_margin_top_mobile": 20,
+        "section_margin_bottom_mobile": 20,
+        "section_padding_top_mobile": 20,
+        "section_padding_bottom_mobile": 20,
+        "section_title_position": "inside",
+        "section_title_text_alignment": "center",
+        "section_title_color": "",
+        "section_title_custom_font": false,
+        "section_title_font": "mono",
+        "section_title_font_name": "",
+        "section_title_font_weight": "default",
+        "section_title_margin_top": 10,
+        "section_title_margin_bottom": 10,
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_text_alignment_mobile": "center",
+        "section_title_margin_top_mobile": 10,
+        "section_title_margin_bottom_mobile": 10,
+        "section_title_font_size_mobile": 0,
+        "section_title_line_height_mobile": 0,
+        "section_title_letter_spacing_mobile": 0
       }
     },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
@@ -366,8 +411,8 @@
     }
   },
   "order": [
-    "d806296f-9c72-4687-bf86-7313eef4c75b",
     "298958fa-8b95-4c47-a3bc-8427ca65f149",
+    "d806296f-9c72-4687-bf86-7313eef4c75b",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "1661985063c7a9c7bc",
     "main",
