@@ -40,29 +40,6 @@
       "settings": {
       }
     },
-    "1661833041b53ea891": {
-      "type": "multicolumn-slider",
-      "disabled": true,
-      "blocks": {
-        "1661833041891a2762-0": {
-          "type": "slider",
-          "settings": {
-          }
-        },
-        "1661833041891a2762-1": {
-          "type": "slider",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "1661833041891a2762-0",
-        "1661833041891a2762-1"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "1661985063c7a9c7bc": {
       "type": "custom-liquid",
       "disabled": true,
@@ -452,14 +429,66 @@
         "padding_bottom": 36,
         "image_max_width": 1200
       }
+    },
+    "a16ec26c-c310-43b4-9f18-da984a2a1a3a": {
+      "type": "QQ-ImagesMarquee",
+      "settings": {
+        "section_class": "",
+        "section_title": "",
+        "section_title_type": "h2",
+        "image_size": "original",
+        "image_height": 600,
+        "image_height_mobile": 460,
+        "pause_on_hover": false,
+        "image_hover": false,
+        "image_multiply": false,
+        "image_gap": 0,
+        "image_gap_mobile": 0,
+        "image_radius": 0,
+        "image_radius_mobile": 0,
+        "image_border_color": "",
+        "image_border_width": 0,
+        "image_border_width_mobile": 0,
+        "marquee_speed": 70,
+        "marquee_direction": "left",
+        "section_background_color": "",
+        "section_width": "fullwidth",
+        "content_max_width": 1280,
+        "section_margin_top": 20,
+        "section_margin_bottom": 20,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
+        "section_margin_top_mobile": 20,
+        "section_margin_bottom_mobile": 20,
+        "section_padding_top_mobile": 0,
+        "section_padding_bottom_mobile": 0,
+        "section_title_position": "inside",
+        "section_title_text_alignment": "center",
+        "section_title_color": "",
+        "section_title_custom_font": false,
+        "section_title_font": "mono",
+        "section_title_font_name": "",
+        "section_title_font_weight": "default",
+        "section_title_margin_top": 10,
+        "section_title_margin_bottom": 10,
+        "section_title_font_size": 0,
+        "section_title_line_height": 0,
+        "section_title_letter_spacing": 0,
+        "section_title_text_alignment_mobile": "center",
+        "section_title_margin_top_mobile": 10,
+        "section_title_margin_bottom_mobile": 10,
+        "section_title_font_size_mobile": 0,
+        "section_title_line_height_mobile": 0,
+        "section_title_letter_spacing_mobile": 0
+      }
     }
   },
   "order": [
     "main",
-    "1661833041b53ea891",
     "1661985063c7a9c7bc",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "16619576076f620987",
-    "298958fa-8b95-4c47-a3bc-8427ca65f149"
+    "298958fa-8b95-4c47-a3bc-8427ca65f149",
+    "a16ec26c-c310-43b4-9f18-da984a2a1a3a"
   ]
 }
