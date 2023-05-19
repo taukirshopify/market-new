@@ -1,12 +1,768 @@
+{% comment %}
+xx
+{% endcomment %}
+  {% liquid
+  assign sectionClass = section.settings.section_class
+  assign contentMaxWidth = section.settings.content_max_width
+  assign sectionBackgroundColor = section.settings.section_background_color
+  assign sectionBorderColor = section.settings.section_border_color
+  assign sectionBorderTopWidth = section.settings.section_border_top_width
+  assign sectionBorderBottomWidth = section.settings.section_border_bottom_width
+  assign sectionWidth = section.settings.section_width
+  assign sectionMarginTop = section.settings.section_margin_top
+	assign sectionMarginTopMobile = section.settings.section_margin_top_mobile
+	assign sectionMarginBottom = section.settings.section_margin_bottom
+	assign sectionMarginBottomMobile = section.settings.section_margin_bottom_mobile
+  assign sectionPaddingTop = section.settings.section_padding_top
+	assign sectionPaddingTopMobile = section.settings.section_padding_top_mobile
+  assign sectionPaddingBottom = section.settings.section_padding_bottom
+	assign sectionPaddingBottomMobile = section.settings.section_padding_bottom_mobile
+  assign sectionTitle = section.settings.section_title
+  assign sectionTitleType = section.settings.section_title_type
+  assign sectionTitlePosition = section.settings.section_title_position
+  assign sectionTitleTextAlignment = section.settings.section_title_text_alignment
+	assign sectionTitleTextAlignmentMobile = section.settings.section_title_text_alignment_mobile
+	assign sectionTitleCustomFont = section.settings.section_title_custom_font
+	assign sectionTitleFont = section.settings.section_title_font
+	assign sectionTitleFontName = section.settings.section_title_font_name
+	assign sectionTitleFontWeight = section.settings.section_title_font_weight
+	assign sectionTitleColor = section.settings.section_title_color
+	assign sectionTitleFontSize = section.settings.section_title_font_size
+	assign sectionTitleFontSizeMobile = section.settings.section_title_font_size_mobile
+	assign sectionTitleLineHeight = section.settings.section_title_line_height
+	assign sectionTitleLineHeightMobile = section.settings.section_title_line_height_mobile
+	assign sectionTitleLetterSpacing = section.settings.section_title_letter_spacing
+	assign sectionTitleLetterSpacingMobile = section.settings.section_title_letter_spacing_mobile
+  assign sectionTitleMarginTop = section.settings.section_title_margin_top
+	assign sectionTitleMarginTopMobile = section.settings.section_title_margin_top_mobile
+  assign sectionTitleMarginBottom = section.settings.section_title_margin_bottom
+	assign sectionTitleMarginBottomMobile = section.settings.section_title_margin_bottom_mobile
+  assign divID = section.id | replace: 'template--', '' | replace: 'shopify-section-', '' | replace: '__', '' | prepend: 'qq'
+  assign speedRatio = section.blocks.size | divided_by: 10.00
+  assign marqueeSpeed = section.settings.marquee_speed | times: speedRatio
+  assign marqueeDirection = section.settings.marquee_direction
+  assign imageSize = section.settings.image_size
+  assign imageHeight = section.settings.image_height
+  assign imageHeightMobile = section.settings.image_height_mobile
+  assign imageHover = section.settings.image_hover
+  assign imageMultiply = section.settings.image_multiply
+  assign pauseOnHover = section.settings.pause_on_hover
+  assign imageBorderWidth = section.settings.image_border_width
+  assign imageBorderWidthMobile = section.settings.image_border_width_mobile
+  assign imageBorderColor = section.settings.image_border_color
+  assign imageRadius = section.settings.image_radius
+  assign imageRadiusMobile = section.settings.image_radius_mobile
+  assign imageGap = section.settings.image_gap
+  assign imageGapMobile = section.settings.image_gap_mobile
+  assign blocksAmount = section.blocks.size
+  if blocksAmount < 3
+    assign marqueeLoop = 6
+  elsif blocksAmount >= 3 and blocksAmount <= 5
+   assign marqueeLoop = 4
+  elsif blocksAmount >= 5
+    assign marqueeLoop = 4
+  endif
+%}
+{% capture sectionHeaderTitle %}
+  {% if sectionTitle != blank %}
+    <div class="qq-header">
+      <{{sectionTitleType}} class="qq-title">{{sectionTitle}}</{{sectionTitleType}}>
+    </div>
+  {% endif %}
+{% endcapture %}
+{% if sectionTitlePosition == 'outside' %}{{sectionHeaderTitle}}{% endif %}
+<div class="qq-marquee-wrapper {{sectionClass}}" id="{{divID}}">
+  {% if sectionTitlePosition == 'inside' %}{{sectionHeaderTitle}}{% endif %}
+  <div class="qq-marquee-images-wrapper">
+    {% assign marqueeLoop = 1%}
+    {%- for i in (1..marqueeLoop) -%}
+      <div class="qq-marquee-images">
+        {% for block in section.blocks %}
+          {% liquid
+            assign title = block.settings.title
+            assign url = block.settings.url
+            assign urlTab = block.settings.url_tab
+            if urlTab == true
+              assign urlAttributes = 'target="_blank"'
+            else
+              assign urlAttributes = ''
+            endif
+            assign image = block.settings.image
+            assign proportion = image.aspect_ratio
+            assign imageImgW = image.width
+            assign imageImgH = image.height
+            #assign maxWidthAllowed = 1080
+            assign maxWidthAllowed = 700
+            #assign maxHeightAllowed = 1080
+            assign maxHeightAllowed = 700
+            if proportion > 1
+              # landscape
+              assign mostW = maxWidthAllowed
+              assign mostH = mostW | times: proportion
+            elsif proportion < 1
+              # portrait
+              assign mostH = maxHeightAllowed
+              assign mostW = mostH | times: proportion
+            else
+              # sqaure
+              assign mostW = maxWidthAllowed
+              assign mostH = mostW
+            endif
+            assign iw = imageImgW | at_most: mostW | round
+            assign ih = imageImgH | at_most: mostH | round
+            if imageSize == 'square'
+              assign ih = iw
+              if iw > imageImgW
+                assign iw = imageImgW
+                assign ih = iw
+              endif
+              if ih > imageImgH
+                assign ih = imageImgH
+                assign iw = ih
+              endif
+            elsif imageSize == 'portrait'
+              assign ih = iw | divided_by: 0.6666667 | round
+              if imageImgH < ih
+                  assign ih = imageImgH
+                  assign iw = ih | divided_by: 1.5 | round
+              endif
+              if imageImgW < iw
+                  assign iw = imageImgW
+                  assign ih = iw | divided_by: 0.666667 | round
+              endif
+            elsif imageSize == 'landscape'
+              assign ih = iw | divided_by: 1.5 | round
+              if imageImgH < ih
+                assign ih = imageImgH
+                assign iw = ih | divided_by: 0.666667 | round
+              endif
+              if imageImgW < iw
+                assign iw = imageImgW
+                assign ih = iw | divided_by: 1.5 | round
+              endif
+            elsif imageSize == 'original'
+              assign ih = iw | divided_by: proportion | round
+            endif
+            assign size = iw | append: 'x' | append: ih
+            assign imageUrl = image | img_url: size, crop: 'center'
+            if image.alt != blank
+                assign imageAlt = 'alt="' | append: image.alt | append: '"'
+            else
+                assign imageAlt = ''
+            endif
+          %}
+          <div class="qq-image-block" {% comment %} style="flex-direction:column;" {% endcomment %}>
+            {% if url != blank %}<a href="{{url}}" class="qq-image-link" {{urlAttributes}}>{% endif %}
+              <img src="{{imageUrl}}" {{imageAlt}} class="qq-block-image" {% unless request.design_mode == true %}loading="lazy"{% endunless %}>
+            {% if url != blank %}</a>{% endif %}
+          </div>
+        {% endfor %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<style data='../ImagesMarquee.css.liquid'>section.qq-images-marquee{margin-left:auto;margin-right:auto;position:relative}section.qq-images-marquee *{box-sizing:border-box}section.qq-images-marquee .qq-header{margin-left:auto!important;margin-right:auto!important}section.qq-images-marquee .qq-header .qq-title{display:block;width:100%}section.qq-images-marquee .qq-marquee-wrapper{margin-left:auto;margin-right:auto;position:relative}section.qq-images-marquee .qq-marquee-wrapper .qq-marquee-images-wrapper{display:flex;flex-direction:row;width:100%;height:auto;overflow-x:hidden}section.qq-images-marquee .qq-marquee-wrapper .qq-marquee-images{display:flex;width:auto;overflow-x:hidden;flex-shrink:0;will-change:transform}section.qq-images-marquee .qq-marquee-wrapper .qq-marquee-images .qq-image-block{width:auto}section.qq-images-marquee .qq-marquee-wrapper .qq-marquee-images .qq-image-block img{display:block;width:auto;height:100%;-o-object-fit:contain;object-fit:contain;-o-object-position:center;object-position:center;transition:all .5s ease}</style>
+{% assign sectionID = 'shopify-section-' | append: section.id %}
+<style data='../ImagesMarquee-inline-css.min.css.liquid'>{% if sectionTitleCustomFont %} {{ sectionTitleFont | font_face: font_display: 'swap' | strip_newlines }} {% endif %} {% comment %} {% if sectionWidth == 'fullwidth' %} #{{sectionID}} { width: 100vw !important; position: relative !important; height: auto !important; } html:not([dir="rtl"]) #{{sectionID}} { margin-left: -50vw !important; left: 50% !important; } html[dir="rtl"] #{{sectionID}} { margin-right: -50vw !important; right: 50% !important; } body { overflow-x:hidden; } {% else %} #{{sectionID}} { width:100%; max-width:{{contentMaxWidth}}px; } {% endif %} {% endcomment %} {% if sectionWidth == 'fullwidth' %} #{{sectionID}} { width: 100vw !important; {% if sectionBackgroundColor contains '#' %}background: {{sectionBackgroundColor}};{%endif%} } html:not([dir="rtl"]) #{{sectionID}} { margin-left: -50vw !important; left: 50% !important; } html[dir="rtl"] #{{sectionID}} { margin-right: -50vw !important; right: 50% !important; } body { overflow-x:hidden; } #{{sectionID}} > * { {% if sectionWidth == "fullwidth" %} max-width:100%; {% else %} max-width:{{contentMaxWidth}}px; {% endif %} } {% else %} #{{sectionID}} { max-width:{{contentMaxWidth}}px; } #{{sectionID}} .qq-marquee-wrapper { {% if sectionBackgroundColor contains '#' %}background-color:{{sectionBackgroundColor}}; {% endif %} } {% endif %} #{{sectionID}} { {% comment %} {% if sectionBackgroundColor contains '#' %} background-color:{{sectionBackgroundColor}};{% endif %} {% endcomment %} overflow-y:hidden; {% if sectionBorderColor contains '#' %} {% if sectionBorderTopWidth > 0 %} border-top:{{sectionBorderTopWidth}}px solid {{sectionBorderColor}}; {% endif %} {% if sectionBorderBottomWidth > 0 %} border-bottom:{{sectionBorderBottomWidth}}px solid {{sectionBorderColor}}; {% endif %} {% endif %} } {% if imageHover == true %} #{{sectionID}} .qq-image-link:hover { opacity:0.75; } {% endif %} #{{sectionID}} {{sectionTitleType}}.qq-title { {% if sectionTitleCustomFont %} {% if sectionTitleFontName != blank %} font-family: {{sectionTitleFontName}}; {% else %} font-family:{{sectionTitleFont.family}}, {{sectionTitleFont.fallback_families}}; {% endif %} {%endif%} {% if sectionTitleFontWeight != "default" %}font-weight:{{sectionTitleFontWeight}} !important;{%endif%} {% if sectionTitleColor contains '#' %}color:{{sectionTitleColor}};{%endif%} max-width:{{contentMaxWidth}}px; margin-right:auto; margin-left:auto; } html[dir="rtl"] #{{sectionID}} .qq-marquee-wrapper .qq-marquee__inner .qq-marquee-text-wrap { flex-direction: row-reverse; } #{{sectionID}} .qq-marquee-images-wrapper.qq-animate .qq-marquee-images { {% if marqueeDirection == 'left' %} animation: {{sectionID}}-marqueeRtl {{marqueeSpeed}}s linear infinite; {% else %} animation: {{sectionID}}-marqueeLtr {{marqueeSpeed}}s linear infinite; {% endif %} } html[dir="rtl"] #{{sectionID}} .qq-marquee-images-wrapper.qq-animate .qq-marquee-images { {% if marqueeDirection == 'left' %} animation: {{sectionID}}-marqueeRtlRTL {{marqueeSpeed}}s linear infinite; {% else %} animation: {{sectionID}}-marqueeLtrRTL {{marqueeSpeed}}s linear infinite; {% endif %} } {% if pauseOnHover == true %} #{{sectionID}} .qq-marquee-images-wrapper:hover .qq-marquee-images { animation-play-state: paused; } {% endif %} #{{sectionID}} .qq-marquee-images { {% if imageMultiply == true %} mix-blend-mode: multiply; {% endif %} } /* ====================== Media Queries ====================== */ @media screen and (min-width: 769px) { #{{sectionID}} { margin-top:{{sectionMarginTop}}px; margin-bottom:{{sectionMarginBottom}}px; } {% if sectionWidth == 'fullwidth' %} #{{sectionID}} { padding-top:{{sectionPaddingTop}}px; padding-bottom:{{sectionPaddingBottom}}px; } {% else %} {% if sectionTitlePosition == 'outside' %} #{{sectionID}} .qq-marquee-wrapper { padding-top:{{sectionPaddingTop}}px; padding-bottom:{{sectionPaddingBottom}}px; } {% else %} #{{sectionID}} { padding-top:{{sectionPaddingTop}}px; padding-bottom:{{sectionPaddingBottom}}px; } {% endif %} {% endif %} #{{sectionID}} .qq-marquee-images { gap: {{imageGap}}px; padding-left: {{imageGap}}px; } #{{sectionID}} .qq-image-block img { height:{{imageHeight}}px !important; {% if imageBorderWidth > 0 %} border:{{imageBorderWidth}}px solid {{imageBorderColor}}; {% endif %} border-radius:{{imageRadius}}px; } #{{sectionID}} {{sectionTitleType}}.qq-title { {% if sectionTitleFontSize != 0 %}font-size:{{sectionTitleFontSize}}px;{% endif %} {% if sectionTitleLineHeight != 0 %}line-height:{{sectionTitleLineHeight}}px;{% endif %} {% if sectionTitleLetterSpacing != 0 %}letter-spacing:{{sectionTitleLetterSpacing}}px !important;{% endif %} min-height:{{sectionTitleMinHeight}}px; text-align:{{sectionTitleTextAlignment}}; margin-top:{{sectionTitleMarginTop}}px; margin-bottom:{{sectionTitleMarginBottom}}px; {% if sectionTitlePosition == 'outside' %} padding-left:{{sectionPaddingHorizontal}}px; padding-right:{{sectionPaddingHorizontal}}px; {% endif %} } } @media screen and (max-width: 768px) { #{{sectionID}} { margin-top:{{sectionMarginTopMobile}}px; margin-bottom:{{sectionMarginBottomMobile}}px; } {% if sectionWidth == 'fullwidth' %} #{{sectionID}} { padding-top:{{sectionPaddingTopMobile}}px; padding-bottom:{{sectionPaddingBottomMobile}}px; } {% else %} {% if sectionTitlePosition == 'outside' %} #{{sectionID}} .qq-marquee-wrapper { padding-top:{{sectionPaddingTopMobile}}px; padding-bottom:{{sectionPaddingBottomMobile}}px; } {% else %} #{{sectionID}} { padding-top:{{sectionPaddingTopMobile}}px; padding-bottom:{{sectionPaddingBottomMobile}}px; } {% endif %} {% endif %} #{{sectionID}} .qq-marquee-images { gap: {{imageGapMobile}}px; padding-left: {{imageGapMobile}}px; } #{{sectionID}} .qq-image-block img { height:{{imageHeightMobile}}px !important; {% if imageBorderWidthMobile > 0 %} border:{{imageBorderWidthMobile}}px solid {{imageBorderColor}}; {% endif %} border-radius:{{imageRadiusMobile}}px; } #{{sectionID}} {{sectionTitleType}}.qq-title { {% if sectionTitleFontSizeMobile != 0 %}font-size:{{sectionTitleFontSizeMobile}}px;{% endif %} {% if sectionTitleLineHeightMobile != 0 %}line-height:{{sectionTitleLineHeightMobile}}px;{% endif %} {% if sectionTitleLetterSpacingMobile != 0 %}letter-spacing:{{sectionTitleLetterSpacingMobile}}px !important;{% endif %} min-height:{{sectionTitleMinHeightMobile}}px; text-align:{{sectionTitleTextAlignmentMobile}}; margin-top:{{sectionTitleMarginTopMobile}}px; margin-bottom:{{sectionTitleMarginBottomMobile}}px; {% if sectionTitlePosition == 'outside' %} padding-left:{{sectionPaddingHorizontalMobile}}px; padding-right:{{sectionPaddingHorizontalMobile}}px; {% endif %} } } /* ====================== Animations ====================== */ :root { --{{sectionID}}-imagesMarquee-length: -100%; } @keyframes {{sectionID}}-marqueeRtl { 0% { transform: translate3d(0%, 0, 0); } 100% { transform: translate3d(var(--{{sectionID}}-imagesMarquee-length), 0, 0); } } @keyframes {{sectionID}}-marqueeLtr { 0% { transform: translate3d(var(--{{sectionID}}-imagesMarquee-length), 0, 0); } 100% { transform: translate3d(0%, 0, 0); } } @keyframes {{sectionID}}-marqueeRtlRTL { 0% { transform: translate3d(calc(var(--{{sectionID}}-imagesMarquee-length) * -1), 0, 0); } 100% { transform: translate3d(0%, 0, 0); } } @keyframes {{sectionID}}-marqueeLtrRTL { 0% { transform: translate3d(0%, 0, 0); } 100% { transform: translate3d(calc(var(--{{sectionID}}-imagesMarquee-length) * -1), 0, 0); } }</style>
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "QQ - Image Marquee",
+    "tag": "section",
+    "class": "qq-images-marquee",
+    "settings": [
+      {
+        "type": "text",
+        "id": "section_class",
+        "label": "Section Class",
+        "info": "Add section class (without .). Use spaces to add multiple classes"
+      },
+      {
+        "type": "text",
+        "id": "section_title",
+        "label": "Section Title"
+      },
+      {
+			  "type": "select",
+        "id": "section_title_type",
+        "options": [
+          {
+            "value": "h1",
+            "label": "H1"
+          },
+          {
+            "value": "h2",
+            "label": "H2"
+          },
+          {
+            "value": "h3",
+            "label": "H3"
+          },
+          {
+            "value": "h4",
+            "label": "H4"
+          },
+          {
+            "value": "h5",
+            "label": "H5"
+          },
+          {
+            "value": "h6",
+            "label": "H6"
+          }
+        ],
+        "default": "h2",
+        "label": "HTML Element",
+        "info": "For better SEO"
+      },
+      {
+        "type": "header",
+        "content": "Image Settings"
+      },
+      {
+        "type": "select",
+        "id": "image_size",
+        "options": [{
+            "value": "original",
+            "label": "Original"
+          },
+          {
+            "value": "landscape",
+            "label": "Landscape"
+          },
+          {
+            "value": "portrait",
+            "label": "Portrait"
+          },
+          {
+            "value": "square",
+            "label": "Square"
+          }
+        ],
+        "default": "original",
+        "label": "Images Size"
+      },
+      {
+        "type": "range",
+        "id": "image_height",
+        "min": 10,
+        "max": 800,
+        "step": 10,
+        "unit": "px",
+        "label": "Images Height",
+        "default": 200
+      },
+      {
+        "type": "range",
+        "id": "image_height_mobile",
+        "min": 10,
+        "max": 600,
+        "step": 10,
+        "unit": "px",
+        "label": "Images Height - Mobile",
+        "default": 400
+      },
+      {
+        "type": "checkbox",
+        "id": "pause_on_hover",
+        "label": "Pause on Hover",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "image_hover",
+        "label": "Fade opacity on Image Hover",
+        "default": false,
+        "info": "If an link has been assigned to the image"
+      },
+      {
+        "type": "checkbox",
+        "id": "image_multiply",
+        "label": "Blend images with background",
+        "default": false,
+        "info": "Use a 'multiply' effect on images. Mainly used if image has a white background and you'd like to blend it with a background color"
+      },
+      {
+        "type": "range",
+        "id": "image_gap",
+        "min": 0,
+        "max": 200,
+        "step": 2,
+        "unit": "px",
+        "label": "Gap Between Images",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "image_gap_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Gap Between Images - Mobile",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "image_radius",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Corner Radius",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "image_radius_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Corner Radius - Mobile",
+        "default": 0
+      },
+      {
+        "type": "color",
+        "id": "image_border_color",
+        "label": "Image Border Color"
+      },
+      {
+        "type": "range",
+        "id": "image_border_width",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Image Border Width",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "image_border_width_mobile",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "Image Border Width - Mobile",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "Settings"
+      },
+      {
+        "type": "range",
+        "id": "marquee_speed",
+        "min": 1,
+        "max": 100,
+        "step": 1,
+        "label": "Images Speed",
+        "default": 10,
+        "info": "The higher the number, the slower the speed"
+      },
+      {
+        "type": "select",
+        "id": "marquee_direction",
+        "options": [
+          {
+            "value": "left",
+            "label": "Right to Left"
+          },
+          {
+            "value": "right",
+            "label": "Left to Right"
+          }
+        ],
+        "default": "left",
+        "label": "Direction of Movement"
+      },
+      {
+        "type": "header",
+        "content": "Section Styling"
+      },
+      {
+        "type": "color",
+        "id": "section_background_color",
+        "label": "Background Color"
+      },
+      {
+        "type": "select",
+        "id": "section_width",
+        "options": [
+          {
+            "value": "regular",
+            "label": "Regular"
+          },
+          {
+            "value": "fullwidth",
+            "label": "Fullwidth"
+          }
+        ],
+        "default": "fullwidth",
+        "label": "Section Width"
+      },
+      {
+        "type": "range",
+        "id": "content_max_width",
+        "min": 500,
+        "max": 1500,
+        "step": 20,
+        "unit": "px",
+        "label": "Content Max Width",
+        "info": "Use for non-fullwidth Section Width. This *does* affect max width of title.",
+        "default": 1280
+      },
+      {
+        "type": "range",
+        "id": "section_margin_top",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "px",
+        "label": "Section Top Margin",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_margin_bottom",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "px",
+        "label": "Section Bottom Margin",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_padding_top",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Section Top Padding",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_padding_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Section Bottom Padding",
+        "default": 20
+      },
+      {
+        "type": "header",
+        "content": "Section Styling - Mobile"
+      },
+      {
+        "type": "range",
+        "id": "section_margin_top_mobile",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "px",
+        "label": "Mobile - Section Top Margin",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_margin_bottom_mobile",
+        "min": 0,
+        "max": 200,
+        "step": 5,
+        "unit": "px",
+        "label": "Mobile - Section Bottom Margin",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_padding_top_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Mobile - Section Top Padding",
+        "default": 20
+      },
+      {
+        "type": "range",
+        "id": "section_padding_bottom_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 5,
+        "unit": "px",
+        "label": "Mobile - Section Bottom Padding",
+        "default": 20
+      },
+      {
+        "type": "header",
+        "content": "Section Title Styling"
+      },
+      {
+        "type": "select",
+        "id": "section_title_position",
+        "options": [
+          {
+            "value": "outside",
+            "label": "Outside wrapper"
+          },
+          {
+            "value": "inside",
+            "label": "Inside Wrapper"
+          }
+        ],
+        "default": "inside",
+        "label": "Section Title Position",
+        "info": "Only works when Section Width is set to Regular"
+      },
+      {
+        "type": "select",
+        "id": "section_title_text_alignment",
+        "options": [{
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center",
+        "label": "Section Title Alignment"
+      },
+      {
+          "type": "color",
+          "id": "section_title_color",
+          "label": "Section Title Color"
+        },
+        {
+        "type": "checkbox",
+        "id": "section_title_custom_font",
+        "label": "Use Custom Font",
+        "default": false
+      },
+      {
+        "type": "font_picker",
+        "id": "section_title_font",
+        "label": "Title Font",
+        "default": "mono"
+      },
+      {
+        "type": "text",
+        "id": "section_title_font_name",
+        "label": "Custom Font Family Name",
+        "info": "Add your custom font. Example: ‘Helvetica’, sans-serif."
+      },
+      {
+        "type": "select",
+        "id": "section_title_font_weight",
+        "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "100",
+          "label": "100"
+        },
+        {
+          "value": "200",
+          "label": "200"
+        },
+        {
+          "value": "300",
+          "label": "300"
+        },
+        {
+          "value": "400",
+          "label": "400 (Regular)"
+        },
+        {
+          "value": "500",
+          "label": "500"
+        },
+        {
+          "value": "600",
+          "label": "600"
+        },
+        {
+          "value": "700",
+          "label": "700 (Bold)"
+        },
+        {
+          "value": "800",
+          "label": "800"
+        },
+        {
+          "value": "900",
+          "label": "900"
+        }
+        ],
+        "default": "default",
+        "label": "Font Weight"
+      },
+      {
+        "type": "paragraph",
+        "content": "Set value to 0 to use your theme's default values:"
+      },
+      {
+        "type": "range",
+        "id": "section_title_margin_top",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Section Title Top Margin",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "section_title_margin_bottom",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Section Title Bottom Margin",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "section_title_font_size",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Font Size",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_title_line_height",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Line Height",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_title_letter_spacing",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Letter Spacing",
+        "default": 0
+      },
+      {
+        "type": "header",
+        "content": "Section Title Styling - Mobile"
+      },
+      {
+        "type": "select",
+        "id": "section_title_text_alignment_mobile",
+        "options": [{
+            "value": "left",
+            "label": "Left"
+          },
+          {
+            "value": "center",
+            "label": "Center"
+          },
+          {
+            "value": "right",
+            "label": "Right"
+          }
+        ],
+        "default": "center",
+        "label": "Section Title Alignment - Mobile"
+      },
+      {
+        "type": "range",
+        "id": "section_title_margin_top_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Section Title Top Margin - Mobile",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "section_title_margin_bottom_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 2,
+        "unit": "px",
+        "label": "Section Title Bottom Margin - Mobile",
+        "default": 10
+      },
+      {
+        "type": "range",
+        "id": "section_title_font_size_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Font Size - Mobile",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_title_line_height_mobile",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Line Height - Mobile",
+        "default": 0
+      },
+      {
+        "type": "range",
+        "id": "section_title_letter_spacing_mobile",
+        "min": 0,
+        "max": 10,
+        "step": 1,
+        "unit": "px",
+        "label": "Section Title Letter Spacing - Mobile",
+        "default": 0
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "url",
+            "id": "url",
+            "label": "Link"
+          },
+          {
+            "type": "checkbox",
+            "id": "url_tab",
+            "label": "Open Link on a New Tab",
+            "default": true
+          }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "QQ - Image Marquee"
+    }
+  ]
   }
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}
