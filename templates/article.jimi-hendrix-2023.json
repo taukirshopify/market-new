@@ -235,6 +235,7 @@
     },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h2",
