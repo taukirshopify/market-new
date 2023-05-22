@@ -263,7 +263,6 @@
     },
     "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-0": {
           "type": "heading",
@@ -300,11 +299,11 @@
         "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/LIFESTYLE-STYLIZED3.jpg",
+        "image": "shopify:\/\/shop_images\/LIFESTYLE3.jpg",
         "image_link": "",
         "gs3_class": "",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
