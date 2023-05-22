@@ -435,6 +435,62 @@
         "section_title_letter_spacing_mobile": 0
       }
     },
+    "c54d95b1-8382-4a60-a22d-725e269eda0d": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-0",
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-1",
+        "template--16089200296108__c54d95b1-8382-4a60-a22d-725e269eda0d-1684780088faa6fc9c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFESTYLE12_5c242d9d-361b-4d25-8284-f74d0164621d.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 16,
+        "padding_bottom": 0,
+        "image_max_width": 1200
+      }
+    },
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60": {
       "type": "featured-collection",
       "disabled": true,
@@ -766,6 +822,7 @@
     "1661985063c7a9c7bc",
     "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558",
     "f4f5c789-ffa6-4925-808b-c90e2d511bb7",
+    "c54d95b1-8382-4a60-a22d-725e269eda0d",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
     "16619576076f620987"
   ]
