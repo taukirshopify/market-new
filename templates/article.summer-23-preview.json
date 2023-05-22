@@ -514,6 +514,7 @@
     },
     "16619576076f620987": {
       "type": "gallery",
+      "disabled": true,
       "blocks": {
         "1661957607a74c4aa4-0": {
           "type": "image",
