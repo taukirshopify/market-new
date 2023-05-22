@@ -255,20 +255,20 @@
     "7fd4cdca-538a-40ea-80c7-1eefdf6b0589": {
       "type": "home-collection",
       "blocks": {
+        "2ff8be96-6741-46e3-8d7d-6d8393f320f6": {
+          "type": "collectiontwo",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/JIMI-HOMEPAGE-TILE.jpg",
+            "url": "shopify:\/\/blogs\/news\/jimi-hendrix",
+            "title": "JIMI HENDRIX"
+          }
+        },
         "654e6e9a-bde3-40af-86fb-a9fa99175d2f": {
           "type": "collectiontwo",
           "settings": {
             "img": "shopify:\/\/shop_images\/MHA-WEB-TILE.jpg",
             "url": "shopify:\/\/blogs\/news\/mental-health-awareness-2023",
             "title": "MENTAL HEALTH AWARENESS"
-          }
-        },
-        "2ff8be96-6741-46e3-8d7d-6d8393f320f6": {
-          "type": "collectiontwo",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/BOB-MARLEY-BY-MARKET-TILE2.gif",
-            "url": "shopify:\/\/blogs\/news\/bob-marley-by-market",
-            "title": "BOB MARLEY"
           }
         },
         "cf5d8d16-6ab8-4790-827d-18967584cb43": {
@@ -305,8 +305,8 @@
         }
       },
       "block_order": [
-        "654e6e9a-bde3-40af-86fb-a9fa99175d2f",
         "2ff8be96-6741-46e3-8d7d-6d8393f320f6",
+        "654e6e9a-bde3-40af-86fb-a9fa99175d2f",
         "cf5d8d16-6ab8-4790-827d-18967584cb43",
         "8ac74524-b028-4c5f-8deb-c231a0083057",
         "1914b60b-3d85-4d8c-a59a-6e299ac9d4f0",
