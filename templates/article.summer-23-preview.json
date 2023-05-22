@@ -261,9 +261,65 @@
       "settings": {
       }
     },
+    "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-0",
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-1",
+        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/LIFESTYLE-STYLIZED3.jpg",
+        "image_link": "",
+        "gs3_class": "",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "image_max_width": 1200
+      }
+    },
     "f4f5c789-ffa6-4925-808b-c90e2d511bb7": {
       "type": "QQ-ImagesMarquee",
-      "disabled": true,
       "blocks": {
         "18315dff-5e56-4df4-87df-e5961ec9b221": {
           "type": "image",
@@ -296,21 +352,39 @@
             "url": "",
             "url_tab": true
           }
+        },
+        "c975218c-dcde-4a7d-837e-23c8e0f81194": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFESTYLE1.jpg",
+            "url": "",
+            "url_tab": true
+          }
+        },
+        "bebba2e3-6aaf-46cc-89ed-ae3bafa7c77c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/LIFESTYLE10.jpg",
+            "url": "",
+            "url_tab": true
+          }
         }
       },
       "block_order": [
         "18315dff-5e56-4df4-87df-e5961ec9b221",
         "01503605-7270-4f64-a923-d65f01dfd794",
         "6575d7a7-54e4-491f-aac0-8558ccb931b9",
-        "883a0c4a-44c4-4047-a92d-2feb0b155dff"
+        "883a0c4a-44c4-4047-a92d-2feb0b155dff",
+        "c975218c-dcde-4a7d-837e-23c8e0f81194",
+        "bebba2e3-6aaf-46cc-89ed-ae3bafa7c77c"
       ],
       "settings": {
         "section_class": "",
         "section_title": "",
         "section_title_type": "h2",
         "image_size": "original",
-        "image_height": 370,
-        "image_height_mobile": 400,
+        "image_height": 600,
+        "image_height_mobile": 460,
         "pause_on_hover": false,
         "image_hover": false,
         "image_multiply": false,
@@ -321,19 +395,19 @@
         "image_border_color": "",
         "image_border_width": 0,
         "image_border_width_mobile": 0,
-        "marquee_speed": 10,
-        "marquee_direction": "left",
+        "marquee_speed": 65,
+        "marquee_direction": "right",
         "section_background_color": "",
         "section_width": "fullwidth",
         "content_max_width": 1280,
-        "section_margin_top": 20,
-        "section_margin_bottom": 20,
-        "section_padding_top": 20,
-        "section_padding_bottom": 20,
+        "section_margin_top": 0,
+        "section_margin_bottom": 0,
+        "section_padding_top": 0,
+        "section_padding_bottom": 0,
         "section_margin_top_mobile": 20,
         "section_margin_bottom_mobile": 20,
-        "section_padding_top_mobile": 20,
-        "section_padding_bottom_mobile": 20,
+        "section_padding_top_mobile": 0,
+        "section_padding_bottom_mobile": 0,
         "section_title_position": "inside",
         "section_title_text_alignment": "center",
         "section_title_color": "",
@@ -685,73 +759,16 @@
       ],
       "settings": {
       }
-    },
-    "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Image banner",
-            "heading_size": "h1"
-          }
-        },
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-2": {
-          "type": "buttons",
-          "disabled": true,
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-0",
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-1",
-        "template--16089200296108__4a51cf8a-d3c7-4a82-a6d3-e20083c6c558-1684780088faa6fc9c-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/LIFESTYLE-STYLIZED1.jpg",
-        "image_2": "shopify:\/\/shop_images\/LIFESTYLE-STYLIZED3.jpg",
-        "image_link": "",
-        "gs3_class": "",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": true,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "image_max_width": 1200
-      }
     }
   },
   "order": [
     "e3b767c3-2012-4333-acec-5be48832ea49",
     "a16ec26c-c310-43b4-9f18-da984a2a1a3a",
     "main",
+    "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558",
     "f4f5c789-ffa6-4925-808b-c90e2d511bb7",
     "1661985063c7a9c7bc",
     "dc6892d6-8a54-43e5-b938-9e90bcaeef60",
-    "16619576076f620987",
-    "4a51cf8a-d3c7-4a82-a6d3-e20083c6c558"
+    "16619576076f620987"
   ]
 }
