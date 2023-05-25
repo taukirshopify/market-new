@@ -148,6 +148,7 @@
       "blocks": {
         "1650601210fd5c00c8-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Sizing + Care",
             "heading_size": "h1"
@@ -304,10 +305,10 @@
     },
     "35e204a5-7acb-459a-8791-d20bcfb86464": {
       "type": "image-banner",
+      "disabled": true,
       "blocks": {
         "template--16103256686764__35e204a5-7acb-459a-8791-d20bcfb86464-16845446223864138d-0": {
           "type": "heading",
-          "disabled": true,
           "settings": {
             "heading": "Image banner",
             "heading_size": "h1"
