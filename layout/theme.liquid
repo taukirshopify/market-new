@@ -242,7 +242,9 @@
 
     <script src="https://kit.fontawesome.com/00a927aa1c.js" crossorigin="anonymous"></script>
  <script src="{{ 'QQ-ImagesMarquee.min.js' | asset_url }}" defer></script>
-  </head>
+  
+  {% include "globale-js.liquid" %}
+</head>
 
   <body class="gradient {% if request.page_type == 'index' %}template-index {% elsif collection.title == 'MCDONALDS' %}mcdonalds-gs3 {% elsif template contains 'collection.havianas' %}havianas-gs3 {% elsif collection.title == 'FULLER MOE' %}fullermoe-gs3 {% elsif template contains 'collection.havaianas-2' %}havaianas2-gs3 {% elsif template contains 'product.gfx-cod' %}gfx-cod-gs3 {% elsif template contains 'product.gfx' %}gfx-gs3 {% elsif template contains 'collection.callofduty' %}gfx-cod-gs3 {% endif %}">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
