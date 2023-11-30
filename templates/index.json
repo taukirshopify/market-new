@@ -85,7 +85,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/WEB-TILE_BOTTOMS.jpg",
-            "url": "shopify:\/\/collections\/pants",
+            "url": "shopify:\/\/collections\/bottoms",
             "title": "BOTTOMS"
           }
         },
@@ -299,7 +299,7 @@
           "type": "collectionfour",
           "settings": {
             "img": "shopify:\/\/shop_images\/bottoms-tile-april.jpg",
-            "url": "shopify:\/\/collections\/pants",
+            "url": "shopify:\/\/collections\/bottoms",
             "title": "BOTTOMS"
           }
         }
