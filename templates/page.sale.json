@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -10,7 +19,6 @@
     },
     "165060102207d71510": {
       "type": "faq",
-      "disabled": true,
       "blocks": {
         "72600057-04f9-4b46-a005-28133a454f58": {
           "type": "text",
@@ -97,12 +105,12 @@
         "c80608fd-afc2-4cd6-bd73-73ba1cd2e0ff",
         "9740873a-ace0-47cf-a964-757f6ec852cd"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "16506010198558fd21": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "16506010198b157514-0": {
           "type": "heading",
@@ -134,6 +142,7 @@
         "16506010198b157514-1",
         "16506010198b157514-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "gs3_css_class": "",
@@ -144,7 +153,6 @@
     },
     "1650601210b4a2c4b2": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1650601210fd5c00c8-0": {
           "type": "heading",
@@ -176,6 +184,7 @@
         "1650601210fd5c00c8-1",
         "1650601210fd5c00c8-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "gs3_css_class": "",
@@ -186,7 +195,6 @@
     },
     "1650601212e5bcee7c": {
       "type": "faq2",
-      "disabled": true,
       "blocks": {
         "7a5fa951-e9c2-4799-a66d-0b7c573e27a8": {
           "type": "text",
@@ -207,12 +215,12 @@
         "7a5fa951-e9c2-4799-a66d-0b7c573e27a8",
         "a702d3ba-e537-4206-8cba-f92693d51e5a"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "1650601280f187185a": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1650601280034ca67a-0": {
           "type": "heading",
@@ -243,6 +251,7 @@
         "1650601280034ca67a-1",
         "1650601280034ca67a-2"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "gs3_css_class": "",
@@ -253,7 +262,6 @@
     },
     "165060128239f237cd": {
       "type": "faq3",
-      "disabled": true,
       "blocks": {
         "1832b3ba-ab53-42d8-a177-a946752ee244": {
           "type": "text",
@@ -266,12 +274,12 @@
       "block_order": [
         "1832b3ba-ab53-42d8-a177-a946752ee244"
       ],
+      "disabled": true,
       "settings": {
       }
     },
     "16506013328760e031": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1650601332b2c6efbf-0": {
           "type": "heading",
@@ -284,6 +292,7 @@
       "block_order": [
         "1650601332b2c6efbf-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "gs3_css_class": "",
@@ -305,7 +314,6 @@
     },
     "35e204a5-7acb-459a-8791-d20bcfb86464": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--16103256686764__35e204a5-7acb-459a-8791-d20bcfb86464-16845446223864138d-0": {
           "type": "heading",
@@ -340,6 +348,7 @@
         "template--16103256686764__35e204a5-7acb-459a-8791-d20bcfb86464-16845446223864138d-1",
         "template--16103256686764__35e204a5-7acb-459a-8791-d20bcfb86464-16845446223864138d-2"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/MEMORIALDAY_BANNER-VIP.jpg",
         "image_link": "",
@@ -364,7 +373,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
-        "collection": "memorial-day-sale",
+        "collection": "labor-day-sale",
         "products_to_show": 6,
         "columns_desktop": 5,
         "color_scheme": "background-1",
