@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "e260e6c9-7277-4a3c-889f-6b980082bfd9": {
@@ -14,8 +23,8 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/CALLMY-BANNER_abde5ac7-7b6e-4275-9583-00bca625525d.jpg",
-        "image_link": "shopify:\/\/collections\/call-my-lawyer",
+        "image": "shopify://shop_images/CALLMY-BANNER_abde5ac7-7b6e-4275-9583-00bca625525d.jpg",
+        "image_link": "shopify://collections/call-my-lawyer",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "small",
@@ -36,8 +45,8 @@
       "type": "image-banner",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/VQ-HEAT-BANNER.gif",
-        "image_link": "shopify:\/\/collections\/frontpage",
+        "image": "shopify://shop_images/VQ-HEAT-BANNER.gif",
+        "image_link": "shopify://collections/all",
         "gs3_class": "",
         "image_overlay_opacity": 0,
         "image_height": "medium",
@@ -60,48 +69,48 @@
         "9bad2a82-a414-45ac-8a95-09a5eb03f874": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MKT-23-WEB-SHIRT-TILE_2.gif",
-            "url": "shopify:\/\/collections\/tees",
+            "img": "shopify://shop_images/MKT-23-WEB-SHIRT-TILE_2.gif",
+            "url": "shopify://collections/tees",
             "title": "GRAPHIC TEES"
           }
         },
         "50250968-3185-4c62-8e85-ea6a95fd3e21": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/jimi-newtile.jpg",
-            "url": "shopify:\/\/blogs\/news\/jimi-hendrix",
+            "img": "shopify://shop_images/jimi-newtile.jpg",
+            "url": "shopify://blogs/news/jimi-hendrix",
             "title": "JIMI HENDRIX"
           }
         },
         "bdc9b1c7-f881-469a-b617-60616a790136": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Q1-23_GORPCORE_WEBTILE.jpg",
-            "url": "shopify:\/\/collections\/tops",
+            "img": "shopify://shop_images/Q1-23_GORPCORE_WEBTILE.jpg",
+            "url": "shopify://collections/tops",
             "title": "TOPS"
           }
         },
         "41b22099-3971-4c42-aaae-f70332a7acae": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-TILE_BOTTOMS.jpg",
-            "url": "shopify:\/\/collections\/bottoms",
+            "img": "shopify://shop_images/WEB-TILE_BOTTOMS.jpg",
+            "url": "shopify://collections/bottoms",
             "title": "BOTTOMS"
           }
         },
         "3f8b6d24-c95a-4c3d-a885-519128ea215d": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Q1-23_CORE_WEBTILE.jpg",
-            "url": "shopify:\/\/collections\/headwear",
+            "img": "shopify://shop_images/Q1-23_CORE_WEBTILE.jpg",
+            "url": "shopify://collections/headwear",
             "title": "HEADWEAR"
           }
         },
         "24421ae7-74bd-4263-b4c9-9e7d466d9987": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-TILE_BASKETBALL2.jpg",
-            "url": "shopify:\/\/collections\/basketballs",
+            "img": "shopify://shop_images/WEB-TILE_BASKETBALL2.jpg",
+            "url": "shopify://collections/basketballs",
             "title": "BASKETBALLS"
           }
         },
@@ -109,7 +118,7 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/MRW-PAGE-1_3f68d106-8153-4b20-90ba-1ed542c77deb.jpg",
+            "img": "shopify://shop_images/MRW-PAGE-1_3f68d106-8153-4b20-90ba-1ed542c77deb.jpg",
             "url": "",
             "title": "WINTER 2022"
           }
@@ -118,7 +127,7 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1.jpg",
+            "img": "shopify://shop_images/HASBULLA-TILEHIGHLIGHT_1.jpg",
             "url": "#",
             "title": "WINTER 2022"
           }
@@ -127,7 +136,7 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
+            "img": "shopify://shop_images/SPRING-NEWBOX-TOOLSHIGHLIGHT_2.jpg",
             "url": "",
             "title": "WINTER 2022"
           }
@@ -136,8 +145,8 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/HASBULLA-TILEHIGHLIGHT_1.jpg",
-            "url": "shopify:\/\/collections\/hasbulla",
+            "img": "shopify://shop_images/HASBULLA-TILEHIGHLIGHT_1.jpg",
+            "url": "shopify://collections/hasbulla",
             "title": "HASBULLA MARKET"
           }
         },
@@ -145,7 +154,7 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-23-SMILEY-TILEHIGHLIGHT_2_0d1edee5-fa78-4e00-a2b6-3ea4c2357f02.jpg",
+            "img": "shopify://shop_images/WEB-23-SMILEY-TILEHIGHLIGHT_2_0d1edee5-fa78-4e00-a2b6-3ea4c2357f02.jpg",
             "url": "",
             "title": "WINTER 2022"
           }
@@ -154,7 +163,7 @@
           "type": "collectionsix",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/TOPS_1.jpg",
+            "img": "shopify://shop_images/TOPS_1.jpg",
             "url": "",
             "title": "WINTER 2022"
           }
@@ -163,8 +172,8 @@
           "type": "collectiontwo",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/Q1-23_EARTHDAY_WEB-TILE.jpg",
-            "url": "shopify:\/\/blogs\/news\/earth-day",
+            "img": "shopify://shop_images/Q1-23_EARTHDAY_WEB-TILE.jpg",
+            "url": "shopify://blogs/news/earth-day",
             "title": "EARTH DAY"
           }
         }
@@ -213,7 +222,7 @@
           "type": "Other",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/wintr22-promoimage-stacked.png",
+            "img": "shopify://shop_images/wintr22-promoimage-stacked.png",
             "h1": "Winter 22",
             "p": "",
             "btn": "View the collection",
@@ -224,7 +233,7 @@
           "type": "Other",
           "disabled": true,
           "settings": {
-            "img": "shopify:\/\/shop_images\/rw-promoimage.jpg",
+            "img": "shopify://shop_images/rw-promoimage.jpg",
             "h1": "Random Workshop",
             "p": "",
             "btn": "View the collection",
@@ -246,7 +255,7 @@
       "disabled": true,
       "settings": {
         "marquee_text": "MY CHEMICAL ROMANCE PT.2 NOW LIVE - SHOP THE WHOLE COLLECTION",
-        "text_link": "shopify:\/\/collections\/my-chemical-romance",
+        "text_link": "shopify://collections/my-chemical-romance",
         "bg_color": "#0071ce",
         "text_color": "#ffffff",
         "padding_bottom": 84
@@ -258,48 +267,48 @@
         "2ff8be96-6741-46e3-8d7d-6d8393f320f6": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/360001333-INDVLST-GD-SCREENPRINTING-KIT_1.jpg",
-            "url": "shopify:\/\/blogs\/news\/grateful-dead-x-market-x-the-individualist",
+            "img": "shopify://shop_images/360001333-INDVLST-GD-SCREENPRINTING-KIT_1.jpg",
+            "url": "shopify://blogs/news/grateful-dead-x-market-x-the-individualist",
             "title": "GRATEFUL DEAD"
           }
         },
         "654e6e9a-bde3-40af-86fb-a9fa99175d2f": {
           "type": "collectiontwo",
           "settings": {
-            "img": "shopify:\/\/shop_images\/MHA-WEB-TILE.jpg",
-            "url": "shopify:\/\/blogs\/news\/mental-health-awareness-2023",
+            "img": "shopify://shop_images/MHA-WEB-TILE.jpg",
+            "url": "shopify://blogs/news/mental-health-awareness-2023",
             "title": "MENTAL HEALTH AWARENESS"
           }
         },
         "cf5d8d16-6ab8-4790-827d-18967584cb43": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-TILE_SMILEY.jpg",
-            "url": "shopify:\/\/collections\/smiley",
+            "img": "shopify://shop_images/WEB-TILE_SMILEY.jpg",
+            "url": "shopify://collections/smiley",
             "title": "SMILEY®"
           }
         },
         "8ac74524-b028-4c5f-8deb-c231a0083057": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/WEB-23-HOMEGOODS-TILEHIGHLIGHT_2_2726b120-c18e-410d-93e9-a46c5fd171de.jpg",
-            "url": "shopify:\/\/collections\/home-goods",
+            "img": "shopify://shop_images/WEB-23-HOMEGOODS-TILEHIGHLIGHT_2_2726b120-c18e-410d-93e9-a46c5fd171de.jpg",
+            "url": "shopify://collections/home-goods",
             "title": "HOME GOODS"
           }
         },
         "1914b60b-3d85-4d8c-a59a-6e299ac9d4f0": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/rw-tile-april.jpg",
-            "url": "shopify:\/\/collections\/shirts",
+            "img": "shopify://shop_images/rw-tile-april.jpg",
+            "url": "shopify://collections/shirts",
             "title": "SHIRTS"
           }
         },
         "70f486dc-2041-4624-88b7-d1d9e657d10f": {
           "type": "collectionfour",
           "settings": {
-            "img": "shopify:\/\/shop_images\/bottoms-tile-april.jpg",
-            "url": "shopify:\/\/collections\/bottoms",
+            "img": "shopify://shop_images/bottoms-tile-april.jpg",
+            "url": "shopify://collections/bottoms",
             "title": "BOTTOMS"
           }
         }
@@ -331,7 +340,7 @@
         "7e122f9c-0926-4e4b-923e-553cbefca5f0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ED-TILE-TEST.jpg",
+            "image": "shopify://shop_images/ED-TILE-TEST.jpg",
             "image_padding": false
           }
         },
@@ -371,7 +380,7 @@
       "settings": {
         "title": "",
         "heading_size": "h2",
-        "collection": "frontpage",
+        "collection": "all",
         "products_to_show": 44,
         "columns_desktop": 4,
         "color_scheme": "background-1",
@@ -392,21 +401,21 @@
         "49ac4a90-1341-4a91-9539-b347d54a0c19": {
           "type": "Other",
           "settings": {
-            "img": "shopify:\/\/shop_images\/DF-ANWAR_Thumb-wide_SMALLER.jpg",
+            "img": "shopify://shop_images/DF-ANWAR_Thumb-wide_SMALLER.jpg",
             "h1": "ANWAR CARROTS SLIDES INTO DESIGN FREESTYLE TO TEACH US A THING OR TWO",
             "p": "Anwar gives us the scoop on how he started his brand, his dreams of being a farmer, and his love for Martha Stewart.",
             "btn": "check it out",
-            "url": "\/pages\/design-freestyle#anwar"
+            "url": "/pages/design-freestyle#anwar"
           }
         },
         "6d0747ea-e88f-4252-a962-69ba91163a69": {
           "type": "Other",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Thumb-wide_KL.jpg",
+            "img": "shopify://shop_images/Thumb-wide_KL.jpg",
             "h1": "Bryan Garris from Knocked Loose spin kicks into Random Workshop!!",
             "p": "Bryan from Knocked Loose makes some sick pieces and talks about the touring, merch game, his love for The Shining and More!",
             "btn": "check it out",
-            "url": "\/pages\/design-freestyle#knockedloose_section"
+            "url": "/pages/design-freestyle#knockedloose_section"
           }
         }
       },
@@ -423,7 +432,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div style=\"text-align: center;\"><img style=\"max-width: 600px; width: 100%;\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/1522\/4434\/files\/PUMA-MKT-LOGOLOCK_f3bb1cc7-500b-4ae3-b3f8-2a26b439d73b.png?v=1661505679\" \/><\/div>",
+        "custom_liquid": "<div style=\"text-align: center;\"><img style=\"max-width: 600px; width: 100%;\" src=\"https://cdn.shopify.com/s/files/1/1522/4434/files/PUMA-MKT-LOGOLOCK_f3bb1cc7-500b-4ae3-b3f8-2a26b439d73b.png?v=1661505679\" /></div>",
         "color_scheme": "transparent",
         "padding_top": 0,
         "padding_bottom": 0
@@ -433,7 +442,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"bootstrap-wrapper\"><div class=\"container\"><h2 style=\"\">Shop the Instagram<\/h2><\/div><\/div>",
+        "custom_liquid": "<div class=\"bootstrap-wrapper\"><div class=\"container\"><h2 style=\"\">Shop the Instagram</h2></div></div>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 0
